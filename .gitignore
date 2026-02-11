@@ -1,0 +1,18 @@
+# systemowe/pliki tymczasowe
+.DS_Store
+Thumbs.db
+
+# IDE / edytory
+.vscode/
+.idea/
+
+# pliki build / bin
+build/
+dist/
+
+# logi
+*.log
+*.tmp
+
+# środowisko
+.env

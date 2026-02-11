@@ -2,6 +2,15 @@
 <html lang="pl">
 <?php
 require_once "./router.php";
+
+// Sprawdź czy to strona soon - jeśli tak, wyświetl ją bez headera/footera
+$current = strtok($_SERVER["REQUEST_URI"], '?');
+if (isset(Routes::$Soon[$current]) && Routes::$Soon[$current]) {
+  if (file_exists("./Pages/soon.php")) {
+    require "./Pages/soon.php";
+  }
+  exit;
+}
 ?>
 
 <head>
@@ -17,6 +26,7 @@ require_once "./router.php";
     content="wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe" />
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="stylesheet" href="/assets/css/header.css" />
+  <link rel="stylesheet" href="/assets/css/footer.css" />
   <link rel="icon" href="/favicon.ico" sizes="any" />
 
   <!-- PNG -->
@@ -72,7 +82,9 @@ require_once "./router.php";
 
 <body>
   <?php
+  include "Partials/header.php";
   Router::Run();
+  include "Partials/footer.php";
   ?>
   <script src="assets/js/header.js"></script>
 </body>
