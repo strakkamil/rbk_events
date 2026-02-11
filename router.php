@@ -51,6 +51,47 @@ class Routes
     "/kontakt" => "Pages/contact.php",
   );
 
+  // Meta dla poszczególnych tras (title, description)
+  public static array $Meta = array(
+    "" => array(
+      "title" => "RBK Events",
+      "description" => "RBK Events - profesjonalny wodzirej i oprawa muzyczna wesel i imprez okolicznościowych. Skontaktuj się: 518 637 234, kontakt.rbkevents@gmail.com.",
+      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+    ),
+    "/o-mnie" => array(
+      "title" => "RBK Events - o mnie",
+      "description" => "Dowiedz się więcej o RBK Events, doświadczeniu i podejściu do prowadzenia wesel i imprez.",
+      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+    ),
+    "/oferta" => array(
+      "title" => "RBK Events - oferta",
+      "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie wesel i imprez okolicznościowych.",
+      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+    ),
+    "/media" => array(
+      "title" => "RBK Events - media",
+      "description" => "Galeria i nagrania z realizacji RBK Events — przykłady prowadzenia i oprawy muzycznej.",
+      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+    ),
+    "/kontakt" => array(
+      "title" => "RBK Events - kontakt",
+      "description" => "Skontaktuj się z RBK Events: 518 637 234, kontakt.rbkevents@gmail.com — omówimy szczegóły Twojej imprezy.",
+      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+    ),
+  );
+
+  public static function GetMeta(string $route): array
+  {
+    $route = ($route === "/") ? "" : $route;
+    if (isset(self::$Meta[$route])) return self::$Meta[$route];
+    // domyślne wartości
+    return array(
+      "title" => "RBK Events",
+      "description" => "RBK Events - profesjonalny wodzirej i oprawa muzyczna wesel i imprez okolicznościowych. Skontaktuj się: 518 637 234, kontakt.rbkevents@gmail.com.",
+      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+    );
+  }
+
   // Flagi dla stron w stanie "soon"
   public static array $Soon = array(
     "/o-mnie" => true,
