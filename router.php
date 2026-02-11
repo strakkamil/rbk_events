@@ -40,6 +40,6 @@ class Routes
 {
   public static array $Route = array(
     "" => "Pages/home.php",
-    "/about" => "Pages/about.php",
+    "/o-mnie" => "Pages/about.php",
   );
 }
