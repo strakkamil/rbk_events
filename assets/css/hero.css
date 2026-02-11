@@ -1,0 +1,138 @@
+section.hero {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+section.hero img {
+  width: 100%;
+  height: auto;
+}
+
+section.hero header {
+  position: absolute;
+  top: 0;
+  left: var(--border-margin);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: fit-content;
+  height: 100%;
+}
+
+body.contact-page section.hero header,
+body.about-page section.hero header,
+body.offer-page section.hero header,
+body.media-page section.hero header {
+  top: 30px;
+  justify-content: start;
+  z-index: var(--z2);
+}
+
+section.hero header h1.heading span {
+  font-size: var(--big-size);
+}
+
+section.hero header h1 {
+  font-weight: var(--normal);
+}
+
+@media (min-width: 600px) {
+  body.contact-page section.hero header,
+  body.about-page section.hero header,
+  body.offer-page section.hero header,
+  body.media-page section.hero header {
+    top: 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  br.mobile-br {
+    display: none;
+  }
+
+  section.hero {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    top: 75px;
+    max-height: 710px;
+    padding-right: 10px;
+  }
+
+  section.hero header {
+    gap: 100px;
+    left: 10px;
+  }
+
+  body.contact-page section.hero header,
+  body.about-page section.hero header,
+  body.offer-page section.hero header,
+  body.media-page section.hero header {
+    top: 100px;
+  }
+
+  section.hero header h1.heading span,
+  section.hero header h1 {
+    font-size: 60px;
+  }
+
+  section.hero img {
+    width: auto;
+    max-height: 710px;
+  }
+
+  body.contact-page section.hero img,
+  body.about-page section.hero img,
+  body.offer-page section.hero img,
+  body.media-page section.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  section.hero:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 100%;
+    background-image: linear-gradient(to right, transparent, var(--bg-main));
+    top: 0;
+    right: 8px;
+  }
+
+  body.contact-page section.hero::after,
+  body.about-page section.hero::after,
+  body.offer-page section.hero::after,
+  body.media-page section.hero::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 100%;
+    background-image: linear-gradient(to left, transparent, var(--bg-main));
+    top: 0;
+    left: -1px;
+  }
+
+  section.hero .cta {
+    min-width: 586px;
+  }
+}
+
+@media (min-width: 1640px) and (max-width: 1919px) {
+  section.hero header {
+    left: calc((100vw - var(--width)) / 2 + var(--border-margin));
+  }
+}
+
+@media (min-width: 1920px) {
+  section.hero header {
+    left: calc(
+      calc((var(--full-width) - var(--width)) / 2) + var(--border-margin)
+    );
+  }
+}
