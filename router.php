@@ -29,8 +29,13 @@ class Router extends Page
       if ($requested_file === $request) {
         if (file_exists($file)) {
           self::$Return_404 = false;
-          require $file;
-        } else echo "Error";
+          // Sprawdź flagę soon
+          if (isset(Routes::$Soon[$request]) && Routes::$Soon[$request]) {
+            require "./Pages/soon.php";
+          } else {
+            require $file;
+          }
+        }
       }
     }
     if (self::$Return_404) self::Return_404();
@@ -41,5 +46,16 @@ class Routes
   public static array $Route = array(
     "" => "Pages/home.php",
     "/o-mnie" => "Pages/about.php",
+    "/oferta" => "Pages/offer.php",
+    "/media" => "Pages/media.php",
+    "/kontakt" => "Pages/contact.php",
+  );
+
+  // Flagi dla stron w stanie "soon"
+  public static array $Soon = array(
+    "/o-mnie" => true,
+    "/oferta" => true,
+    "/media" => true,
+    "/kontakt" => true,
   );
 }
