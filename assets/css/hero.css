@@ -39,6 +39,28 @@ section.hero header h1 {
   font-weight: var(--normal);
 }
 
+/* section.hero .heading.underline {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 130px;
+  font-weight: var(--bold);
+  overflow: visible;
+  z-index: 1;
+} */
+
+/* section.hero .heading.underline::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 19px;
+  left: -3px;
+  width: calc(100% + 3px);
+  height: 10px;
+  border-radius: 3px;
+  background-image: linear-gradient(to right, #8b2b80, #dd2427);
+  z-index: -1;
+} */
+
 @media (min-width: 600px) {
   body.contact-page section.hero header,
   body.about-page section.hero header,

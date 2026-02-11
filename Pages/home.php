@@ -1,4 +1,8 @@
-<?php include 'Partials/hero.php'; ?>
+<?php
+$text = '';
+$show_cta = true;
+include 'Partials/hero.php';
+?>
 <main>
   <section class="about">
     <h2 class="heading">Odkryj oprawę muzyczną w stylu DJ & Live!</h2>

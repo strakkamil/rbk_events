@@ -23,6 +23,8 @@ if (isset(Routes::$Soon[$current]) && Routes::$Soon[$current]) {
   <link rel="stylesheet" href="/assets/css/hero.css" />
   <?php if ($current === '/'): ?>
     <link rel="stylesheet" href="/assets/css/home.css" />
+  <?php elseif ($current === '/o-mnie'): ?>
+    <link rel="stylesheet" href="/assets/css/about.css" />
   <?php endif; ?>
   <link rel="stylesheet" href="/assets/css/footer.css" />
 </head>

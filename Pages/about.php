@@ -1,1 +1,4 @@
-<h1>O mnie</h1>
+<?php
+$text = 'O mnie';
+$show_cta = false;
+include 'Partials/hero.php';

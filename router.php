@@ -94,7 +94,7 @@ class Routes
 
   // Flagi dla stron w stanie "soon"
   public static array $Soon = array(
-    "/o-mnie" => true,
+    "/o-mnie" => false,
     "/oferta" => true,
     "/media" => true,
     "/kontakt" => true,
