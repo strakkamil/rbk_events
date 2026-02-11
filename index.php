@@ -26,6 +26,9 @@ if (isset(Routes::$Soon[$current]) && Routes::$Soon[$current]) {
     content="wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe" />
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="stylesheet" href="/assets/css/header.css" />
+  <?php if ($current === '/'): ?>
+    <link rel="stylesheet" href="/assets/css/home.css" />
+  <?php endif; ?>
   <link rel="stylesheet" href="/assets/css/footer.css" />
   <link rel="icon" href="/favicon.ico" sizes="any" />
 
