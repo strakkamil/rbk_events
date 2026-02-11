@@ -16,6 +16,7 @@ require_once "./router.php";
     name="keywords"
     content="wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe" />
   <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/header.css" />
   <link rel="icon" href="/favicon.ico" sizes="any" />
 
   <!-- PNG -->
@@ -42,7 +43,7 @@ require_once "./router.php";
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@100..900&display=swap"
     rel="stylesheet" />
-  <link rel="preload" as="image" href="assets/images/hero.webp" />
+  <!-- <link rel="preload" as="image" href="assets/images/hero.webp" /> -->
   <!-- Open Graph -->
   <meta
     property="og:title"
@@ -73,6 +74,7 @@ require_once "./router.php";
   <?php
   Router::Run();
   ?>
+  <script src="assets/js/header.js"></script>
 </body>
 
 </html>

@@ -33,6 +33,7 @@ class Router extends Page
           if (isset(Routes::$Soon[$request]) && Routes::$Soon[$request]) {
             require "./Pages/soon.php";
           } else {
+            include "Partials/header.php";
             require $file;
           }
         }
