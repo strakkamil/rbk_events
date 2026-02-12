@@ -37,7 +37,6 @@
     text-align: center;
     width: 300px;
     height: auto;
-    filter: invert(1) brightness(2);
   }
 
   main p {

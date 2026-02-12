@@ -35,7 +35,6 @@ nav .logo {
 }
 
 nav .logo img {
-  /* filter: grayscale(1) invert(1) contrast(2); */
   width: 77px;
   height: auto;
   z-index: var(--z2);
