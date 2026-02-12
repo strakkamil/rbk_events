@@ -66,6 +66,32 @@ section.events ul li span {
   font-weight: var(--normal);
 }
 
+section.gallery {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  overflow-x: hidden;
+  gap: 20px;
+}
+
+section.gallery h2 {
+  padding: 0 var(--border-margin);
+  order: 1;
+}
+
+section.gallery #home_1 {
+  order: 2;
+}
+
+section.gallery .cta.second {
+  order: 3;
+}
+
+section.gallery + a.cta.second {
+  margin: 20px var(--border-margin) 0;
+  max-width: calc(100% - 2 * var(--border-margin));
+}
+
 @media (min-width: 600px) {
   section.about h2,
   section.about p {
@@ -75,7 +101,8 @@ section.events ul li span {
 
 @media (min-width: 1280px) {
   section.about,
-  section.events {
+  section.events,
+  section.gallery {
     max-width: var(--width);
     margin-left: auto;
     margin-right: auto;
@@ -148,5 +175,27 @@ section.events ul li span {
 
   section.events a {
     grid-area: c;
+  }
+
+  section.gallery {
+    max-width: var(--width);
+    padding: 0 10px;
+    position: relative;
+    margin: 80px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 330px;
+    grid-template-areas: "a c" "b b";
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+
+  section.gallery h2 {
+    grid-area: a;
+    padding: unset;
+  }
+
+  section.gallery #home_1 {
+    grid-area: b;
   }
 }
