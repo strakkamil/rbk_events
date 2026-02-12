@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <?php
+require_once "./config.php";
 require_once "./router.php";
 
 // Sprawdź czy to strona soon - jeśli tak, wyświetl ją bez headera/footera
@@ -22,9 +23,9 @@ if (isset(Routes::$Soon[$current]) && Routes::$Soon[$current]) {
   <link rel="stylesheet" href="/assets/css/header.css" />
   <link rel="stylesheet" href="/assets/css/hero.css" />
   <?php if ($current === '/'): ?>
-    <link rel="stylesheet" href="/assets/css/home.css" />
+  <link rel="stylesheet" href="/assets/css/home.css" />
   <?php elseif ($current === '/o-mnie'): ?>
-    <link rel="stylesheet" href="/assets/css/about.css" />
+  <link rel="stylesheet" href="/assets/css/about.css" />
   <?php endif; ?>
   <link rel="stylesheet" href="/assets/css/footer.css" />
 </head>
