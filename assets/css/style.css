@@ -8,6 +8,12 @@
     #7a2a79 50%,
     #302760 100%
   );
+  --gradient_secondary: linear-gradient(
+    to right,
+    #de202e 0%,
+    #aa265f 54%,
+    #8a2a7e 100%
+  );
   --z1: 100;
   --z2: 99;
   --z3: 98;

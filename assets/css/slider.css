@@ -1,0 +1,153 @@
+.slider {
+  position: relative;
+  width: 330px;
+  height: 247px;
+  margin: 30px auto 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 188px;
+  height: 247px;
+  transition: var(--transition);
+  border-radius: 20px;
+  overflow: hidden;
+  background-image: var(--gradient_secondary);
+}
+
+.element img {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  object-fit: cover;
+  border-radius: 20px;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+.element-0 {
+  scale: 1;
+  transform: translateX(calc((330px - 188px) / 2));
+  z-index: 3;
+}
+
+.element-1 {
+  scale: 0.73;
+  transform: translateX(calc(100% + 41px));
+  z-index: 2;
+}
+
+.element-2 {
+  scale: 0.73;
+  transform: translateX(-35px);
+  z-index: 1;
+}
+
+.dots {
+  margin: 0 auto;
+  width: 330px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #9f2780;
+  opacity: 0.5;
+  transition: var(--transition);
+  cursor: pointer;
+  scale: 0.7;
+  border: none;
+}
+
+.dot.active {
+  scale: 1;
+  opacity: 1;
+}
+
+.prev,
+.next {
+  position: absolute;
+  display: none;
+  background-color: transparent;
+  border: none;
+  z-index: 4;
+  opacity: 0.9;
+  width: 30px;
+  height: auto;
+  filter: drop-shadow(0px 0px 0px #000000);
+  cursor: pointer;
+  transition: var(--transition);
+  scale: 1;
+}
+
+.prev:hover,
+.next:hover {
+  scale: 1.1;
+}
+
+.prev img,
+.next img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.prev {
+  left: 5px;
+  top: 50%;
+  transform: translateY(50%);
+  rotate: 180deg;
+}
+
+.next {
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (hover: hover) {
+  .prev,
+  .next {
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .slider {
+    width: 563px;
+    height: 421px;
+  }
+
+  .element {
+    width: 320px;
+    height: 421px;
+  }
+
+  .element-0 {
+    transform: translateX(calc((563px - 320px) / 2));
+  }
+
+  .element-1 {
+    transform: translateX(calc(100% + 72px));
+  }
+
+  .element-2 {
+    transform: translateX(-58px);
+  }
+
+  .dots {
+    width: 563px;
+  }
+}

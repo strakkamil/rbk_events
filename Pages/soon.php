@@ -76,7 +76,7 @@
 <body>
   <main>
     <h1 aria-label="RBK Events">
-      <img src="rbkevents-logo.webp" alt="Logo RBK Events" />
+      <img src="logo-rbk-events.svg" alt="Logo RBK Events" />
     </h1>
     <p>Wkrótce</p>
     <div class="contact">
@@ -91,7 +91,7 @@
     "@type": "Organization",
     "name": "RBK Events",
     "url": "<?= BASE_URL ?>",
-    "logo": "<?= BASE_URL ?>/rbkevents-logo.webp"
+    "logo": "<?= BASE_URL ?>/logo-rbk-events.svg"
     ",
     "contactPoint": {
       "@type": "ContactPoint",
