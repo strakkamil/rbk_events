@@ -1,6 +1,6 @@
 <nav>
   <a class="logo" href="/" aria-label="Strona główna">
-    <img src="assets/images/logo-rbk-events.svg" alt="Logo" title="Logo RBK Events" />
+    <img src="logo-rbk-events.svg" alt="Logo" title="Logo RBK Events" />
   </a>
   <ul class="list">
     <li><a href="/o-mnie">O mnie</a></li>
