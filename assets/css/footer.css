@@ -49,6 +49,7 @@ footer .copyrights {
 @media (min-width: 1280px) {
   footer {
     max-width: var(--width);
+    padding: 0 10px;
     margin-left: auto;
     margin-right: auto;
   }

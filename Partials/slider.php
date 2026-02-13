@@ -1,5 +1,5 @@
 <div class="slider-wrapper" id="<?= $slider_id ?>">
-  <div class="slider">
+  <div class="slider <?= count($slider_images) === 2 ? 'small' : '' ?>">
     <?php foreach ($slider_images as $index => $value): ?>
     <div class="element element-<?= $index ?>">
       <img src="<?= $value ?>" alt="">

@@ -7,6 +7,12 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slider.small {
+  transform: translateX(-30px);
 }
 
 .element {

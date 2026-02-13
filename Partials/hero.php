@@ -1,5 +1,8 @@
 <section class="hero <?= $hero_class ?>">
-  <img src="<?= $hero_img ?>" alt="Zdjęcie hero" />
+  <div class="hero-img">
+    <div class="gradient-element"></div>
+    <img src="<?= $hero_img ?>" alt="Zdjęcie hero" />
+  </div>
   <header>
     <?php if (isset($text) && $text != ''): ?>
     <h1 class="heading underline">

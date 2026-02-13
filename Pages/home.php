@@ -58,7 +58,7 @@ include 'Partials/hero.php';
     <a class="cta second" href="/media"><span>Więcej</span></a>
     <?php
     $slider_id = 'home_1';
-    $slider_images = ['/assets/images/nowoczesny-akordeonista-na-imprezy-firmowe-i-bale.webp', '/assets/images/akordeonista-muzyk-sceniczny-rbk-events.webp', '/assets/images/doswiadczony-muzyk-sceniczny-michal-robak.webp'];
+    $slider_images = ['/assets/images/nowoczesny-akordeonista-na-imprezy-firmowe-i-bale.webp', '/assets/images/akordeonista-muzyk-sceniczny-michal-robak.webp', '/assets/images/doswiadczony-muzyk-sceniczny-michal-robak.webp'];
     include 'Partials/slider.php';
     ?>
   </section>

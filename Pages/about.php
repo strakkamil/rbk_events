@@ -13,7 +13,13 @@ include 'Partials/hero.php';
       fundamenty i pozwoliło tworzyć oprawę imprez, która jest czymś więcej niż tylko odtwarzaniem piosenek.
     </p>
     <div class="info-img">
-      <img src="/assets/images/michal-robak-dj-wodzirej-rbk-events.webp" alt="">
+      <div class="image-squares">
+        <span class="square"></span>
+        <span class="square square_second"></span>
+        <div class="square-image-container">
+          <img src="/assets/images/michal-robak-dj-wodzirej-rbk-events.webp" alt="">
+        </div>
+      </div>
     </div>
   </div>
   <div class="info">
@@ -24,13 +30,11 @@ include 'Partials/hero.php';
       czy Baciary, nauczyły mnie, jak ważna jest energia płynąca ze sceny. Dziś całe to doświadczenie przenoszę na Twoją
       imprezę.
     </p>
-    <div class="info-img">
-      <?php
-      $slider_id = 'about_1';
-      $slider_images = ['/assets/images/nowoczesny-akordeonista-na-imprezy-firmowe-i-bale.webp', '/assets/images/akordeonista-muzyk-sceniczny-rbk-events.webp', '/assets/images/doswiadczony-muzyk-sceniczny-michal-robak.webp'];
-      include 'Partials/slider.php';
-      ?>
-    </div>
+    <?php
+    $slider_id = 'about_1';
+    $slider_images = ['/assets/images/nowoczesny-akordeonista-na-imprezy-firmowe-i-bale.webp', '/assets/images/akordeonista-muzyk-sceniczny-michal-robak.webp', '/assets/images/doswiadczony-muzyk-sceniczny-michal-robak.webp'];
+    include 'Partials/slider.php';
+    ?>
   </div>
   <div class="info">
     <h2 class="heading">Doświadczenie, które procentuje</h2>
@@ -46,7 +50,15 @@ include 'Partials/hero.php';
       wspólnego śpiewu tworzy niezwykłą atmosferę, której nie da się podrobić.
     </p>
     <div class="info-img">
-      <img src="/assets/images/michal-robak-dj-wodzirej-rbk-events.webp" alt="">
+      <div class="info-img">
+        <div class="image-squares">
+          <span class="square"></span>
+          <span class="square square_second"></span>
+          <div class="square-image-container">
+            <img src="/assets/images/profesjonalny-muzyk-na-eventy-biznesowe.webp" alt="">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="info">
@@ -67,12 +79,10 @@ include 'Partials/hero.php';
       To nie wszystko! Mateusz jest moją prawą ręką i dba o płynną koordynację z obsługą sali i innymi usługodawcami.
       Dzięki temu unikamy organizacyjnego chaosu, a Wy zyskujecie <strong>bezcenny spokój</strong>.
     </p>
-    <div class="info-img">
-      <?php
-      $slider_id = 'about_2';
-      $slider_images = ['/assets/images/akordeonista-muzyk-sceniczny-rbk-events.webp', '/assets/images/doswiadczony-muzyk-sceniczny-michal-robak.webp'];
-      include 'Partials/slider.php';
-      ?>
-    </div>
+    <?php
+    $slider_id = 'about_2';
+    $slider_images = ['/assets/images/relacja-foto-video-z-wesela-dla-pary-mlodej.webp', '/assets/images/oprawa-muzyczna-dj-i-instrumenty-klawiszowe.webp'];
+    include 'Partials/slider.php';
+    ?>
   </div>
 </section>
