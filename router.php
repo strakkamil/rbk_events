@@ -55,7 +55,7 @@ class Routes
   public static array $Meta = array(
     "" => array(
       "title" => "RBK Events",
-      "description" => "RBK Events - profesjonalny wodzirej i oprawa muzyczna wesel i imprez okolicznościowych. Skontaktuj się: 518 637 234, kontakt.rbkevents@gmail.com.",
+      "description" => "RBK Events - profesjonalny wodzirej i oprawa muzyczna wesel i imprez okolicznościowych. Skontaktuj się: 518 637 234, " . EMAIL . ".",
       "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
     ),
     "/o-mnie" => array(
@@ -75,7 +75,7 @@ class Routes
     ),
     "/kontakt" => array(
       "title" => "RBK Events - kontakt",
-      "description" => "Skontaktuj się z RBK Events: 518 637 234, kontakt.rbkevents@gmail.com — omówimy szczegóły Twojej imprezy.",
+      "description" => "Skontaktuj się z RBK Events: 518 637 234," . EMAIL . "— omówimy szczegóły Twojej imprezy.",
       "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
     ),
   );
@@ -87,7 +87,7 @@ class Routes
     // domyślne wartości
     return array(
       "title" => "RBK Events",
-      "description" => "RBK Events - profesjonalny wodzirej i oprawa muzyczna wesel i imprez okolicznościowych. Skontaktuj się: 518 637 234, kontakt.rbkevents@gmail.com.",
+      "description" => "RBK Events - profesjonalny wodzirej i oprawa muzyczna wesel i imprez okolicznościowych. Skontaktuj się: 518 637 234, " . EMAIL . ".",
       "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
     );
   }

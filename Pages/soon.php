@@ -79,8 +79,8 @@
     </h1>
     <p>Wkrótce</p>
     <div class="contact">
-      <a href="mailto:kontakt.rbkevents@gmail.com">kontakt.rbkevents@gmail.com</a>
-      <a href="tel:518637234">518 637 234</a>
+      <a href="mailto:<?= EMAIL ?>"><?= EMAIL ?></a>
+      <a href="tel:<?= PHONE ?>"><?= SHOW_PHONE ?></a>
     </div>
     <a href="/">Powrót</a>
   </main>
