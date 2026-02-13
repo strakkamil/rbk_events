@@ -144,7 +144,7 @@ body.menu nav button.hamburger img.close {
   }
 }
 
-@media (min-width: 1640px) and (max-width: 1919px) {
+@media (min-width: 1280px) and (max-width: 1919px) {
   nav {
     padding: 0 calc((100vw - var(--width)) / 2 + var(--border-margin));
   }

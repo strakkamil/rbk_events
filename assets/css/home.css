@@ -109,13 +109,13 @@ section.gallery + a.cta.second {
   }
 
   section.about {
-    margin-top: 155px;
+    margin-top: 115px;
     display: grid;
     grid-template-columns: 1fr 330px;
     grid-template-areas: "a c" "b b";
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 40px 20px;
   }
 
   section.about h2,

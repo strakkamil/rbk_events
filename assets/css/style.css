@@ -34,7 +34,7 @@
   font-size: var(--size);
 }
 
-/* helper class */
+/* helper classes */
 .bold {
   font-weight: var(--bold);
 }
@@ -113,6 +113,12 @@
   z-index: var(--z3);
 }
 
+strong {
+  font-weight: var(--bold);
+}
+
+/* end helper classes */
+
 body {
   width: 100vw;
   background-color: var(--bg-main);
@@ -124,10 +130,14 @@ body {
     --big-size: 36px;
   }
 
+  /* helper classes */
+
   .cta.second {
     max-width: 400px;
     margin: 0 auto;
   }
+
+  /* end helper classes */
 }
 
 @media (min-width: 1280px) {
@@ -135,7 +145,8 @@ body {
     --border-margin: 10px;
     --big-size: 36px;
     --size: 30px;
-    --width: 1640px;
+    /* --width: 1640px; */
+    --width: 1200px;
     --full-width: 1920px;
   }
 
@@ -145,6 +156,8 @@ body {
     max-width: var(--full-width);
   }
 
+  /* helper classes */
+
   .cta {
     height: 110px;
     font-size: 40px;
@@ -153,4 +166,6 @@ body {
   .cta.second span {
     font-size: 18px;
   }
+
+  /* helper classes */
 }

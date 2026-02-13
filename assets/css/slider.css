@@ -117,6 +117,10 @@
   rotate: 180deg;
 }
 
+.small .prev {
+  left: 78px;
+}
+
 .next {
   right: 5px;
   top: 50%;
@@ -155,5 +159,9 @@
 
   .dots {
     width: 563px;
+  }
+
+  .small .prev {
+    left: 130px;
   }
 }
