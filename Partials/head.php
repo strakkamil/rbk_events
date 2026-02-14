@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="<?php echo htmlspecialchars($meta['description'], ENT_QUOTES, 'UTF-8'); ?>" />
 <meta name="keywords" content="<?php echo htmlspecialchars($meta['keywords'], ENT_QUOTES, 'UTF-8'); ?>" />
+<meta name="robots" content="index, follow">
 <meta property="og:title" content="RBK Events – Wodzirej i oprawa muzyczna wesel" />
 <meta property="og:description" content="Profesjonalna oprawa muzyczna i prowadzenie wesel. Skontaktuj się: "
   .<?= SHOW_PHONE ?> />

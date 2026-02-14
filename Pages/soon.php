@@ -3,7 +3,7 @@
 
 <head>
   <?php
-  include "Partials/meta.php";
+  include "Partials/head.php";
   ?>
   <style>
   * {

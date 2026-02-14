@@ -1,39 +1,6 @@
 # RBK Events
 
-A modern PHP-based website for RBK Events, featuring dynamic routing, responsive design, and multiple page templates.
-
-## 📁 Project Structure
-
-```
-rbk_events/
-├── index.php              # Main entry point
-├── router.php             # Routing logic and page management
-├── site.webmanifest       # PWA manifest
-├── assets/
-│   ├── css/               # Stylesheets
-│   │   ├── style.css      # Global styles
-│   │   ├── header.css     # Header styles
-│   │   ├── hero.css       # Hero section styles
-│   │   ├── home.css       # Home page styles
-│   │   ├── about.css      # About page styles
-│   │   └── footer.css     # Footer styles
-│   ├── images/            # Image assets
-│   └── js/
-│       └── header.js      # Header functionality
-├── Pages/                 # Page templates
-│   ├── home.php           # Home page
-│   ├── about.php          # About page
-│   ├── offer.php          # Offers/Services
-│   ├── media.php          # Media gallery
-│   ├── contact.php        # Contact page
-│   ├── soon.php           # Coming soon page
-│   └── 404.php            # Error page
-└── Partials/              # Reusable components
-    ├── header.php         # Header component
-    ├── footer.php         # Footer component
-    ├── hero.php           # Hero section component
-    └── meta.php           # Meta tags component
-```
+A PHP-based website for RBK Events, featuring dynamic routing, responsive design, and multiple page templates.
 
 ## 🚀 Features
 
@@ -96,11 +63,20 @@ The project includes media-specific CSS files for optimal viewing on different d
 - Tablets
 - Mobile phones
 
-## 🔗 Links
+## 🔗 Links & Resources
 
 - **Live Demo** - [https://test.rbk-events.pl/](https://test.rbk-events.pl/)
 - **Manifest**: `site.webmanifest` - Progressive Web App configuration
 
+## 📧 Support
+
+For questions or support, please use the contact form on our website.
+
+## 📄 License
+
+All rights reserved © 2024 RBK Events.
+
 ---
 
-**Language**: Polish (pl) | **Type**: Website | **Built with**: PHP, HTML, CSS, JavaScript
+**Language**: Polish (pl) | **Type**: Website | **Built with**: PHP, HTML, CSS, JavaScript  
+**Last Updated**: February 14, 2026
