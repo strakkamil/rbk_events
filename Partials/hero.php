@@ -2,8 +2,8 @@
   <div class="hero-img">
     <div class="gradient-element"></div>
     <picture>
-      <source srcset="/assets/images/<?= $hero_img ?>-d.webp" media="(min-width: 1280px)">
-      <source srcset="/assets/images/<?= $hero_img ?>.webp" media=" (max-width: 1279px)">
+      <source srcset="/assets/images/<?= $hero_img ?>-d.webp" media="(min-width: 600px)">
+      <source srcset="/assets/images/<?= $hero_img ?>.webp" media=" (max-width: 599px)">
       <img src="/assets/images/<?= $hero_img ?>.webp" width="412" height="232" alt="<?= $hero_img_alt ?>"
         fetchpriority="high">
     </picture>
