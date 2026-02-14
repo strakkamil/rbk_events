@@ -20,6 +20,10 @@
 <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
 <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<?php if ($current === '/'): ?>
+<link rel="stylesheet" href="/assets/css/home-page.css" />
+<?php elseif ($current === '/o-mnie'): ?>
+<link rel="stylesheet" href="/assets/css/about-page.css" />
+<?php elseif ($current === '/oferta'): ?>
+<link rel="stylesheet" href="/assets/css/offer-page.css" />
+<?php endif; ?>

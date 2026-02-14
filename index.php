@@ -17,15 +17,8 @@ if (isset(Routes::$Soon[$current]) && Routes::$Soon[$current]) {
 
 <head>
   <?php
-  include "Partials/meta.php";
+  include "Partials/head.php";
   ?>
-  <?php if ($current === '/'): ?>
-  <link rel="stylesheet" href="/assets/css/home-page.css" />
-  <?php elseif ($current === '/o-mnie'): ?>
-  <link rel="stylesheet" href="/assets/css/about-page.css" />
-  <?php elseif ($current === '/oferta'): ?>
-  <link rel="stylesheet" href="/assets/css/offer-page.css" />
-  <?php endif; ?>
 </head>
 
 <body>
