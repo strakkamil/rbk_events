@@ -4,7 +4,7 @@
     <picture>
       <source srcset="/assets/images/<?= $hero_img ?>-d.webp" media="(min-width: 1280px)">
       <source srcset="/assets/images/<?= $hero_img ?>.webp" media=" (max-width: 1279px)">
-      <img src="/assets/images/<?= $hero_img ?>.webp" width="1020" height="575" alt="<?= $hero_img_alt ?>"
+      <img src="/assets/images/<?= $hero_img ?>.webp" width="412" height="232" alt="<?= $hero_img_alt ?>"
         fetchpriority="high">
     </picture>
   </div>
