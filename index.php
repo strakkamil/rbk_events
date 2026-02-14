@@ -19,17 +19,13 @@ if (isset(Routes::$Soon[$current]) && Routes::$Soon[$current]) {
   <?php
   include "Partials/meta.php";
   ?>
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <link rel="stylesheet" href="/assets/css/header.css" />
-  <link rel="stylesheet" href="/assets/css/hero.css" />
   <?php if ($current === '/'): ?>
-  <link rel="stylesheet" href="/assets/css/home.css" />
-  <link rel="stylesheet" href="/assets/css/slider.css" />
+  <link rel="stylesheet" href="/assets/css/home-page.css" />
   <?php elseif ($current === '/o-mnie'): ?>
-  <link rel="stylesheet" href="/assets/css/about.css" />
-  <link rel="stylesheet" href="/assets/css/slider.css" />
+  <link rel="stylesheet" href="/assets/css/about-page.css" />
+  <?php elseif ($current === '/oferta'): ?>
+  <link rel="stylesheet" href="/assets/css/offer-page.css" />
   <?php endif; ?>
-  <link rel="stylesheet" href="/assets/css/footer.css" />
 </head>
 
 <body>

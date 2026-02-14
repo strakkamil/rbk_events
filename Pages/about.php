@@ -1,12 +1,12 @@
 <?php
 $hero_img = 'biesiada-weselna-z-akordeonem-na-zywo';
 $hero_img_alt = 'Biesiada weselna z akordeonem na żywo';
-$hero_class = 'hero-about';
+$hero_class = 'triangle';
 $text = 'O mnie';
 $show_cta = false;
 include 'Partials/hero.php';
 ?>
-<section class="about-page">
+<section class="wrapper">
   <div class="info">
     <h2 class="heading">Cześć, jestem Michał!</h2>
     <div class="text-container">

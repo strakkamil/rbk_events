@@ -1,0 +1,204 @@
+section.about {
+  margin-top: 80px;
+  padding: 0 var(--border-margin);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+section.about h2,
+section.about p {
+  line-height: 30px;
+}
+
+section.about h2 {
+  font-weight: var(--bold);
+}
+
+section.about p {
+  font-weight: var(--normal);
+}
+
+section.events {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 var(--border-margin);
+}
+
+section.events ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section.events ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+  border-radius: 30px;
+  background-image: linear-gradient(to left, #302760, #7a2a79);
+}
+
+section.events ul li span.list-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.events ul li span.list-heading img {
+  filter: invert(1);
+  height: 35px;
+  width: auto;
+}
+
+section.events ul li span.list-heading span {
+  font-weight: var(--bold);
+}
+
+section.events ul li span {
+  line-height: 30px;
+  font-weight: var(--normal);
+}
+
+section.gallery {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  overflow-x: hidden;
+  gap: 20px;
+}
+
+section.gallery h2 {
+  padding: 0 var(--border-margin);
+  order: 1;
+}
+
+section.gallery #home_1 {
+  order: 2;
+}
+
+section.gallery .cta.second {
+  order: 3;
+}
+
+section.gallery + a.cta.second {
+  margin: 20px var(--border-margin) 0;
+  max-width: calc(100% - 2 * var(--border-margin));
+}
+
+@media (min-width: 600px) {
+  section.about h2,
+  section.about p {
+    line-height: 42px;
+  }
+}
+
+@media (min-width: 1280px) {
+  section.about,
+  section.events,
+  section.gallery {
+    max-width: var(--width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section.about {
+    margin-top: 115px;
+    display: grid;
+    grid-template-columns: 1fr 330px;
+    grid-template-areas: "a c" "b b";
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px 20px;
+  }
+
+  section.about h2,
+  section.about p {
+    line-height: 50px;
+  }
+
+  section.about h2 {
+    grid-area: a;
+  }
+
+  section.about p {
+    grid-area: b;
+  }
+
+  section.about a {
+    grid-area: c;
+  }
+
+  section.events {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 330px;
+    grid-template-areas: "a c" "b b";
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+
+  section.events h2.heading {
+    grid-area: a;
+  }
+
+  section.events ul {
+    grid-area: b;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1090px;
+  }
+
+  section.events ul li {
+    max-width: 330px;
+    padding: 24px;
+  }
+
+  section.events ul li span.list-heading span {
+    font-size: 20px;
+  }
+
+  section.events ul li span {
+    font-size: 18px;
+  }
+
+  section.events a {
+    grid-area: c;
+  }
+
+  section.gallery {
+    max-width: var(--width);
+    padding: 0 10px;
+    position: relative;
+    margin: 80px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 330px;
+    grid-template-areas: "a c" "b b";
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+
+  section.gallery h2 {
+    grid-area: a;
+    padding: unset;
+  }
+
+  section.gallery #home_1 {
+    grid-area: b;
+  }
+}

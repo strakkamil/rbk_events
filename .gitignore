@@ -16,3 +16,6 @@ dist/
 
 # środowisko
 .env
+
+# Node
+node_modules/
