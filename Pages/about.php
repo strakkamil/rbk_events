@@ -1,5 +1,6 @@
 <?php
-$hero_img = '/assets/images/biesiada-weselna-z-akordeonem-na-zywo.webp';
+$hero_img = 'biesiada-weselna-z-akordeonem-na-zywo';
+$hero_img_alt = 'Biesiada weselna z akordeonem na żywo';
 $hero_class = 'hero-about';
 $text = 'O mnie';
 $show_cta = false;
@@ -21,7 +22,8 @@ include 'Partials/hero.php';
           <span class="square"></span>
           <span class="square square_second"></span>
           <div class="square-image-container">
-            <img src="/assets/images/michal-robak-dj-wodzirej-rbk-events.webp" alt="">
+            <img loading="lazy" width="238" height="322" src="/assets/images/michal-robak-dj-wodzirej-rbk-events.webp"
+              alt="Michał Robak DJ Wodzirej RBK Events">
           </div>
         </div>
       </div>
@@ -43,7 +45,11 @@ include 'Partials/hero.php';
     <div class="image-container">
       <?php
       $slider_id = 'about_1';
-      $slider_images = ['/assets/images/michal-robak-akordeonowe-show.webp', '/assets/images/akordeonista-muzyk-sceniczny-michal-robak.webp', '/assets/images/doswiadczony-muzyk-sceniczny-michal-robak.webp'];
+      $slider_images = [
+        ['img' => 'michal-robak-akordeonowe-show.webp', 'alt' => 'Michał Robak akordeonowe show'],
+        ['img' => 'akordeonista-muzyk-sceniczny-michal-robak.webp', 'alt' => 'Akordeonista muzyk sceniczny Michał Robak'],
+        ['img' => 'doswiadczony-muzyk-sceniczny-michal-robak.webp', 'alt' => 'Doświadczony muzyk sceniczny Michał Robak']
+      ];
       include 'Partials/slider.php';
       ?>
     </div>
@@ -72,7 +78,9 @@ include 'Partials/hero.php';
             <span class="square"></span>
             <span class="square square_second"></span>
             <div class="square-image-container">
-              <img src="/assets/images/profesjonalny-muzyk-na-eventy-biznesowe.webp" alt="">
+              <img loading="lazy" width="238" height="322"
+                src="/assets/images/profesjonalny-muzyk-na-eventy-biznesowe.webp"
+                alt="Profesjonalny muzyk na eventy biznesowe">
             </div>
           </div>
         </div>
@@ -105,7 +113,12 @@ include 'Partials/hero.php';
     <div class="image-container">
       <?php
       $slider_id = 'about_2';
-      $slider_images = ['/assets/images/relacja-foto-video-z-wesela-dla-pary-mlodej.webp', '/assets/images/oprawa-muzyczna-dj-i-instrumenty-klawiszowe.webp'];
+
+      $slider_images = [
+        ['img' => 'relacja-foto-video-z-wesela-dla-pary-mlodej.webp', 'alt' => 'Relacja foto video z wesela dla pary młodej'],
+        ['img' => 'oprawa-muzyczna-dj-i-instrumenty-klawiszowe.webp', 'alt' => 'Oprawa muzyczna DJ i instrumenty klawiszowe'],
+        ['img' => 'doswiadczony-muzyk-sceniczny-michal-robak.webp', 'alt' => 'Doświadczony muzyk sceniczny Michał Robak']
+      ];
       include 'Partials/slider.php';
       ?>
     </div>

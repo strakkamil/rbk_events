@@ -1,7 +1,12 @@
 <section class="hero <?= $hero_class ?>">
   <div class="hero-img">
     <div class="gradient-element"></div>
-    <img src="<?= $hero_img ?>" alt="Zdjęcie hero" />
+    <picture>
+      <source srcset="/assets/images/<?= $hero_img ?>-d.webp" media="(min-width: 1280px)">
+      <source srcset="/assets/images/<?= $hero_img ?>.webp" media=" (max-width: 1279px)">
+      <img src="/assets/images/<?= $hero_img ?>.webp" width="1020" height="575" alt="<?= $hero_img_alt ?>"
+        fetchpriority="high">
+    </picture>
   </div>
   <header>
     <?php if (isset($text) && $text != ''): ?>

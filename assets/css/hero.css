@@ -11,6 +11,7 @@ section.hero {
 section.hero img {
   object-fit: cover;
   height: 99%;
+  width: auto;
 }
 
 section.hero.hero-about .hero-img {
