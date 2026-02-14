@@ -29,9 +29,11 @@ section.events {
 
 section.events ul {
   display: flex;
-  flex-direction: column;
   gap: 20px;
   list-style: none;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 section.events ul li {
@@ -40,6 +42,7 @@ section.events ul li {
   gap: 10px;
   padding: 20px;
   width: 100%;
+  max-width: 330px;
   height: auto;
   border-radius: 30px;
   background-image: linear-gradient(to left, #302760, #7a2a79);
