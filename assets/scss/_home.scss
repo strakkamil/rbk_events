@@ -145,7 +145,7 @@ section.gallery + a.cta.second {
     grid-template-areas: "a c" "b b";
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 40px 20px;
   }
 
   section.events h2.heading {
