@@ -21,11 +21,23 @@
 <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <?php if ($current === '/'): ?>
-<link rel="stylesheet" href="/assets/css/home-page.css" />
+<link rel="stylesheet" href="/assets/css/home-page.css" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/home-page.css">
+</noscript>
 <?php elseif ($current === '/o-mnie'): ?>
-<link rel="stylesheet" href="/assets/css/about-page.css" />
+<link rel="stylesheet" href="/assets/css/about-page.css" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/about-page.css">
+</noscript>
 <?php elseif ($current === '/oferta'): ?>
-<link rel="stylesheet" href="/assets/css/offer-page.css" />
+<link rel="stylesheet" href="/assets/css/offer-page.css" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/offer-page.css">
+</noscript>
 <?php else: ?>
-<link rel="stylesheet" href="/assets/css/not-found-page.css" />
+<link rel="stylesheet" href="/assets/css/not-found-page.css" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/not-found-page.css">
+</noscript>
 <?php endif; ?>

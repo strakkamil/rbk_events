@@ -15,7 +15,7 @@
   </div>
   <div class="dots">
     <?php foreach ($slider_images as $index => $value): ?>
-    <button alt="Przycisk nawigacji kropkowej <?= $index + 1 ?>" data-index="<?= $index ?>"
+    <button title="Przycisk nawigacji kropkowej <?= $index + 1 ?>" data-index="<?= $index ?>"
       class="dot <?= $index == 0 ? 'active' : '' ?>"></button>
     <?php endforeach; ?>
   </div>
