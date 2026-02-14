@@ -1,0 +1,33 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex-grow: 1;
+  margin-top: 0;
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    padding-top: 150px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+}

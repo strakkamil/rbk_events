@@ -9,7 +9,8 @@ class Page
   protected static bool $Return_404 = true;
   protected static function Return_404(): void
   {
-    (file_exists("./Pages/404.php")) ?  require_once "./Pages/404.php" : http_response_code(404);
+    require_once "./Pages/404.php";
+    http_response_code(404);
   }
   protected static function File(string $file): string
   {

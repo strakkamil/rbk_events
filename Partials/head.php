@@ -26,4 +26,6 @@
 <link rel="stylesheet" href="/assets/css/about-page.css" />
 <?php elseif ($current === '/oferta'): ?>
 <link rel="stylesheet" href="/assets/css/offer-page.css" />
+<?php else: ?>
+<link rel="stylesheet" href="/assets/css/not-found-page.css" />
 <?php endif; ?>
