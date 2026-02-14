@@ -14,7 +14,7 @@ Disallow: /config.php
 Crawl-delay: 1
 
 # Sitemap reference
-Sitemap: https://test.rbk-events.pl/sitemap.xml
+Sitemap: https://rbk-events.pl/sitemap.xml
 
 # Specific bot configurations
 User-agent: Googlebot

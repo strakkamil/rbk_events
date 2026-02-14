@@ -1,4 +1,17 @@
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
+
+# 1. Jeśli plik istnieje → obsłuż normalnie
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# 2. Blokada README.md
+
+<Files "README.md">
+Require all denied
+</Files>
+
+# 3. Reszta do index.php
+
 RewriteRule ^(.\*)$ index.php [L,QSA]
