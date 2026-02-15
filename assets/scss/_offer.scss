@@ -305,7 +305,7 @@
   gap: 3px;
 }
 
-.row.head .cell.bg:hover .tooltip {
+.cell.bg.active .tooltip {
   opacity: 1;
 }
 
