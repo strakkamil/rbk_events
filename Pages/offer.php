@@ -265,13 +265,18 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
 <script>
 document.querySelectorAll('.head .cell.bg').forEach(el => {
   el.addEventListener('click', (e) => {
+    removeActive()
     e.stopPropagation();
     el.classList.toggle('active');
   });
 });
 
-document.addEventListener('click', () => {
+const removeActive = () => {
   document.querySelectorAll('.cell.bg')
     .forEach(el => el.classList.remove('active'));
+}
+
+document.addEventListener('click', () => {
+  removeActive()
 });
 </script>
