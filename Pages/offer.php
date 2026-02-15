@@ -261,3 +261,17 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     <a class="cta second" href="/kontakt"><span>Kontakt</span></a>
   </div>
 </section>
+
+<script>
+document.querySelectorAll('.head .cell.bg').forEach(el => {
+  el.addEventListener('click', (e) => {
+    e.stopPropagation();
+    el.classList.toggle('active');
+  });
+});
+
+document.addEventListener('click', () => {
+  document.querySelectorAll('.cell.bg')
+    .forEach(el => el.classList.remove('active'));
+});
+</script>
