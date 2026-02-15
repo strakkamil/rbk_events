@@ -9,7 +9,7 @@ p {
 .text {
   font-size: var(--size);
   line-height: 30px;
-  font-weight: 300;
+  font-weight: var(--light);
 }
 
 .info-img {

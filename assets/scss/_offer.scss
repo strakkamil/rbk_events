@@ -1,0 +1,484 @@
+.heading h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: var(--bold);
+}
+
+.heading span {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: var(--light);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 27% 1fr 1fr 1fr;
+  border-bottom: 2px solid white;
+  gap: 5px;
+}
+
+.row.last {
+  border-bottom: none;
+}
+
+.row .cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+
+.row .cell span {
+  font-size: 12px;
+  padding-bottom: 5px;
+  font-weight: var(--light);
+  text-align: center;
+}
+
+.row .cell.bold span {
+  font-weight: var(--bold);
+  padding-bottom: 0px;
+}
+
+.row.head .cell {
+  font-weight: var(--bold);
+  font-size: 12px;
+}
+
+.row .cell:not(.bg) {
+  align-items: start;
+  padding: 10px 0px;
+}
+
+.row.head .cell.bg {
+  background-color: white;
+  background-image: none;
+  color: #000;
+  border-radius: 10px 10px 0 0;
+}
+
+.row.last .cell.bg {
+  border-radius: 0 0 10px 10px;
+}
+
+.row .cell.bg {
+  background-image: var(--gradient_third);
+}
+
+.row .cell img {
+  margin: 10px 0;
+}
+
+.important p {
+  margin-top: 20px;
+  font-weight: var(--bold);
+}
+
+.important p.secondary {
+  font-weight: var(--normal);
+}
+
+.important p {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.cards-container p.heading {
+  margin-top: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: var(--bold);
+}
+
+.cards-container span.heading {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: var(--light);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 70px;
+  font-size: 18px;
+  font-weight: var(--bold);
+  background-color: white;
+  color: #000;
+  border-radius: 20px 20px 0 0;
+}
+
+.card .info-container {
+  border-radius: 0 0 20px 20px;
+  background-image: var(--gradient_third);
+}
+
+.card .info {
+  display: grid;
+  grid-template-areas:
+    "image paragraph"
+    "image text";
+  gap: 0px 10px;
+  padding: 15px;
+}
+
+.card .info.margin {
+  padding-bottom: 10px;
+}
+
+.card .info img {
+  grid-area: image;
+  margin-top: 7px;
+}
+
+.card .info p,
+.card .info span {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.card .info p {
+  grid-area: paragraph;
+  font-weight: var(--bold);
+}
+
+.card .info span {
+  grid-area: text;
+}
+
+.card .header span {
+  color: #000;
+  font-size: 12px;
+  font-weight: var(--bold);
+}
+
+.card .header.second-line {
+  flex-direction: column;
+}
+
+.card .info.single {
+  grid-template-areas: "text";
+  gap: 0;
+}
+
+.cards-container.second .card {
+  position: relative;
+  border-radius: 10px;
+  background-image: var(--gradient_secondary);
+}
+
+.cards-container.second .card:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  background-color: var(--bg-main);
+  border-radius: 10px;
+}
+
+.cards-container.second .heading {
+  padding-bottom: 20px;
+}
+
+.cards-container.second .card .header {
+  position: relative;
+  z-index: 1;
+  background-image: var(--gradient_secondary);
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cards-container.second .card .info-container {
+  position: relative;
+  z-index: 1;
+  background-image: none;
+  color: #fff;
+}
+
+.cards-container.second .card .info {
+  grid-template-areas: "text";
+  text-align: center;
+}
+
+.cards-container.third .card {
+  border-radius: 20px;
+}
+
+.cards-container.second.third .card:before {
+  content: none;
+}
+
+.cards-container.third .heading {
+  margin-top: 25px;
+  padding-bottom: 0px;
+}
+
+.cards-container.third .card .header {
+  background-image: none;
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  color: #000;
+}
+
+.something-else {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.something-else p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.something-else span {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.something-else ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.something-else ul li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.something-else ul li span {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.something-else p.contact {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.cta {
+  margin: 0px auto;
+  min-width: 330px;
+  width: 330px;
+  background-image: var(--gradient_secondary);
+  background-size: 100%;
+}
+
+.cta.second::after {
+  background-size: 100%;
+  background-image: var(--gradient_secondary);
+}
+
+@media (min-width: 400px) {
+  .row.head .cell {
+    font-size: 14px;
+  }
+
+  .cards {
+    align-items: center;
+  }
+
+  .cards-container .card {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .heading h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .heading span {
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+  }
+
+  .row {
+    gap: 25px;
+  }
+
+  .row.head .cell {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .row .cell {
+    font-size: 18px;
+  }
+
+  .row.head .cell.bg {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .row.last .cell.bg {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .row .cell:not(.bg) {
+    padding: 15px 0;
+  }
+
+  .row .cell span {
+    font-size: 16px;
+  }
+
+  .important p,
+  .important p.secondary {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .important p.secondary {
+    margin-top: 5px;
+  }
+
+  .cards-container p.heading {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  .cards-container span.heading {
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: unset;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .card .header {
+    height: 80px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card .header span {
+    font-size: 16px;
+  }
+
+  .card .info-container {
+    flex-grow: 1;
+  }
+
+  .card .info {
+    padding: 20px;
+  }
+
+  .card .info p,
+  .card .info span {
+    font-size: 18px;
+  }
+
+  .cards-container.second .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .cards-container.second .card {
+    width: 100%;
+    max-width: 375px;
+  }
+
+  .cards-container.second .heading {
+    padding-bottom: 40px;
+  }
+
+  .cards-container.second .card,
+  .cards-container.second .card:before,
+  .cards-container.second .card .header {
+    border-radius: 20px;
+  }
+
+  .cards-container.third .heading {
+    margin-top: 45px;
+  }
+
+  .cards-container.third span.heading {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  .cards-container.third .cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+
+  .cards-container.third .cards .card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .cards-container.third .cards .card .header {
+    font-size: 26px;
+  }
+
+  .cards-container.third .card .header {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .something-else {
+    margin-top: 50px;
+  }
+
+  .something-else p {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .something-else span,
+  .something-else ul li span,
+  .something-else p.contact {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .cta.second {
+    max-width: 410px;
+    margin: 0;
+    align-self: start;
+  }
+}
