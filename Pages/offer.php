@@ -8,6 +8,7 @@ include 'Partials/hero.php';
 $tick = '<img loading="lazy" width="20" height="20" src="/assets/images/tick.webp" alt="Grafika elementu tick">';
 $tick_gradient = '<img loading="lazy" width="20" height="20" src="/assets/images/tick-gradient.webp" alt="Grafika elementu tick z gradientem">';
 $empty = '<img loading="lazy" width="20" height="3" src="/assets/images/empty.webp" alt="Grafika elementu pustego">';
+$question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/question-mark.webp" alt="Grafika znaku zapytania">';
 ?>
 
 <section class="wrapper">
@@ -19,9 +20,21 @@ $empty = '<img loading="lazy" width="20" height="3" src="/assets/images/empty.we
   <div class="packages">
     <div class="row head">
       <div class="cell">Pakiet</div>
-      <div class="cell bg">Standard</div>
-      <div class="cell bg">Premium</div>
-      <div class="cell bg">VIP</div>
+      <div class="cell bg">
+        <span class="bold">Standard</span>
+        <span class="img"><?= $question_mark ?></span>
+        <span class="tooltip">Pakiet dostępny tylko w okresie listopad - luty</span>
+      </div>
+      <div class="cell bg">
+        <span class="bold">Premium</span>
+        <span class="img"><?= $question_mark ?></span>
+        <span class="tooltip">Najczęściej wybierany</span>
+      </div>
+      <div class="cell bg">
+        <span class="bold">VIP</span>
+        <span class="img"><?= $question_mark ?></span>
+        <span class="tooltip">Opcja dla najbardziej wymagających</span>
+      </div>
     </div>
     <div class="row">
       <div class="cell">Nagłośnienie</div>

@@ -49,6 +49,7 @@
 .row.head .cell {
   font-weight: var(--bold);
   font-size: 12px;
+  min-height: 45px;
 }
 
 .row .cell:not(.bg) {
@@ -295,6 +296,51 @@
   background-image: var(--gradient_secondary);
 }
 
+.row.head .cell.bg {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.row.head .cell.bg:hover .tooltip {
+  opacity: 1;
+}
+
+.row.head .cell span {
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+.row.head .cell span.bold {
+  font-weight: var(--bold);
+}
+
+.row.head .cell span.img,
+.row.head .cell span.img img {
+  padding: 0;
+  margin: 0;
+}
+
+.row.head .cell span.tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0;
+  transition: var(--transition);
+  padding: 3px;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-size: 10px;
+}
+
 @media (min-width: 400px) {
   .row.head .cell {
     font-size: 14px;
@@ -307,6 +353,12 @@
   .cards-container .card {
     max-width: 400px;
     width: 100%;
+  }
+}
+
+@media (min-width: 415px) {
+  .row.head .cell span.tooltip {
+    font-size: 12px;
   }
 }
 
@@ -480,5 +532,30 @@
     max-width: 410px;
     margin: 0;
     align-self: start;
+  }
+
+  .row.head .cell.bg {
+    cursor: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .row.head .cell span.bold {
+    font-size: 30px;
+  }
+
+  .row.head .cell .img {
+    display: none;
+  }
+
+  .row.head .cell span.tooltip {
+    position: static;
+    opacity: 1;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 0;
+    align-items: start;
   }
 }
