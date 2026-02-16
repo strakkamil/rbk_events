@@ -12,16 +12,6 @@ A PHP-based website for RBK Events, featuring dynamic routing, responsive design
 - **SEO optimized**: Structured meta tags
 - **Error Handling**: Custom 404 error page
 
-## 📄 Pages
-
-| Route            | File                | Description     |
-| ---------------- | ------------------- | --------------- |
-| `/`              | `Pages/home.php`    | Homepage        |
-| `/o-mnie`        | `Pages/about.php`   | About page      |
-| `/oferta/wesela` | `Pages/offer.php`   | Offers/Services |
-| `/media`         | `Pages/media.php`   | Media gallery   |
-| `/kontakt`       | `Pages/contact.php` | Contact page    |
-
 ## 🛠️ How It Works
 
 1. **Entry Point**: All requests are routed through `index.php`

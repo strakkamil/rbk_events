@@ -15,7 +15,7 @@ include 'Partials/hero.php';
       muzyka na żywo i tradycyjna biesiada z akordeonem. To właśnie ta
       synergia tworzy niepowtarzalny klimat, który wyróżni Wasze wesele.
     </p>
-    <a class="cta second" href="/o-mnie"><span>O mnie</span></a>
+    <a class="cta second" href="<?= ABOUT ?>"><span>O mnie</span></a>
   </section>
   <section class="events">
     <h2 class="heading">Oprawa muzyczna na najwyższym poziomie</h2>
@@ -52,11 +52,11 @@ include 'Partials/hero.php';
       </li>
     </ul>
 
-    <a class="cta second" href="/oferta/wesela"><span>Zobacz pełną ofertę</span></a>
+    <a class="cta second" href="<?= OFFER_WEDDING ?>"><span>Zobacz pełną ofertę</span></a>
   </section>
   <section class="gallery">
     <h2 class="heading">Chwile z parkietu</h2>
-    <a class="cta second" href="/media"><span>Więcej</span></a>
+    <a class="cta second" href="<?= MEDIA_PHOTO ?>"><span>Więcej</span></a>
     <?php
     $slider_id = 'home_1';
     $slider_images = [

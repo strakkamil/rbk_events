@@ -4,10 +4,10 @@
       fetchpriority="high" />
   </a>
   <ul class="list">
-    <li><a href="/o-mnie">O mnie</a></li>
-    <li><a href="/oferta/wesela">Oferta</a></li>
-    <li><a href="/media">Media</a></li>
-    <li><a href="/kontakt">Kontakt</a></li>
+    <li><a href="<?= ABOUT ?>">O mnie</a></li>
+    <li><a href="<?= OFFER_WEDDING ?>">Oferta</a></li>
+    <li><a href="<?= MEDIA_PHOTO ?>">Media</a></li>
+    <li><a href="<?= CONTACT ?>">Kontakt</a></li>
   </ul>
   <button class="hamburger" aria-label="hamburger">
     <img class="open" src="/assets/images/hamburger.svg" title="Otwórz hamburgera" width="50" height="50"

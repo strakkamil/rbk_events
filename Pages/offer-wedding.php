@@ -1,10 +1,5 @@
 <?php
-$hero_img = 'tradycyjna-biesiada-weselna-z-akordeonem-i-tamburynem';
-$hero_img_alt = 'Tradycyjna biesiada weselna z akordeonem i tamburynem';
-$hero_class = 'triangle';
-$text = 'Oferta';
-$show_cta = false;
-include 'Partials/hero.php';
+include 'Partials/hero-offer.php';
 $tick = '<img loading="lazy" width="20" height="20" src="/assets/images/tick.webp" alt="Grafika elementu tick">';
 $tick_gradient = '<img loading="lazy" width="20" height="20" src="/assets/images/tick-gradient.webp" alt="Grafika elementu tick z gradientem">';
 $empty = '<img loading="lazy" width="20" height="3" src="/assets/images/empty.webp" alt="Grafika elementu pustego">';
@@ -258,7 +253,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </ul>
     <p class="contact">Napisz do mnie, a wspólnie ustalimy
       szczegóły.</p>
-    <a class="cta second" href="/kontakt"><span>Kontakt</span></a>
+    <a class="cta second" href="<?= CONTACT ?>"><span>Kontakt</span></a>
   </div>
 </section>
 

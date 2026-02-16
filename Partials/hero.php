@@ -20,7 +20,7 @@
       </h1>
     <?php endif; ?>
     <?php if ($show_cta): ?>
-      <a class="cta" href="/oferta/wesela" aria-label="Link do oferty">Sprawdź ofertę</a>
+      <a class="cta" href="<?= OFFER_WEDDING ?>" aria-label="Link do oferty">Sprawdź ofertę</a>
     <?php endif; ?>
   </header>
 </section>
