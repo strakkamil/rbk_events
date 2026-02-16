@@ -1,0 +1,1 @@
+<a href="<?= OFFER_BIRTHDAY ?>">Urodziny i jubileusze</a>

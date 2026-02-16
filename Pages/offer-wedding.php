@@ -7,6 +7,9 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
 ?>
 
 <section class="wrapper">
+
+  <?php include 'Partials/offer-nav-secondary.php' ?>
+
   <div class="heading">
     <h2>Wesele na miarę Waszych marzeń</h2>
     <span>Moim celem jest przygotowanie oferty idealnie dopasowanej do Waszej wizji, dlatego stworzyłem pakiety, które

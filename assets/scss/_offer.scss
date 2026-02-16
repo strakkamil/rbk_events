@@ -20,6 +20,10 @@
   gap: 5px;
 }
 
+.offer-birthday .row {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .row.last {
   border-bottom: none;
 }
@@ -341,6 +345,51 @@
   opacity: 1;
 }
 
+.offer-birthday .heading h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: var(--bold);
+}
+
+.offer-birthday .something-else {
+  margin-top: 0;
+}
+
+.offer-birthday li.child-list {
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.offer-birthday li.child-list .first-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.offer-birthday li.child-list ul {
+  margin: 15px 0;
+  gap: 20px;
+}
+
+.offer-birthday li.child-list ul li span {
+  position: relative;
+  padding-left: 55px;
+}
+
+.offer-birthday li.child-list ul li span:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-image: var(--gradient_secondary);
+  border-radius: 50%;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-75%);
+}
+
 @media (min-width: 400px) {
   .row.head .cell {
     font-size: 14px;
@@ -557,5 +606,10 @@
     line-height: 20px;
     padding: 0;
     align-items: start;
+  }
+
+  .offer-birthday .row {
+    grid-template-columns: 1fr 260px 260px;
+    gap: 100px;
   }
 }

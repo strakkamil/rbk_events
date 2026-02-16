@@ -48,7 +48,7 @@ class Routes
     "" => "Pages/home.php",
     ABOUT => "Pages/about.php",
     OFFER_WEDDING => "Pages/offer-wedding.php",
-    "/oferta/urodziny-i-jubileusze" => "Pages/offer-birthday.php",
+    OFFER_BIRTHDAY => "Pages/offer-birthday.php",
     MEDIA_PHOTO => "Pages/media.php",
     CONTACT => "Pages/contact.php",
   );
@@ -66,8 +66,13 @@ class Routes
       "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
     ),
     OFFER_WEDDING => array(
-      "title" => "RBK Events - oferta",
+      "title" => "RBK Events - oferta weselna",
       "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie wesel i imprez okolicznościowych.",
+      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+    ),
+    OFFER_WEDDING => array(
+      "title" => "RBK Events - oferta urodzin i jubileuszy",
+      "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie urodzin i imprez jubileuszowych.",
       "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
     ),
     MEDIA_PHOTO => array(
