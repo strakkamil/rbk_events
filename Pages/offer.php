@@ -262,21 +262,4 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
   </div>
 </section>
 
-<script>
-document.querySelectorAll('.head .cell.bg').forEach(el => {
-  el.addEventListener('click', (e) => {
-    removeActive()
-    e.stopPropagation();
-    el.classList.toggle('active');
-  });
-});
-
-const removeActive = () => {
-  document.querySelectorAll('.cell.bg')
-    .forEach(el => el.classList.remove('active'));
-}
-
-document.addEventListener('click', () => {
-  removeActive()
-});
-</script>
+<?php include 'Partials/tooltip.php'; ?>
