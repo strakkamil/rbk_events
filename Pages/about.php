@@ -122,6 +122,6 @@ include 'Partials/hero.php';
       include 'Partials/slider.php';
       ?>
     </div>
-    <a class="cta" href="/oferta"><span>Poznaj moją ofertę</span></a>
+    <a class="cta" href="/oferta/wesela"><span>Poznaj moją ofertę</span></a>
   </div>
 </section>

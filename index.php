@@ -27,7 +27,7 @@ if (isset(Routes::$Soon[$current]) && Routes::$Soon[$current]) {
   Router::Run();
   include "Partials/footer.php";
   ?>
-  <script src="assets/js/header.js"></script>
+  <script src="/assets/js/header.js"></script>
 </body>
 
 </html>

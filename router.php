@@ -47,7 +47,7 @@ class Routes
   public static array $Route = array(
     "" => "Pages/home.php",
     "/o-mnie" => "Pages/about.php",
-    "/oferta" => "Pages/offer.php",
+    "/oferta/wesela" => "Pages/offer.php",
     "/media" => "Pages/media.php",
     "/kontakt" => "Pages/contact.php",
   );
@@ -64,7 +64,7 @@ class Routes
       "description" => "Dowiedz się więcej o RBK Events, doświadczeniu i podejściu do prowadzenia wesel i imprez.",
       "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
     ),
-    "/oferta" => array(
+    "/oferta/wesela" => array(
       "title" => "RBK Events - oferta",
       "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie wesel i imprez okolicznościowych.",
       "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
@@ -96,7 +96,7 @@ class Routes
   // Flagi dla stron w stanie "soon"
   public static array $Soon = array(
     "/o-mnie" => false,
-    "/oferta" => false,
+    "/oferta/wesela" => false,
     "/media" => true,
     "/kontakt" => true,
   );

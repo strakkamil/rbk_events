@@ -10,17 +10,17 @@
   </div>
   <header>
     <?php if (isset($text) && $text != ''): ?>
-    <h1 class="heading underline">
-      <?= $text ?></strong>
-    </h1>
+      <h1 class="heading underline">
+        <?= $text ?></strong>
+      </h1>
     <?php else: ?>
-    <h1 class="heading">
-      <span class="bold">DJ i Wodzirej,</span> <br />który rozkręci<br class="mobile-br" />
-      Twoją imprezę!
-    </h1>
+      <h1 class="heading">
+        <span class="bold">DJ i Wodzirej,</span> <br />który rozkręci<br class="mobile-br" />
+        Twoją imprezę!
+      </h1>
     <?php endif; ?>
     <?php if ($show_cta): ?>
-    <a class="cta" href="/oferta" aria-label="Link do oferty">Sprawdź ofertę</a>
+      <a class="cta" href="/oferta/wesela" aria-label="Link do oferty">Sprawdź ofertę</a>
     <?php endif; ?>
   </header>
 </section>

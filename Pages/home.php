@@ -22,37 +22,37 @@ include 'Partials/hero.php';
     <ul>
       <li>
         <span class="list-heading"><span>Wesela</span><img loading="lazy" width="35" height="35"
-            src="assets/images/event3.png" alt="Ikona wesela" title="Wesele" /></span>
+            src="/assets/images/event3.png" alt="Ikona wesela" title="Wesele" /></span>
         <span class="text">Magiczna oprawa muzyczna, która sprawi, że Wasze wesele będzie
           pełne radości, tańca i niezapomnianych wspomnień.</span>
       </li>
       <li>
         <span class="list-heading"><span>Bale</span><img loading="lazy" width="35" height="35"
-            src="assets/images/event2.png" alt="Ikona balu" title="Bale" /></span>
+            src="/assets/images/event2.png" alt="Ikona balu" title="Bale" /></span>
         <span class="text">Idealnie dobrany repertuar podkreśli rangę wydarzenia i zapewni
           szampańską zabawę do białego rana.</span>
       </li>
       <li>
         <span class="list-heading"><span>Jubileusze</span><img loading="lazy" width="35" height="35"
-            src="assets/images/event1.png" alt="Ikona jubielusz" title="Jubileusz" /></span>
+            src="/assets/images/event1.png" alt="Ikona jubielusz" title="Jubileusz" /></span>
         <span class="text">Elegancka muzyka, podkreślająca wyjątkowość chwili i nadająca
           uroczystości niepowtarzalny klimat.</span>
       </li>
       <li>
         <span class="list-heading"><span>Urodziny</span><img loading="lazy" width="35" height="35"
-            src="assets/images/event5.png" alt="Ikona urodzin" title="Urodziny" /></span>
+            src="/assets/images/event5.png" alt="Ikona urodzin" title="Urodziny" /></span>
         <span class="text">Energia, zabawa i muzyka, która rozkręci każdą imprezę urodzinową
           i zostanie w pamięci na długo.</span>
       </li>
       <li>
         <span class="list-heading"><span>Imprezy firmowe</span><img loading="lazy" width="35" height="35"
-            src="assets/images/event6.png" alt="Ikona imprez firmowych" title="Imprezy firmowe" /></span>
+            src="/assets/images/event6.png" alt="Ikona imprez firmowych" title="Imprezy firmowe" /></span>
         <span class="text">Oprawa muzyczna budująca świetny nastrój i integrację zespołu
           podczas wydarzeń biznesowych.</span>
       </li>
     </ul>
 
-    <a class="cta second" href="/oferta"><span>Zobacz pełną ofertę</span></a>
+    <a class="cta second" href="/oferta/wesela"><span>Zobacz pełną ofertę</span></a>
   </section>
   <section class="gallery">
     <h2 class="heading">Chwile z parkietu</h2>
