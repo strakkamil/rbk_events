@@ -1,4 +1,4 @@
-<nav>
+<nav class="main-nav">
   <a class="logo" href="/" aria-label="Strona główna">
     <img src="/logo-rbk-events.svg" alt="Logo RBK Events" title="Logo RBK Events" width="138" height="55"
       fetchpriority="high" />

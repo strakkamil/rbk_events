@@ -25,7 +25,9 @@
   <link rel="stylesheet" href="/assets/css/home-page.css" />
 <?php elseif ($current === ABOUT): ?>
   <link rel="stylesheet" href="/assets/css/about-page.css" />
-<?php elseif (in_array($current, [OFFER_WEDDING, OFFER_BIRTHDAY, OFFER_EVENTS, OFFER_LIGHT])): ?>
+<?php elseif (in_array($current, [OFFER_WEDDING, OFFER_BIRTHDAY, OFFER_EVENTS])): ?>
+  <link rel="stylesheet" href="/assets/css/offer-nav-page.css" />
+<?php elseif ($current === OFFER_LIGHT): ?>
   <link rel="stylesheet" href="/assets/css/offer-page.css" />
 <?php else: ?>
   <link rel="stylesheet" href="/assets/css/not-found-page.css" />

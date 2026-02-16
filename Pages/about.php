@@ -117,7 +117,6 @@ include 'Partials/hero.php';
       $slider_images = [
         ['img' => 'relacja-foto-video-z-wesela-dla-pary-mlodej.webp', 'alt' => 'Relacja foto video z wesela dla pary młodej'],
         ['img' => 'oprawa-muzyczna-dj-i-instrumenty-klawiszowe.webp', 'alt' => 'Oprawa muzyczna DJ i instrumenty klawiszowe'],
-        ['img' => 'doswiadczony-muzyk-sceniczny-michal-robak.webp', 'alt' => 'Doświadczony muzyk sceniczny Michał Robak']
       ];
       include 'Partials/slider.php';
       ?>

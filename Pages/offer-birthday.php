@@ -7,6 +7,14 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
 ?>
 
 <section class="wrapper offer-birthday">
+
+  <?php
+  $active_index = 0;
+  include 'Partials/offer-nav-main.php';
+  $active_offer_index = 1;
+  include 'Partials/offer-nav-secondary.php'
+  ?>
+
   <div class="heading">
     <h2>Celebruj swój dzień tak, jak lubisz!</h2>
     <span>Niezależnie od tego, czy kończysz 18 lat, świętujesz 40-tkę, czy organizujesz przyjęcie z okazji 25. rocznicy

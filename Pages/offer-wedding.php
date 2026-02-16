@@ -8,7 +8,12 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
 
 <section class="wrapper">
 
-  <?php include 'Partials/offer-nav-secondary.php' ?>
+  <?php
+  $active_index = 0;
+  include 'Partials/offer-nav-main.php';
+  $active_offer_index = 0;
+  include 'Partials/offer-nav-secondary.php'
+  ?>
 
   <div class="heading">
     <h2>Wesele na miarę Waszych marzeń</h2>
@@ -61,12 +66,6 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </div>
     <div class="row">
       <div class="cell">Akordeonowe Show (Live Act + set klubowy)</div>
-      <div class="cell bg"><?= $empty ?></div>
-      <div class="cell bg"><?= $tick ?></div>
-      <div class="cell bg"><?= $tick ?></div>
-    </div>
-    <div class="row">
-      <div class="cell">Materiały video z wesela</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
       <div class="cell bg"><?= $tick ?></div>

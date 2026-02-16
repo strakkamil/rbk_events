@@ -3,6 +3,14 @@ include 'Partials/hero-offer.php';
 ?>
 
 <section class="wrapper offer-birthday offer-events">
+
+  <?php
+  $active_index = 0;
+  include 'Partials/offer-nav-main.php';
+  $active_offer_index = 2;
+  include 'Partials/offer-nav-secondary.php'
+  ?>
+
   <div class="heading">
     <h2>Muzyczna wizytówka prestiżowych wydarzeń</h2>
     <span>Organizacja balu studniówkowego czy eventu firmowego wymaga nie tylko świetnej muzyki, ale przede wszystkim

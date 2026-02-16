@@ -3,6 +3,11 @@ include 'Partials/hero-offer.php';
 ?>
 
 <section class="wrapper offer-light">
+  <?php
+  $active_index = 1;
+  include 'Partials/offer-nav-main.php';
+  ?>
+
   <div class="heading">
     <h2>Pomaluj swoją salę światłem</h2>
     <span>Oświetlenie dekoracyjne to usługa niezależna od stanowiska muzycznego. To dedykowana instalacja, która
