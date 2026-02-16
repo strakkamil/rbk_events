@@ -242,7 +242,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </div>
   </div>
   <div class="something-else">
-    <p h>Nie znalazłeś idealnego pakietu?</p>
+    <p>Nie znalazłeś idealnego pakietu?</p>
     <span>Skontaktuj się ze mną! Stworzymy
       indywidualną ofertę, dopasowaną
       dokładnie do Twoich potrzeb.</span>

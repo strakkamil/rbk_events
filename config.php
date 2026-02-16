@@ -6,5 +6,6 @@ define('SHOW_PHONE', '518 637 234');
 define('ABOUT', "/o-mnie");
 define('OFFER_WEDDING', "/oferta/wesela");
 define('OFFER_BIRTHDAY', "/oferta/urodziny-i-jubileusze");
+define('OFFER_EVENTS', "/oferta/bale-studniowki-i-eventy-firmowe");
 define('MEDIA_PHOTO', "/media/zdjecia");
 define('CONTACT', "/kontakt");
