@@ -412,6 +412,58 @@
   margin-top: 20px;
 }
 
+.cards-container.second.blue .card {
+  background-image: var(--gradient_fourth);
+}
+
+.offer-light .cards-container.third .heading {
+  padding-bottom: 30px;
+}
+
+.offer-light .something-else p {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: var(--bold);
+}
+
+.offer-light .something-else span {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.offer-light .something-else .span-background {
+  width: 100%;
+  background-image: var(--gradient_fifth);
+  position: relative;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.offer-light .something-else .span-background::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: var(--bg-main);
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 20px;
+  z-index: -1;
+  top: 1px;
+  left: 1px;
+}
+
+.offer-light .something-else .span-background .second span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
 @media (min-width: 400px) {
   .row.head .cell {
     font-size: 14px;
@@ -642,5 +694,35 @@
 
   .offer-events .something-else {
     margin-top: 50px;
+  }
+
+  .offer-light .cards-container.third .heading {
+    padding-bottom: 50px;
+  }
+
+  .offer-light .something-else p {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .offer-light .something-else span {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .offer-light .something-else .span-background .second span {
+    padding: 40px 60px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .offer-light .something-else .cta {
+    align-self: center;
+    margin-top: 20px;
+  }
+
+  .offer-light .something-else .cta span {
+    font-size: 18px;
   }
 }

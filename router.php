@@ -50,6 +50,7 @@ class Routes
     OFFER_WEDDING => "Pages/offer-wedding.php",
     OFFER_BIRTHDAY => "Pages/offer-birthday.php",
     OFFER_EVENTS => "Pages/offer-events.php",
+    OFFER_LIGHT => "Pages/offer-light.php",
     MEDIA_PHOTO => "Pages/media.php",
     CONTACT => "Pages/contact.php",
   );
@@ -78,6 +79,11 @@ class Routes
     ),
     OFFER_EVENTS => array(
       "title" => "RBK Events - oferta urodzin i jubileuszy",
+      "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie urodzin i imprez jubileuszowych.",
+      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+    ),
+    OFFER_LIGHT => array(
+      "title" => "RBK Events - oferta dekopracji światłem",
       "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie urodzin i imprez jubileuszowych.",
       "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
     ),
@@ -112,6 +118,7 @@ class Routes
     OFFER_WEDDING => false,
     OFFER_BIRTHDAY => false,
     OFFER_EVENTS => false,
+    OFFER_LIGHT => false,
     MEDIA_PHOTO => true,
     CONTACT => true,
   );
