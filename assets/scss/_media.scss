@@ -1,0 +1,138 @@
+.media.wrapper .heading h2 {
+  font-weight: var(--bold);
+}
+
+.media-gallery-wrapper {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.gallery-container {
+  overflow: hidden;
+}
+
+.media-gallery {
+  display: inline-flex;
+  gap: 15px;
+  width: 100%;
+  transition: var(--transition);
+}
+
+.media-gallery .page {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  width: 100%;
+  flex-shrink: 0;
+  align-content: start;
+}
+
+.media-gallery .page .element-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.media-gallery .page .element-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.media-pagination button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  background-color: #332c34;
+  border: none;
+  border-radius: 5px;
+  transition: var(--transition);
+  transform-origin: top;
+  font-size: 16px;
+  line-height: 16px;
+  transform: translateY(0px);
+}
+
+.media-pagination button:hover {
+  transform: translateY(-3px);
+}
+
+.media-pagination button.active {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+.media-main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.media-main-nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 37px;
+  font-size: 16px;
+  color: #000;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  transform: translateY(0px);
+}
+
+.media-main-nav a:hover {
+  transform: translateY(-3px);
+}
+
+.media-main-nav a.active {
+  background-color: #9f2780;
+  font-weight: var(--bold);
+  color: #fff;
+}
+
+@media (min-width: 550px) {
+  .media-gallery .page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .media-gallery .page {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1280px) {
+  .media-main-nav {
+    align-items: start;
+  }
+
+  .media-gallery-wrapper {
+    margin-top: 50px;
+    grid-template-columns: 246px 1fr;
+    gap: 30px;
+  }
+}

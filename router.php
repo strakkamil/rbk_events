@@ -120,6 +120,7 @@ class Routes
     OFFER_EVENTS => false,
     OFFER_LIGHT => false,
     MEDIA_PHOTO => false,
+    MEDIA_VIDEO => true,
     CONTACT => true,
   );
 }
