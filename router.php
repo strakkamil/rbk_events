@@ -114,12 +114,12 @@ class Routes
   // Flagi dla stron w stanie "soon"
   public static array $Soon = array(
     "" => false,
-    ABOUT => true,
-    OFFER_WEDDING => true,
-    OFFER_BIRTHDAY => true,
-    OFFER_EVENTS => true,
-    OFFER_LIGHT => true,
-    MEDIA_PHOTO => true,
+    ABOUT => false,
+    OFFER_WEDDING => false,
+    OFFER_BIRTHDAY => false,
+    OFFER_EVENTS => false,
+    OFFER_LIGHT => false,
+    MEDIA_PHOTO => false,
     CONTACT => true,
   );
 }

@@ -1,1 +1,9 @@
-<h1>media</h1>
+<?php
+include 'Partials/hero-media.php';
+?>
+
+<section class="wrapper">
+  <div class="heading">
+    <h2>Media</h2>
+  </div>
+</section>
