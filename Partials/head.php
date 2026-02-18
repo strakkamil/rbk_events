@@ -29,7 +29,7 @@
 <link rel="stylesheet" href="/assets/css/offer-nav-page.css" />
 <?php elseif ($current === OFFER_LIGHT): ?>
 <link rel="stylesheet" href="/assets/css/offer-page.css" />
-<?php elseif ($current === MEDIA_PHOTO): ?>
+<?php elseif (in_array($current, [MEDIA_PHOTO, MEDIA_VIDEO])): ?>
 <link rel="stylesheet" href="/assets/css/media-page.css" />
 <?php else: ?>
 <link rel="stylesheet" href="/assets/css/not-found-page.css" />

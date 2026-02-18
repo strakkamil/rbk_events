@@ -218,6 +218,12 @@
   cursor: pointer;
 }
 
+.media-gallery.video .page .element-wrapper {
+  max-width: 325px;
+  height: 739px;
+  border-radius: 0;
+}
+
 @media (min-width: 550px) {
   .media-gallery .page {
     grid-template-columns: 1fr 1fr;
@@ -229,6 +235,11 @@
   .media-gallery .page {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .media-gallery.video .page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 

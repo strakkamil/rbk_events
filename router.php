@@ -52,6 +52,7 @@ class Routes
     OFFER_EVENTS => "Pages/offer-events.php",
     OFFER_LIGHT => "Pages/offer-light.php",
     MEDIA_PHOTO => "Pages/media.php",
+    MEDIA_VIDEO => "Pages/media.php",
     CONTACT => "Pages/contact.php",
   );
 
@@ -120,7 +121,7 @@ class Routes
     OFFER_EVENTS => false,
     OFFER_LIGHT => false,
     MEDIA_PHOTO => false,
-    MEDIA_VIDEO => true,
+    MEDIA_VIDEO => false,
     CONTACT => true,
   );
 }

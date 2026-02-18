@@ -1,4 +1,5 @@
 <?php
+$current = strtok($_SERVER["REQUEST_URI"], '?');
 include 'Partials/hero-media.php';
 ?>
 
@@ -8,15 +9,15 @@ include 'Partials/hero-media.php';
   </div>
   <div class="media-gallery-wrapper">
     <nav class="media-main-nav">
-      <a href="<?= MEDIA_PHOTO ?>" class="active">Zdjęcia</a>
-      <a href="<?= MEDIA_VIDEO ?>">Filmy</a>
+      <a href="<?= MEDIA_PHOTO ?>" class="<?= ($current === MEDIA_PHOTO) ? 'active' : '' ?>">Zdjęcia</a>
+      <a href="<?= MEDIA_VIDEO ?>" class="<?= ($current === MEDIA_VIDEO) ? 'active' : '' ?>">Filmy</a>
     </nav>
     <div class="gallery-container">
       <?php include 'Partials/media-pages.php' ?>
       <?php include 'Partials/media-pagination.php' ?>
     </div>
   </div>
-  <?php include 'Partials/media-modal.php' ?>
+  <?php if ($current === MEDIA_PHOTO) include 'Partials/media-modal.php'; ?>
 </section>
 
 <script>
