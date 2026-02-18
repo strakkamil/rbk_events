@@ -80,6 +80,21 @@ const hideButtons = () => {
   next.classList.remove("hide");
 };
 
+slider.addEventListener('touchstart', e => {
+  startX = e.touches[0].clientX;
+});
+
+slider.addEventListener('touchend', e => {
+  endX = e.changedTouches[0].clientX;
+  const diff = startX - endX;
+
+  if (diff > 50) {
+    nextImage();
+  } else if (diff < -50) {
+    prevImage()
+  }
+});
+
 document.addEventListener("keydown", (e) => {
   switch (e.key) {
     case "ArrowLeft":
