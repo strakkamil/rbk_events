@@ -3,6 +3,11 @@
 
 <head>
   <?php
+  $meta = [
+    'title' => 'Nowości w RBK Events - już wkrótce | RBK Events',
+    'description' => "Pracujemy nad czymś nowym! Nowe atrakcje i oferta RBK Events już niebawem. Wróć tutaj za tydzień!",
+    'keywords' => 'strona w budowie, wkrótce premiera, nowa oferta'
+  ];
   include "Partials/head.php";
   ?>
   <style>

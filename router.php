@@ -59,44 +59,49 @@ class Routes
   // Meta dla poszczególnych tras (title, description)
   public static array $Meta = array(
     "" => array(
-      "title" => "RBK Events",
-      "description" => "RBK Events - profesjonalny wodzirej i oprawa muzyczna wesel i imprez okolicznościowych. Skontaktuj się: " . SHOW_PHONE . ", " . EMAIL . ".",
-      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+      "title" => "DJ i Wodzirej z Muzyką na żywo | RBK Events",
+      "description" => "Oprawa muzyczna DJ & Live. Łączę nowoczesny styl z wokalem i akordeonem na żywo. Oferuję ciężki dym, iskry i dekoracje światłem. Gramy w całej Polsce. Sprawdź!",
+      "keywords" => "dj na wesele, dj z muzyką na żywo, wodzirej z akordeonem, dj z wokalem, nowoczesny dj, michał robak, rbk events, dj cała polska"
     ),
     ABOUT => array(
-      "title" => "RBK Events - o mnie",
-      "description" => "Dowiedz się więcej o RBK Events, doświadczeniu i podejściu do prowadzenia wesel i imprez.",
-      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+      "title" => "O mnie - Michał Robak - DJ i Wodzirej na Twoją imprezę | RBK Events",
+      "description" => "Poznajmy się! Doświadczenie koncertowe i profesjonalne podejście. Razem z Mateuszem dbamy o każdy detal muzyczny i wizualny. Sprawdź, jak działamy!",
+      "keywords" => "michał robak dj, o mnie dj, duet dj i oświetleniowiec, dj śpiewający, akordeonista na wesele, wodzirej, profesjonalny dj muzyka na żywo"
     ),
     OFFER_WEDDING => array(
-      "title" => "RBK Events - oferta weselna",
-      "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie wesel i imprez okolicznościowych.",
-      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+      "title" => "DJ i Wodzirej z Akordeonem - Wesele w stylu DJ & Live | RBK Events",
+      "description" => "Twoje wymarzone wesele z profesjonalną oprawą. Łączę energię DJ-a z wokalem, klawiszami i akordeonem na żywo. Sprawdź moją ofertę!",
+      "keywords" => "dj na wesele, dj z muzyką na żywo, ciężki dym wesele, wokal na żywo wesele, wodzirej na wesele, oprawa muzyczna wesela akordeon"
     ),
-    OFFER_WEDDING => array(
-      "title" => "RBK Events - oferta urodzin i jubileuszy",
-      "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie urodzin i imprez jubileuszowych.",
-      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+    OFFER_BIRTHDAY => array(
+      "title" => "DJ na urodziny, 18-tkę i jubileusz | RBK Events",
+      "description" => "Organizujesz 18-tkę, 40-tkę lub rocznicę? Zapewnię Twoim gościom najlepszą muzykę, zjawiskowe oświetlenie oraz akordeon na żywo. Zapytaj o wolny termin!",
+      "keywords" => "dj na urodziny, dj z wokalem na imprezę, oprawa muzyczna osiemnastki, dj na 40 urodziny, dj na 18stke"
     ),
     OFFER_EVENTS => array(
-      "title" => "RBK Events - oferta urodzin i jubileuszy",
-      "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie urodzin i imprez jubileuszowych.",
-      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+      "title" => "DJ na event firmowy, bankiet i studniówkę | RBK Events",
+      "description" => "Prestiżowa oprawa muzyczna dla biznesu i szkół. Elegancja, wyczucie stylu i profesjonalne nagłośnienie. Sprawdź ofertę na bale i konferencje.",
+      "keywords" => "dj na event firmowy, dj na studniówkę, oprawa bankietów, imprezy firmowe dj, nagłośnienie eventów, dj muzyka live"
     ),
     OFFER_LIGHT => array(
-      "title" => "RBK Events - oferta dekopracji światłem",
-      "description" => "Poznaj ofertę RBK Events: oprawa muzyczna, DJ, prowadzenie urodzin i imprez jubileuszowych.",
-      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+      "title" => "Dekoracja światłem sali bankietowej | RBK Events",
+      "description" => "Pomaluj swoją salę światłem! Nowoczesne oświetlenie LED, oświetlenie architektoniczne i magiczny klimat Twojego przyjęcia. Zapytaj o wycenę!",
+      "keywords" => "dekoracje światłem wesele, oświetlenie led sali, oświetlenie architektoniczne"
     ),
     MEDIA_PHOTO => array(
-      "title" => "RBK Events - media",
-      "description" => "Galeria i nagrania z realizacji RBK Events — przykłady prowadzenia i oprawy muzycznej.",
-      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+      "title" => "Chwile z parkietu - galeria zdjęć | RBK Events",
+      "description" => "Zobacz zdjęcia z naszych realizacji! Spójrz, jak tworzymy unikalny klimat na każdym parkiecie!",
+      "keywords" => "galeria zdjęć wesele, zdjęcia dj z wokalem, pełny parkiet, impreza z wodzirejem, zdjęcia z wesela, portfolio"
+    ),
+    MEDIA_VIDEO => array(
+      "title" => "Wideo z wesel i eventów | RBK Events",
+      "description" => "Poczuj energię na parkiecie! Obejrzyj filmy i przekonaj się, jak wygląda oprawa DJ & Live w praktyce!",
+      "keywords" => "wideo z wesela, dj filmy wesele, śpiewający dj wideo, nagrania z imprez muzyka na żywo, dj wodzirej wideo"
     ),
     CONTACT => array(
-      "title" => "RBK Events - kontakt",
-      "description" => "Skontaktuj się z RBK Events: " . SHOW_PHONE . ", " . EMAIL . "— omówimy szczegóły Twojej imprezy.",
-      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+      "title" => "Kontakt - Zarezerwuj termin | RBK Events",
+      "description" => "Masz pytania o termin lub cennik? Wypełnij formularz kontaktowy. Zapewniam dojazd w każde miejsce w Polsce!",
+      "keywords" => "kontakt dj, rezerwacja terminu wesele, wolne terminy dj, formularz kontaktowy, dj radomsko, rbk events kontakt"
     ),
   );
 
@@ -106,9 +111,9 @@ class Routes
     if (isset(self::$Meta[$route])) return self::$Meta[$route];
     // domyślne wartości
     return array(
-      "title" => "RBK Events",
-      "description" => "RBK Events - profesjonalny wodzirej i oprawa muzyczna wesel i imprez okolicznościowych. Skontaktuj się: " . SHOW_PHONE . ", " . EMAIL . ".",
-      "keywords" => "wodzirej, muzyka weselna, DJ na wesele, oprawa muzyczna, RBK Events, imprezy okolicznościowe"
+      "title" => "Błąd 404 - Nie znaleziono strony | RBK Events",
+      "description" => "Ups! Ta strona chyba zgubiła rytm. Wróć na stronę główną i sprawdź ofertę oprawy muzycznej na Twoje wydarzenie.",
+      "keywords" => "błąd 404, nie znaleziono strony"
     );
   }
 

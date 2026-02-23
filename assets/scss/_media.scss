@@ -154,6 +154,7 @@
   background-color: #17111380;
   border-radius: 0px;
   overflow: hidden;
+  touch-action: none;
 }
 
 .media-modal {
@@ -182,7 +183,7 @@
   display: flex;
   justify-content: center;
   align-items: end;
-  gap: 30px;
+  gap: 100px;
 }
 
 .modal-btns button {
