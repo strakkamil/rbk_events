@@ -94,5 +94,3 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     <a class="cta second" href="<?= CONTACT ?>"><span>Kontakt</span></a>
   </div>
 </section>
-
-<?php include 'Partials/tooltip.php'; ?>

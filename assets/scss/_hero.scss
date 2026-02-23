@@ -31,7 +31,7 @@ section.hero.triangle .hero-img .gradient-element {
   left: -1px;
   height: 100%;
   width: 100px;
-  clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+  // clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
 }
 
 section.hero.triangle .hero-img .gradient-element:before {
@@ -40,8 +40,13 @@ section.hero.triangle .hero-img .gradient-element:before {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(
-    256deg,
+  // background-image: linear-gradient(
+  //   256deg,
+  //   transparent 34%,
+  //   var(--bg-main) 66%
+  // );
+    background-image: linear-gradient(
+    270deg,
     transparent 34%,
     var(--bg-main) 66%
   );
@@ -164,8 +169,14 @@ section.hero .heading.underline::before {
   }
 
   section.hero.triangle .hero-img .gradient-element:before {
+    // background-image: linear-gradient(
+    //   260deg,
+    //   transparent 34%,
+    //   var(--bg-main) 66%
+    // );
+
     background-image: linear-gradient(
-      260deg,
+      270deg,
       transparent 34%,
       var(--bg-main) 66%
     );
