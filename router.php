@@ -54,6 +54,7 @@ class Routes
     MEDIA_PHOTO => "Pages/media.php",
     MEDIA_VIDEO => "Pages/media.php",
     CONTACT => "Pages/contact.php",
+    PRIVACY => "Pages/privacy.php",
   );
 
   // Meta dla poszczególnych tras (title, description)
@@ -102,6 +103,11 @@ class Routes
       "title" => "Kontakt - Zarezerwuj termin | RBK Events",
       "description" => "Masz pytania o termin lub cennik? Wypełnij formularz kontaktowy. Zapewniam dojazd w każde miejsce w Polsce!",
       "keywords" => "kontakt dj, rezerwacja terminu wesele, wolne terminy dj, formularz kontaktowy, dj radomsko, rbk events kontakt"
+    ),
+    PRIVACY => array(
+      "title" => "Polityka prywatności | RBK Events",
+      "description" => "Dowiedz się, jak przetwarzamy Twoje dane osobowe na stronie RBK Events. Informacje o formularzu kontaktowym, osadzonych filmach TikTok i plikach cookies.",
+      "keywords" => "polityka prywatności, dane osobowe, formularz kontaktowy, cookies, TikTok, RBK Events, dj na wesele"
     ),
   );
 

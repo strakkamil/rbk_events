@@ -11,3 +11,4 @@ define('OFFER_LIGHT', "/oferta/dekoracje-swiatlem");
 define('MEDIA_PHOTO', "/media/zdjecia");
 define('MEDIA_VIDEO', "/media/filmy");
 define('CONTACT', "/kontakt");
+define('PRIVACY', "/polityka-prywatnosci");

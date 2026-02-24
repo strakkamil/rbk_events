@@ -19,5 +19,6 @@
       <img loading="lazy" width="25" height="25" src="/assets/images/logo-youtube.svg" alt="logo-youtube" />
     </a>
   </div>
+  <div class="privacy"><a href="<?= PRIVACY ?>">Polityka prywatności</a></div>
   <div class="copyrights">© <?= date('Y') ?> RBK Events Michał Robak</div>
 </footer>

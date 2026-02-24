@@ -42,6 +42,8 @@
   <link rel="stylesheet" href="/assets/css/offer-page.css" />
 <?php elseif (in_array($current, [MEDIA_PHOTO, MEDIA_VIDEO])): ?>
   <link rel="stylesheet" href="/assets/css/media-page.css" />
+<?php elseif ($current === PRIVACY): ?>
+  <link rel="stylesheet" href="/assets/css/privacy-page.css" />
 <?php else: ?>
   <link rel="stylesheet" href="/assets/css/not-found-page.css" />
 <?php endif; ?>
