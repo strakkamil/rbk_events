@@ -1,65 +1,83 @@
 <?php
-/*
-WAŻNE 
-SUWAJ WIDTH I HEIGHT, z TikToka znacznik style i <script async src="https://www.tiktok.com/embed.js"></script> 
-DODAJ loading="lazy" dla Facebooka Instagrama YouTube
-*/
 $media_elements = [
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
   [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
-  ],
-  [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
-  ],
-  [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
-  ],
-  [
-    'code' => '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@michal.robak/video/7558585608151551254" data-video-id="7558585608151551254" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@michal.robak" href="https://www.tiktok.com/@michal.robak?refer=embed">@michal.robak</a> Piękne wesele 🥰 <a title="dj" target="_blank" href="https://www.tiktok.com/tag/dj?refer=embed">#dj</a> <a title="akordeon" target="_blank" href="https://www.tiktok.com/tag/akordeon?refer=embed">#akordeon</a> <a title="wesele" target="_blank" href="https://www.tiktok.com/tag/wesele?refer=embed">#wesele</a> <a title="śpiew" target="_blank" href="https://www.tiktok.com/tag/%C5%9Bpiew?refer=embed">#śpiew</a> <a target="_blank" title="♬ dźwięk oryginalny - Michał Robak" href="https://www.tiktok.com/music/dźwięk-oryginalny-7558585590678162198?refer=embed">♬ dźwięk oryginalny - Michał Robak</a> </section> </blockquote>'
+    'thumbnail' => '1.webp',
+    'id' => '7467606219369319702',
+    'alt' => 'Miniatura 1'
   ],
 ];

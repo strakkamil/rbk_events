@@ -61,11 +61,11 @@ export function initModal(wrapper) {
     next.classList.remove("hide");
   };
 
-  slider.addEventListener("touchstart", (e) => {
+  container.addEventListener("touchstart", (e) => {
     startX = e.touches[0].clientX;
   });
 
-  slider.addEventListener("touchend", (e) => {
+  container.addEventListener("touchend", (e) => {
     endX = e.changedTouches[0].clientX;
     const diff = startX - endX;
 

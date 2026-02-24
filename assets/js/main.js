@@ -36,12 +36,22 @@ const loadModal = () => {
   }
 };
 
+const loadVideo = () => {
+  const video = document.querySelector(".media-gallery.video");
+  if (video) {
+    import("/assets/js/video.js").then((module) => {
+      module.initVideo();
+    });
+  }
+};
+
 const loadHelper = () => {
   initHeader();
   loadSliders();
   loadTooltips();
   loadPagination();
   loadModal();
+  loadVideo();
 };
 
 window.addEventListener("load", loadHelper);

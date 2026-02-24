@@ -20,14 +20,14 @@ if ($current === MEDIA_VIDEO) {
         <?php endif; ?>
         <?php if ($current === MEDIA_VIDEO): ?>
           <div class="element-wrapper">
-            <?= $element['code'] ?>
+            <img loading="lazy" data-id="<?= $element['id'] ?>" alt="<?= $element['alt'] ?>"
+              src="/assets/images/media-video/<?= $element['thumbnail'] ?>">
+            <button class="play-button" title="Przycisk ładowania wideo">
+              <img width="30" height="30" src="/assets/images/play.webp" alt="Ikona startu odtwarzania">
+            </button>
           </div>
         <?php endif; ?>
       <?php endforeach; ?>
     </div>
   <?php endforeach; ?>
 </div>
-
-<?php if ($current === MEDIA_VIDEO): ?>
-  <script async src="https://www.tiktok.com/embed.js"></script>
-<?php endif; ?>
