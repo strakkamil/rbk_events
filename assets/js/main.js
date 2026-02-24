@@ -45,6 +45,15 @@ const loadVideo = () => {
   }
 };
 
+const loadContact = () => {
+  const form = document.querySelector("section.form");
+  if (form) {
+    import("/assets/js/contact.js").then((module) => {
+      module.initContact();
+    });
+  }
+};
+
 const loadHelper = () => {
   initHeader();
   loadSliders();
@@ -52,6 +61,7 @@ const loadHelper = () => {
   loadPagination();
   loadModal();
   loadVideo();
+  loadContact();
 };
 
 window.addEventListener("load", loadHelper);

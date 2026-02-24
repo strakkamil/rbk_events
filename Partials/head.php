@@ -44,6 +44,8 @@
   <link rel="stylesheet" href="/assets/css/media-page.css" />
 <?php elseif ($current === PRIVACY): ?>
   <link rel="stylesheet" href="/assets/css/privacy-page.css" />
+<?php elseif ($current === CONTACT): ?>
+  <link rel="stylesheet" href="/assets/css/contact-page.css" />
 <?php else: ?>
   <link rel="stylesheet" href="/assets/css/not-found-page.css" />
 <?php endif; ?>

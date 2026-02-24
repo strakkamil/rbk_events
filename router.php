@@ -133,6 +133,7 @@ class Routes
     OFFER_LIGHT => false,
     MEDIA_PHOTO => false,
     MEDIA_VIDEO => false,
-    CONTACT => true,
+    CONTACT => false,
+    PRIVACY => false,
   );
 }
