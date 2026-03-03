@@ -11,7 +11,7 @@ export function initModal(wrapper) {
   let endX = 0;
 
   const openModal = (index) => {
-    currentIndex = index;
+    currentIndex = +index;
     const value = `translateX(calc(-${currentIndex * 100}% - ${currentIndex * 50}px))`;
     slider.style.transform = value;
     hideButtons();
@@ -49,10 +49,12 @@ export function initModal(wrapper) {
   const hideButtons = () => {
     if (currentIndex === 0) {
       prev.classList.add("hide");
+      next.classList.remove("hide");
       return;
     }
 
     if (currentIndex === images_count) {
+      prev.classList.remove("hide");
       next.classList.add("hide");
       return;
     }

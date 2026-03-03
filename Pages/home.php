@@ -58,12 +58,17 @@ include 'Partials/hero.php';
     <h2 class="heading">Chwile z parkietu</h2>
     <a class="cta second" href="<?= MEDIA_PHOTO ?>"><span>Więcej</span></a>
     <?php
+    include 'Partials/media-images.php';
     $slider_id = 'home_1';
-    $slider_images = [
-      ['img' => 'nowoczesny-akordeonista-na-imprezy-firmowe-i-bale.webp', 'alt' => 'Nowoczesny akordeonista na imprezy firmowe i bale'],
-      ['img' => 'akordeonista-muzyk-sceniczny-michal-robak.webp', 'alt' => 'Akordeonista muzyk sceniczny Michał Robak'],
-      ['img' => 'doswiadczony-muzyk-sceniczny-michal-robak.webp', 'alt' => 'Doświadczony muzyk sceniczny Michał Robak']
-    ];
+    $shuffled = $media_elements;
+    shuffle($shuffled);
+    $slider_images = [];
+    for ($i = 0; $i < 3; $i++) {
+      $slider_images[] = [
+        'img' => 'media-photo/' . $shuffled[$i]['img'],
+        'alt' => $shuffled[$i]['alt'],
+      ];
+    }
     include 'Partials/slider.php';
     ?>
   </section>
