@@ -8,7 +8,7 @@ $media_elements = [
   [
     'thumbnail' => 'baciary-wiktoria.webp',
     'id' => '7597828565148765442',
-    'alt' => 'Baciary Wiktoria'
+    'alt' => 'Baciary góralska muzyka Wiktoria'
   ],
   [
     'thumbnail' => 'chcialbym-aneta.webp',
