@@ -20,5 +20,5 @@
     </a>
   </div>
   <div class="privacy"><a href="<?= PRIVACY ?>">Polityka prywatności</a></div>
-  <div class="copyrights">© <?= date('Y') ?> RBK Events Michał Robak</div>
+  <div class="copyrights">© <?= date('Y') ?> RBK Events  Michał Robak</div>
 </footer>
