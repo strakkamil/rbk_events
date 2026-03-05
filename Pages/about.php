@@ -91,23 +91,14 @@ include 'Partials/hero.php';
     <h2 class="heading">Gwarancja perfekcji w każdym detalu</h2>
     <div class="text-container">
       <p class="text">
-        Na każdej imprezie towarzyszy mi Mateusz - człowiek odpowiedzialny za oświetlenie i technikę. Taki podział ról
-        to
-        <strong>Wasza pewność</strong>, że wszystko działa perfekcyjnie - ja skupiam się na muzyce i kontakcie z gośćmi,
-        a
-        on tworzy spektakularną oprawę wizualną. Oznacza to, że możemy idealnie dopasować kolorystykę świateł do sali, a
-        każdy detal jest przemyślany - aż po policyjne koguty w trakcie utworu „Policeman”.
+        Na każdej imprezie towarzyszy mi Mateusz - człowiek odpowiedzialny za oświetlenie i technikę. Ten podział ról to
+        gwarancja najwyższej jakości. Podczas gdy ja skupiam się na muzyce i prowadzeniu zabawy, on dba o profesjonalną
+        oprawę wizualną wydarzenia.
       </p>
       <p class="text margin">
-        Podczas wesela Mateusz nagrywa także krótkie, pionowe ujęcia wideo. To świetny, <strong>bezpłatny
-          bonus</strong>,
-        który
-        otrzymujecie niedługo po imprezie. Materiał nie jest montowany, dzięki czemu zachowuje 100% naturalnej energii i
-        pokazuje zabawę z samego serca parkietu.
-      </p>
-      <p class="text margin">
-        To nie wszystko! Mateusz jest moją prawą ręką i dba o płynną koordynację z obsługą sali i innymi usługodawcami.
-        Dzięki temu unikamy organizacyjnego chaosu, a Wy zyskujecie <strong>bezcenny spokój</strong>.
+        Mateusz czuwa również nad płynną koordynacją z obsługą sali oraz innymi usługodawcami. Ponadto w trakcie imprezy
+        łapie najlepsze momenty, nagrywając ujęcia wideo z parkietu. Nagrania te otrzymujecie po weselu jako bezpłatny
+        dodatek.
       </p>
     </div>
     <div class="image-container">

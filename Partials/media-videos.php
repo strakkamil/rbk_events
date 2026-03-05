@@ -1,83 +1,53 @@
 <?php
 $media_elements = [
   [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'thumbnail' => 'amigo.webp',
+    'id' => '7511295353467964694',
+    'alt' => 'Amigo'
   ],
   [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'thumbnail' => 'baciary-wiktoria.webp',
+    'id' => '7597828565148765442',
+    'alt' => 'Baciary Wiktoria'
   ],
   [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'thumbnail' => 'chcialbym-aneta.webp',
+    'id' => '7558585608151551254',
+    'alt' => 'Chciałbym Aneta'
   ],
   [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'thumbnail' => 'potter-vixa.webp',
+    'id' => '7560738658832387330',
+    'alt' => 'Potter vixa'
   ],
   [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'thumbnail' => 'rokiczanki.webp',
+    'id' => '7581090140722826518',
+    'alt' => 'Rokiczanki'
   ],
   [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'thumbnail' => 'sokoly-kamila.webp',
+    'id' => '7601563884943609111',
+    'alt' => 'Sokoły Kamila'
   ],
   [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'thumbnail' => 'najpiekniejsza.webp',
+    'id' => '7566269595317734688',
+    'alt' => 'Najpiękniejsza'
   ],
   [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'thumbnail' => 'bajorson.webp',
+    'id' => '7557729022583639318',
+    'alt' => 'Bajorson'
   ],
   [
-    'thumbnail' => '1.webp',
+    'thumbnail' => 'hula-ula.webp',
     'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'alt' => 'Hula Ula'
   ],
   [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
-  ],
-  [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
-  ],
-  [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
-  ],
-  [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
-  ],
-  [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
-  ],
-  [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
-  ],
-  [
-    'thumbnail' => '1.webp',
-    'id' => '7467606219369319702',
-    'alt' => 'Miniatura 1'
+    'thumbnail' => 'hej-wesele.webp',
+    'id' => '7543584831641324822',
+    'alt' => 'Hej Wesele'
   ],
 ];
