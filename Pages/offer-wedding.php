@@ -26,7 +26,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
       <div class="cell bg">
         <span class="bold">Standard</span>
         <span class="img"><?= $question_mark ?></span>
-        <span class="tooltip">Pakiet dostępny tylko w okresie listopad - luty</span>
+        <span class="tooltip">Dostępny tylko w okresie listopad - marzec</span>
       </div>
       <div class="cell bg">
         <span class="bold">Premium</span>
@@ -59,13 +59,15 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
 
     </div>
     <div class="row">
-      <div class="cell">Biesiada przy stołach na akordeonie</div>
+      <div class="cell">Biesiada na akordeonie</div>
+      <div class="cell">Wspólne śpiewanie przy stołach</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
       <div class="cell bg"><?= $tick ?></div>
     </div>
     <div class="row">
-      <div class="cell">Akordeonowe Show (Live Act + set klubowy)</div>
+      <div class="cell">Akordeonowe Show</div>
+      <div class="cell">(Live Act + Set klubowy)</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
       <div class="cell bg"><?= $tick ?></div>
@@ -77,13 +79,13 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
       <div class="cell bg"><?= $tick ?><span>Pierwszy taniec - 4&nbsp;szt.</span><span>Tort - 2&nbsp;szt.</span></div>
     </div>
     <div class="row">
-      <div class="cell">Cięzki dym</div>
+      <div class="cell">Ciężki dym</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
       <div class="cell bg"><?= $tick ?></div>
     </div>
     <div class="row last">
-      <div class="cell">Dekoracje światłem</div>
+      <div class="cell">DELETE Dekoracje światłem</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
@@ -202,7 +204,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         </div>
       </div>
       <div class="card">
-        <div class="header">Fontanny iskier</div>
+        <div class="header">Wyrzutnie iskier</div>
         <div class="info-container">
           <div class="info">
             <span>Spektakularne fontanny sceniczne, idealne do podkreślenia momentu wjazdu tortu lub pierwszego
@@ -214,8 +216,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         <div class="header">Ciężki dym</div>
         <div class="info-container">
           <div class="info">
-            <span>(„Taniec w chmurach”) - Niezwykle fotogeniczny efekt, który sprawi, że Wasz pierwszy taniec będzie
-              wyglądał jak z bajki.</span>
+            <span>Niezwykle fotogeniczny efekt, który sprawi, że Wasz pierwszy taniec będzie wyglądał jak z bajki.</span>
           </div>
         </div>
       </div>

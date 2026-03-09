@@ -27,7 +27,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     <span>Chcesz efektu WOW? Sprawdź wariant <strong>Premium</strong>.</span>
   </div>
   <div class="heading second">
-    <h3>Wariant premium</h3>
+    <h2>Wariant premium</h2>
     <span>Zobacz, co zyskujesz, wybierając opcję rozszerzoną:</span>
   </div>
   <div class="packages">
@@ -65,7 +65,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
       <div class="cell bg"><span>8 godzin</span></div>
     </div>
     <div class="row last">
-      <div class="cell">Wyrzutnia iskier</div>
+      <div class="cell">Wyrzutnie iskier</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?><span>2 sztuki do tortu</span></div>
     </div>
@@ -86,7 +86,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
           <li><span>oświetlenie dekoracyjne</span></li>
         </ul>
       </li>
-      <li><?= $tick_gradient ?><span>Materiały video - idealna pamiątka do rodzinnego archiwum</span></li>
+      <li><?= $tick_gradient ?><span>DELETE Materiały video - idealna pamiątka do rodzinnego archiwum</span></li>
       <li><?= $tick_gradient ?><span>Wyrzutnie iskier - 2 fontanny, które uświetnią moment wjazdu tortu</span></li>
     </ul>
     <p class="contact">Napisz do mnie, a wspólnie ustalimy

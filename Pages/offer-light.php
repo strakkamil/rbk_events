@@ -23,8 +23,7 @@ include 'Partials/hero-offer.php';
         <div class="info-container">
           <div class="info">
             <span>Planujecie wesele w stylu glamour, rustykalnym, a może w butelkowej zieleni? Dopasujemy barwę
-              oświetlenia sali do Waszych dekoracji, kwiatów i papeterii. Dzięki temu cała przestrzeń stworzy spójną,
-              przemyślaną całość.</span>
+              oświetlenia sali do Waszych dekoracji, kwiatów i papeterii, tworząc w ten sposób spójną całość.</span>
           </div>
         </div>
       </div>
@@ -32,7 +31,7 @@ include 'Partials/hero-offer.php';
         <div class="header">Efekt na zdjęciach i filmie</div>
         <div class="info-container">
           <div class="info">
-            <span>Fotografowie kochają to światło. Oświetlenie architektoniczne likwiduje "ciemne tła" na zdjęciach,
+            <span>Fotografowie kochają to światło. Oświetlenie architektoniczne likwiduje ciemne tła na zdjęciach,
               nadaje wnętrzu głębię i sprawia, że reportaż z wesela wygląda znacznie bardziej ekskluzywnie.</span>
           </div>
         </div>

@@ -12,8 +12,7 @@ include 'Partials/hero.php';
     <div class="text-container">
       <p class="text">
         Jestem muzykiem z wykształcenia. Ukończyłem szkołę muzyczną I i II stopnia w klasie akordeonu, co dało mi
-        solidne
-        fundamenty i pozwoliło tworzyć oprawę imprez, która jest czymś więcej niż tylko odtwarzaniem piosenek.
+        solidne fundamenty i pozwoliło tworzyć oprawę imprez, która jest czymś więcej niż tylko odtwarzaniem piosenek.
       </p>
     </div>
     <div class="image-container">
@@ -34,12 +33,9 @@ include 'Partials/hero.php';
     <div class="text-container">
       <p class="text">
         Moja droga na scenę była pełna wyzwań i niesamowitych doświadczeń. Udział w półfinale programu Disco Star w
-        Polo
-        TV czy koncerty na dużych scenach obok największych gwiazd polskiej muzyki tanecznej, takich jak Akcent, Boys,
-        Mig
-        czy Baciary, nauczyły mnie, jak ważna jest energia płynąca ze sceny. Dziś całe to doświadczenie przenoszę na
-        Twoją
-        imprezę.
+        Polo TV czy koncerty na dużych scenach obok największych gwiazd polskiej muzyki tanecznej, takich jak Akcent, Boys,
+        Mig czy Baciary, nauczyły mnie, jak ważna jest energia płynąca ze sceny. Dziś całe to doświadczenie przenoszę na
+        Twoją imprezę.
       </p>
     </div>
     <div class="image-container">
@@ -58,17 +54,14 @@ include 'Partials/hero.php';
     <h2 class="heading">Doświadczenie, które procentuje</h2>
     <div class="text-container">
       <p class="text">
-        Dziś, jako <strong>RBK Events</strong>, łączę to wszystko w nowatorskiej formule <strong>DJ & Live</strong>.
-        Jako
-        DJ prezentuję
-        największe hity,
-        budując energię i idealnie dopasowując muzykę do nastroju gości. Tę starannie przygotowaną selekcję wzbogacam o
-        występy na żywo, które nadają całości unikalnego, koncertowego charakteru.
+        Dziś, jako RBK Events, łączę to wszystko w nowatorskiej formule <strong>DJ & Live</strong>.
+        Jako DJ prezentuję największe hity, budując energię i idealnie dopasowując muzykę do nastroju gości. 
+        Tę starannie przygotowaną selekcję wzbogacam o występy na żywo, które nadają całości unikalnego, 
+        koncertowego charakteru.
       </p>
       <p class="text margin">
         Wisienką na torcie jest tradycyjna biesiada przy stołach. Kiedy chwytam za akordeon i ruszam między stoły,
-        energia
-        wspólnego śpiewu tworzy niezwykłą atmosferę, której nie da się podrobić.
+        energia wspólnego śpiewu w mgnieniu oka integruje wszystkich gości.
       </p>
     </div>
     <div class="image-container">

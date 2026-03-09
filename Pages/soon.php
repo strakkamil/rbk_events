@@ -87,7 +87,7 @@
       <a href="mailto:<?= EMAIL ?>"><?= EMAIL ?></a>
       <a href="tel:<?= PHONE ?>"><?= SHOW_PHONE ?></a>
     </div>
-    <a href="/">Powrót</a>
+    <a href="/">Wróć</a>
   </main>
   <script type="application/ld+json">
     {

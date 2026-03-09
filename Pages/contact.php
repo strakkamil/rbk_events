@@ -4,13 +4,12 @@ include 'Partials/hero-contact.php';
 <section class="form wrapper">
   <div class="sended">
     <span>
-      Dziękuje za przesłanie wiadomości, skontaktuje się w możliwe
+      Dziękuję za przesłanie wiadomości. Odezwę się w możliwe
       najszybszym czasie.</span>
   </div>
   <h2 class="heading">Napisz do Nas</h2>
   <p>
-    Masz pytania, chcesz zarezerwować termin lub dowiedzieć się więcej o
-    naszej ofercie? Wypełnij formularz – odpowiemy tak szybko, jak to
+    Masz pytania, chcesz zarezerwować termin lub dowiedzieć się więcej? Wypełnij formularz – odpowiem tak szybko, jak to
     możliwe.
   </p>
   <form action="#" type="POST">
@@ -43,9 +42,9 @@ include 'Partials/hero-contact.php';
         przetworzenia zapytania. Zostałem/am poinformowany/a, że
         przysługuje mi prawo dostępu do swoich danych, możliwości ich
         poprawiania, żądania zaprzestania ich przetwarzania.
-        Administratorem danych osobowych jest: RBK Michał Robak
+        Administratorem danych osobowych jest: RBK Events - Michał Robak.
       </label>
-      <span class="validation">Musisz wyraźić zgodę na przesłanie formularza</span>
+      <span class="validation">Musisz wyrazić zgodę na przesłanie formularza.</span>
     </div>
     <button class="cta second" type="submit"><span>Wyślij</span></button>
   </form>
