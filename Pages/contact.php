@@ -7,30 +7,29 @@ include 'Partials/hero-contact.php';
       Dziękuję za przesłanie wiadomości. Odezwę się w możliwe
       najszybszym czasie.</span>
   </div>
-  <h2 class="heading">Napisz do Nas</h2>
+  <h2 class="heading">Napisz do mnie</h2>
   <p>
-    Masz pytania, chcesz zarezerwować termin lub dowiedzieć się więcej? Wypełnij formularz – odpowiem tak szybko, jak to
-    możliwe.
+    Masz pytanie, chcesz zarezerwować termin lub dowiedzieć się więcej? <br> Wypełnij poniższy formularz – odpowiem tak szybko, jak to możliwe.
   </p>
   <form action="#" type="POST">
     <div class="field-element subject">
       <input name="subject" type="text" required />
       <label for="subject">Temat*</label>
-      <span class="validation">Temat musi mieć minimum 5 znaków</span>
+      <span class="validation">Temat wiadomości musi zawierać minimum 5 znaków.</span>
     </div>
     <div class="field-element name">
       <input name="name" type="text" required />
       <label for="name">Imię i nazwisko*</label>
-      <span class="validation">Imię i nazwisko musi mieć minimum 5 znaków</span>
+      <span class="validation">Imię i nazwisko musi zawierać minimum 5 znaków.</span>
     </div>
     <div class="field-element email">
       <input name="email" type="type" required />
-      <label for="email">Email*</label>
-      <span class="validation">Email nie jest poprawny</span>
+      <label for="email">E-mail*</label>
+      <span class="validation">Adres e-mail jest niepoprawny.</span>
     </div>
     <div class="field-element textarea">
       <textarea name="message" type="text" required rows="5"></textarea>
-      <label for="message">Temat wiadomości*</label>
+      <label for="message">Treść wiadomości*</label>
       <span class="validation">Treść wiadomości musi zawierać minimum 20 znaków</span>
     </div>
     <div class="agree">
@@ -42,7 +41,7 @@ include 'Partials/hero-contact.php';
         przetworzenia zapytania. Zostałem/am poinformowany/a, że
         przysługuje mi prawo dostępu do swoich danych, możliwości ich
         poprawiania, żądania zaprzestania ich przetwarzania.
-        Administratorem danych osobowych jest: RBK Events - Michał Robak.
+        Administratorem danych osobowych jest RBK Events - Michał Robak.
       </label>
       <span class="validation">Musisz wyrazić zgodę na przesłanie formularza.</span>
     </div>
