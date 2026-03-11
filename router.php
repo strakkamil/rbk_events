@@ -60,7 +60,7 @@ class Routes
   // Meta dla poszczególnych tras (title, description)
   public static array $Meta = array(
     "" => array(
-      "title" => "DJ i Wodzirej z Muzyką na żywo | RBK Events",
+      "title" => "RBK Events - DJ i Wodzirej z Muzyką na żywo",
       "description" => "Oprawa muzyczna DJ & Live. Łączę nowoczesny styl z wokalem i akordeonem na żywo. Oferuję ciężki dym, iskry i dekoracje światłem. Gramy w całej Polsce. Sprawdź!",
       "keywords" => "dj na wesele, dj z muzyką na żywo, wodzirej z akordeonem, dj z wokalem, nowoczesny dj, michał robak, rbk events, dj cała polska"
     ),
@@ -95,7 +95,7 @@ class Routes
       "keywords" => "galeria zdjęć wesele, zdjęcia dj z wokalem, pełny parkiet, impreza z wodzirejem, zdjęcia z wesela, portfolio"
     ),
     MEDIA_VIDEO => array(
-      "title" => "Wideo z wesel i eventów | RBK Events",
+      "title" => "Chwile z parkietu - nagrania wideo | RBK Events",
       "description" => "Poczuj energię na parkiecie! Obejrzyj filmy i przekonaj się, jak wygląda oprawa DJ & Live w praktyce!",
       "keywords" => "wideo z wesela, dj filmy wesele, śpiewający dj wideo, nagrania z imprez muzyka na żywo, dj wodzirej wideo"
     ),
