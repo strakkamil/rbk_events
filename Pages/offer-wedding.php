@@ -59,66 +59,54 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
 
     </div>
     <div class="row">
-      <div class="cell">Biesiada na akordeonie</div>
-      <div class="cell">Wspólne śpiewanie przy stołach</div>
+      <div class="cell">Biesiada na akordeonie <br>TODO ZMNIEJSZYĆ CZCIONKĘ (Wspólne śpiewanie przy stołach)</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
       <div class="cell bg"><?= $tick ?></div>
     </div>
     <div class="row">
-      <div class="cell">Akordeonowe Show</div>
-      <div class="cell">(Live Act + Set klubowy)</div>
+      <div class="cell">Akordeonowe Show <br>TODO ZMNIEJSZYĆ CZCIONKĘ (Live Act + Set klubowy)</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
       <div class="cell bg"><?= $tick ?></div>
     </div>
     <div class="row">
-      <div class="cell">Wyrzutnia iskier</div>
+      <div class="cell">Wyrzutnie iskier</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?><span>Pierwszy taniec - 2&nbsp;szt.</span></div>
       <div class="cell bg"><?= $tick ?><span>Pierwszy taniec - 4&nbsp;szt.</span><span>Tort - 2&nbsp;szt.</span></div>
     </div>
-    <div class="row">
+    <div class="row last">
       <div class="cell">Ciężki dym</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
-      <div class="cell bg"><?= $tick ?></div>
-    </div>
-    <div class="row last">
-      <div class="cell">DELETE Dekoracje światłem</div>
-      <div class="cell bg"><?= $empty ?></div>
-      <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
     </div>
   </div>
   <div class="important">
     <p class="heading">Ważne!</p>
     <p class="secondary">Oferta jest skrojona pod imprezy odbywające się w zamkniętych przestrzeniach, takich jak sale
-      weselne,
-      bankietowe czy hotelowe. Nie obsługujemy wydarzeń plenerowych.</p>
+      weselne, bankietowe czy hotelowe. Nie obsługujemy wydarzeń plenerowych.</p>
   </div>
   <div class="cards-container">
     <p class="heading">Poznaj różnice między pakietami</p>
-    <span class="heading">Zobacz, co dokładnie kryje się pod pojęciami, konfiguracjami oświetleniowymi oraz wariantami
-      artystycznymi,
-      które wchodzą w skład poszczególnych pakietów:</span>
+    <span class="heading">Zobacz, co dokładnie kryje się pod pojęciami, konfiguracjami oświetleniowymi oraz wariantami artystycznymi, które wchodzą w skład poszczególnych pakietów:</span>
     <div class="cards">
       <div class="card">
         <div class="header">Warianty oprawy artystycznej</div>
         <div class="info-container">
           <div class="info margin">
             <?= $tick ?>
-            <p>Opcja DJ (pakiet Standard)</p>
-            <span>W tym wariancie bawimy się przy największych przebojach odtwarzanych z konsolety
-              DJ-skiej.</span>
+            <p>DJ (pakiet Standard)</p>
+            <span>W tym wariancie bawimy się przy muzyce odtwarzanej z konsolety DJ-skiej.</span>
           </div>
           <div class="info">
             <?= $tick ?>
-            <p>Opcja DJ & Live (pakiet Premium oraz VIP)</p>
-            <span>Opcja DJ & Live (pakiet Premium oraz VIP) Podstawą zabawy jest muzyka odtwarzana z konsolety, ale
-              całość
-              wzbogacam o występy na żywo, śpiewając i grając na klawiszach lub akordeonie. Stanowi to atrakcyjne
-              urozmaicenie repertuaru.</span>
+            <p>DJ & Live (pakiet Premium i VIP)</p>
+            <span>Podstawą zabawy jest muzyka odtwarzana z konsolety, ale całość wzbogacam o wykonania na żywo. 
+              Śpiewam oraz gram na klawiszach lub akordeonie największe polskie przeboje, wywołując w ten sposób 
+              bardzo pozytywne odczucia ze strony gości. Taka formuła stanowi atrakcyjne urozmaicenie repertuaru 
+              i znakomicie sprawdza się na przyjęciach weselnych.</span>
           </div>
         </div>
       </div>
@@ -127,19 +115,19 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         <div class="info-container">
           <div class="info margin">
             <?= $tick ?>
-            <p>Wersja Basic (pakiet&nbsp;Standard)</p>
+            <p>Basic (pakiet&nbsp;Standard)</p>
             <span>Optymalna, estetyczna baza na mniejsze przyjęcia. Konfiguracja obejmuje 2 głowy ruchome oraz światło
               dekoracyjne.</span>
           </div>
           <div class="info margin">
             <?= $tick ?>
-            <p>Wersja Advanced (pakiet&nbsp;Premium)</p>
+            <p>Advanced (pakiet&nbsp;Premium)</p>
             <span>Rozszerzony zestaw z 4 głowami ruchomymi, wzbogacony o 2 listwy Sunstrip, 2 stroboskopy oraz
               wytwornicę delikatnej mgły.</span>
           </div>
           <div class="info">
             <?= $tick ?>
-            <p>Wersja Pro (pakiet&nbsp;VIP)</p>
+            <p>Pro (pakiet&nbsp;VIP)</p>
             <span>Najbardziej rozbudowany system oświetleniowy. 6 głów ruchomych i 4 listwy Sunstrip. Całość dopełnia
               wytwornica mgły, 2 stroboskopy oraz klimatyczne oświetlenie dekoracyjne.</span>
           </div>
@@ -149,12 +137,12 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         <div class="header second-line">Akordeonowe Show<span>(dostępne wyłącznie w pakiecie VIP)</span></div>
         <div class="info-container">
           <div class="info margin single">
-            <span>To coś więcej niż tradycyjna biesiada przy stołach. To atrakcja podzielona na dwa etapy:</span>
+            <span>To coś więcej niż klasyczna biesiada przy stołach. To atrakcja podzielona na dwa etapy:</span>
           </div>
           <div class="info margin">
             <?= $tick ?>
             <p>Klimatyczny wstęp</p>
-            <span>Zadbam o wyjątkową atmosferę już podczas składania życzeń. Zagram na żywo nastrojowe, instrumentalne
+            <span>Zadbam o wyjątkową atmosferę już w trakcie składania życzeń. Zagram na akordeonie nastrojowe
               przeboje do profesjonalnych podkładów muzycznych, tworząc eleganckie tło dla Waszych pierwszych chwil z
               gośćmi.</span>
           </div>
@@ -162,7 +150,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
             <?= $tick ?>
             <p>Sceniczny Live Act</p>
             <span>Po północy wkraczam z energetycznym show. Największe dyskotekowe hity w połączeniu z żywym
-              instrumentem zyskują nowe, unikalne brzmienie i niepowtarzalny charakter.</span>
+              instrumentem zyskują nowy, niepowtarzalny charakter.</span>
           </div>
         </div>
       </div>
@@ -184,7 +172,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         <div class="header">Wasz dzień, <br>Wasza muzyka</div>
         <div class="info-container">
           <div class="info">
-            <span>Jestem elastyczny i otwarty na Wasze sugestie. Możecie dostarczyć mi swoją playlistę z ulubionymi
+            <span>Jestem otwarty na Wasze sugestie. Możecie dostarczyć mi własną playlistę z ulubionymi
               utworami, a ja z przyjemnością wkomponuję je w scenariusz imprezy.</span>
           </div>
         </div>
@@ -221,8 +209,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         </div>
       </div>
       <div class="card">
-        <div class="header">Nagłośnienie
-          ślubu cywilnego</div>
+        <div class="header">Nagłośnienie ślubu cywilnego</div>
         <div class="info-container">
           <div class="info">
             <span>Nagłośnienie ceremonii w plenerze lub na sali, aby każdy z gości doskonale słyszał słowa
@@ -243,19 +230,13 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
   </div>
   <div class="something-else">
     <p>Nie znalazłeś idealnego pakietu?</p>
-    <span>Skontaktuj się ze mną! Stworzymy
-      indywidualną ofertę, dopasowaną
-      dokładnie do Twoich potrzeb.</span>
+    <span>Skontaktuj się ze mną! Stworzymy indywidualną ofertę, dopasowaną dokładnie do Twoich potrzeb.</span>
     <ul class="list">
-      <li><?= $tick_gradient ?><span>Dopasujemy zakres usług do Twoich
-          oczekiwań</span></li>
-      <li><?= $tick_gradient ?><span>Uwzględnimy budżet i
-          harmonogram</span></li>
-      <li><?= $tick_gradient ?><span>Stworzymy pakiet specjalnie
-          dla Ciebie</span></li>
+      <li><?= $tick_gradient ?><span>Dopasujemy zakres usług do Twoich oczekiwań</span></li>
+      <li><?= $tick_gradient ?><span>Uwzględnimy budżet i harmonogram</span></li>
+      <li><?= $tick_gradient ?><span>Stworzymy pakiet specjalnie dla Ciebie</span></li>
     </ul>
-    <p class="contact">Napisz do mnie, a wspólnie ustalimy
-      szczegóły.</p>
+    <p class="contact">Napisz do mnie, a wspólnie ustalimy szczegóły.</p>
     <a class="cta second" href="<?= CONTACT ?>"><span>Kontakt</span></a>
   </div>
 </section>

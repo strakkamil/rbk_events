@@ -21,9 +21,9 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
       ślubu - Twoja impreza zasługuje na wyjątkową oprawę.</span>
     <span>Złote przeboje minionych dekad, jak i sprawdzone hity taneczne. Do tego internetowe virale i radiowe nowości.
       Mówiąc krótko - najlepsza selekcja muzyczna!</span>
-    <span>To jednak nie wszystko.
+    <span><strong>To nie wszystko.</strong><br>
       Już w podstawowym wariancie otrzymujesz to, co wyróżnia mnie na rynku - porywającą biesiadę z akordeonem.
-      Powitalny toast oraz wspólna integracja przy stołach to przecież punkt obowiązkowy!</span>
+      Powitalny toast i wspólna integracja przy stołach to przecież punkty obowiązkowe!</span>
     <span>Chcesz efektu WOW? Sprawdź wariant <strong>Premium</strong>.</span>
   </div>
   <div class="heading second">
@@ -71,26 +71,17 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </div>
   </div>
   <div class="heading second">
-    <span>Wybierając opcję Premium, zyskujesz nie tylko dłuższy czas trwania imprezy, ale także bogatszą oprawę
-      artystyczną - w trakcie bloków tanecznych wykonuję na żywo największe polskie przeboje. A ponadto:</span>
+    <span>Wybierając opcję Premium, zyskujesz nie tylko dłuższy czas trwania imprezy, ale także bardziej rozbudowany zestaw oświetlenia scenicznego. <br><br> Dodatkowo otrzymasz: TODO tu pomiędzy "Dodatkowo otrzymasz: " a tą listą poniżej jest za duża japa - trza by trochę zmniejszyć xd </span>
   </div>
   <div class="something-else">
     <ul class="list">
       <li class="child-list">
-        <div class="first-line"><?= $tick_gradient ?><span>Bogatsze oświetlenie - rozszerzony zestaw zawierający:
+        <div class="first-line"><?= $tick_gradient ?><span>Bogatszą oprawę artystyczną - w trakcie bloków tanecznych wykonuję na żywo największe polskie przeboje (proporcje repertuaru LIVE względem muzyki odtwarzanej z konsolety są uzależnione od rodzaju imprezy).
           </span></div>
-        <ul class="list">
-          <li><span>4 głowy ruchome</span></li>
-          <li><span>2 listwy Sunstrip</span></li>
-          <li><span>2 stroboskopy</span></li>
-          <li><span>oświetlenie dekoracyjne</span></li>
-        </ul>
       </li>
-      <li><?= $tick_gradient ?><span>DELETE Materiały video - idealna pamiątka do rodzinnego archiwum</span></li>
       <li><?= $tick_gradient ?><span>Wyrzutnie iskier - 2 fontanny, które uświetnią moment wjazdu tortu</span></li>
     </ul>
-    <p class="contact">Napisz do mnie, a wspólnie ustalimy
-      szczegóły.</p>
+    <p class="contact">Napisz do mnie, a wspólnie ustalimy szczegóły.</p>
     <a class="cta second" href="<?= CONTACT ?>"><span>Kontakt</span></a>
   </div>
 </section>
