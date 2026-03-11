@@ -18,7 +18,7 @@ include 'Partials/hero.php';
     <a class="cta second" href="<?= ABOUT ?>"><span>O mnie</span></a>
   </section>
   <section class="events">
-    <h2 class="heading">Oprawa muzyczna na najwyższym poziomie</h2>
+    <h2 class="heading">Obsługa na najwyższym poziomie</h2>
     <ul>
       <li>
         <span class="list-heading not-invert"><span>Wesela</span><img loading="lazy" width="35" height="35"
