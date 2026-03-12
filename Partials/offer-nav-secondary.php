@@ -9,6 +9,6 @@
       <img loading="lazy" class="first" src="/assets/images/event-1.webp" alt="Ikona szampana" width="22" height="22">
       <img loading="lazy" class="second" src="/assets/images/event-3.webp" alt="Ikona maski" width="47" height="49">
       <img loading="lazy" class="third" src="/assets/images/event-2.webp" alt="Ikona fajerwerek" width="22" height="22">
-    </div><span>Bale, studniówki <br> i eventy firmowe</span>
+    </div><span>Bale, studniówki, <br> i eventy firmowe</span>
   </a>
 </nav>

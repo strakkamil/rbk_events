@@ -10,7 +10,7 @@ include 'Partials/hero.php';
   <section class="about">
     <h2 class="heading">Odkryj oprawę muzyczną w stylu DJ & Live!</h2>
     <p>
-      Dzięki takiej formule nie musicie wybierać między DJ-em a zespołem -
+      Dzięki takiej formule nie musicie wybierać między DJ-em a zespołem –
       dostajecie to, co najlepsze z obu światów. Nowoczesne sety DJ-skie,
       muzyka na żywo i tradycyjna biesiada z akordeonem. To właśnie ta
       synergia tworzy niepowtarzalny klimat, który wyróżni Wasze wesele.

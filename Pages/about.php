@@ -11,7 +11,7 @@ include 'Partials/hero.php';
     <h2 class="heading">Cześć, jestem Michał!</h2>
     <div class="text-container">
       <p class="text">
-        Jestem muzykiem z wykształcenia. Ukończyłem szkołę muzyczną I i II stopnia w klasie akordeonu, co dało mi
+        Jestem muzykiem z wykształcenia. <br>Ukończyłem szkołę muzyczną I i II stopnia w klasie akordeonu, co dało mi
         solidne fundamenty i pozwoliło tworzyć oprawę imprez, która jest czymś więcej niż tylko odtwarzaniem piosenek.
       </p>
     </div>
@@ -84,7 +84,7 @@ include 'Partials/hero.php';
     <h2 class="heading">Gwarancja perfekcji w każdym detalu</h2>
     <div class="text-container">
       <p class="text">
-        Na każdej imprezie towarzyszy mi Mateusz - człowiek odpowiedzialny za oświetlenie i technikę. Ten podział ról to
+        Na każdej imprezie towarzyszy mi Mateusz – człowiek odpowiedzialny za oświetlenie i technikę. Ten podział ról to
         gwarancja najwyższej jakości. Podczas gdy ja skupiam się na muzyce i prowadzeniu zabawy, on dba o profesjonalną
         oprawę wizualną wydarzenia.
       </p>
