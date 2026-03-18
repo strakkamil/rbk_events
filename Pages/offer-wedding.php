@@ -104,7 +104,9 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
             <?= $tick ?>
             <p>DJ & Live (pakiet Premium i VIP)</p>
             <span>Podstawą zabawy jest muzyka odtwarzana z konsolety, ale całość wzbogacam o wykonania na żywo. 
-              Śpiewam oraz gram na klawiszach lub akordeonie największe polskie przeboje, dając gościom potężną dawkę tanecznej energii. Taka formuła to świetne urozmaicenie repertuaru, które znakomicie sprawdza się na przyjęciach weselnych.</span>
+              Śpiewam oraz gram na klawiszach lub akordeonie największe polskie przeboje, wywołując w ten sposób 
+              bardzo pozytywne odczucia ze strony gości. Taka formuła stanowi atrakcyjne urozmaicenie repertuaru 
+              i znakomicie sprawdza się na przyjęciach weselnych.</span>
           </div>
         </div>
       </div>
@@ -120,14 +122,14 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
           <div class="info margin">
             <?= $tick ?>
             <p>Advanced (pakiet&nbsp;Premium)</p>
-            <span>Rozszerzony zestaw z 4 głowami ruchomymi, wzbogacony o 2 listwy Sunstrip, stroboskopy oraz
+            <span>Rozszerzony zestaw z 4 głowami ruchomymi, wzbogacony o 2 listwy Sunstrip, 2 stroboskopy oraz
               wytwornicę delikatnej mgły.</span>
           </div>
           <div class="info">
             <?= $tick ?>
             <p>Pro (pakiet&nbsp;VIP)</p>
-            <span>Najbardziej rozbudowany system oświetleniowy. 6 głów ruchomych i 4 listwy Sunstrip. Całość dopełniają
-              wytwornica mgły, stroboskopy oraz klimatyczne oświetlenie dekoracyjne.</span>
+            <span>Najbardziej rozbudowany system oświetleniowy. 6 głów ruchomych i 4 listwy Sunstrip. Całość dopełnia
+              wytwornica mgły, 2 stroboskopy oraz klimatyczne oświetlenie dekoracyjne.</span>
           </div>
         </div>
       </div>

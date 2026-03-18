@@ -20,10 +20,10 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     <span>Niezależnie od tego, czy kończysz 18 lat, świętujesz 40-tkę, czy organizujesz przyjęcie z okazji 25. rocznicy
       ślubu – Twoja impreza zasługuje na wyjątkową oprawę.</span>
     <span>Złote przeboje minionych dekad, jak i sprawdzone hity taneczne. Do tego internetowe virale i radiowe nowości.
-      Mówiąc krótko – najlepsza selekcja muzyczna!</span>
+      Mówiąc krótko - najlepsza selekcja muzyczna!</span>
     <span><strong>To nie wszystko.</strong><br>
-      Już w podstawowym wariancie otrzymujesz <!--to, co wyróżnia mnie na rynku - -->porywającą biesiadę z akordeonem.
-      Powitalny toast i wspólny śpiew przy stołach to przecież punkty obowiązkowe!</span>
+      Już w podstawowym wariancie otrzymujesz to, co wyróżnia mnie na rynku - porywającą biesiadę z akordeonem.
+      Powitalny toast i wspólna integracja przy stołach to przecież punkty obowiązkowe!</span>
     <span>Chcesz efektu WOW? Sprawdź wariant <strong>Premium</strong>.</span>
   </div>
   <div class="heading second">
@@ -71,7 +71,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </div>
   </div>
   <div class="heading second">
-    <span>Wybierając opcję Premium, zyskujesz nie tylko dłuższy czas trwania imprezy, ale także bardziej rozbudowany zestaw oświetlenia scenicznego. Ponadto otrzymasz: <!--TODO tu pomiędzy "Dodatkowo otrzymasz: " a tą listą poniżej jest za duża japa - trza by trochę zmniejszyć xd--></span>
+    <span>Wybierając opcję Premium, zyskujesz nie tylko dłuższy czas trwania imprezy, ale także bardziej rozbudowany zestaw oświetlenia scenicznego. <br><br> Dodatkowo otrzymasz: TODO tu pomiędzy "Dodatkowo otrzymasz: " a tą listą poniżej jest za duża japa - trza by trochę zmniejszyć xd </span>
   </div>
   <div class="something-else">
     <ul class="list">
