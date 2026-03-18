@@ -19,7 +19,7 @@ include 'Partials/hero-offer.php';
   <div class="cards-container second third">
     <div class="cards">
       <div class="card">
-        <div class="header">Eventy firmowe</div>
+        <div class="header">Event firmowy</div>
         <div class="info-container">
           <div class="info">
             <span>Subtelne tło muzyczne buduje atmosferę sprzyjającą rozmowom kuluarowym. Część nieoficjalna to płynne
@@ -28,21 +28,18 @@ include 'Partials/hero-offer.php';
         </div>
       </div>
       <div class="card">
-        <div class="header">Studniówki</div>
+        <div class="header">Studniówka</div>
         <div class="info-container">
           <div class="info">
-            <span>Odpowiednia oprawa techniczna części oficjalnej, w tym nagłośnienie przemówień oraz uroczystego
-              Poloneza. Gdy parkiet przejmują maturzyści, gram to, co jest na czasie, przeplatając nowości z tanecznymi
-              pewniakami.</span>
+            <span>Prestiżowa oprawa części oficjalnej i perfekcyjne brzmienie Poloneza. W części rozrywkowej potężne uderzenie muzyczne, które nie pozwoli maturzystom zejść z parkietu do białego rana.</span>
           </div>
         </div>
       </div>
       <div class="card">
-        <div class="header">Bale sylwestrowe i karnawałowe</div>
+        <div class="header">Sylwester i karnawał</div>
         <div class="info-container">
           <div class="info">
-            <span>Muzyczna podróż przez dekady. Od ery disco i przebojów lat 80., aż po współczesne hity radiowe, które
-              porywają do tańca.</span>
+            <span>Idealnie dobrany repertuar w połączeniu z widowiskowym oświetleniem tworzą ekskluzywny charakter wydarzenia, który od pierwszej minuty nakręca gości do szampańskiej zabawy.<!--Taneczna podróż przez dekady – od hitów disco i przebojów lat 80., aż po współczesne radiowe brzmienia. Energia, różnorodność i muzyka, która przez całą noc trzyma parkiet w ruchu.--></span>
           </div>
         </div>
       </div>
@@ -58,7 +55,7 @@ include 'Partials/hero-offer.php';
         <div class="header">Nagłośnienie</div>
         <div class="info-container">
           <div class="info">
-            <span>Dopasowane tak, aby zapewnić możliwie najlepsze pokrycie dźwiękiem sali.</span>
+            <span>Dopasowane tak, aby zapewnić możliwie najlepsze pokrycie sali czystym i selektywnym brzmieniem.</span>
           </div>
         </div>
       </div>
@@ -66,8 +63,7 @@ include 'Partials/hero-offer.php';
         <div class="header">Oświetlenie sceniczne</div>
         <div class="info-container">
           <div class="info">
-            <span>Od statycznego oświetlenia dekoracyjnego, po dynamiczne głowice ruchome, tworzące wizualne
-              show.</span>
+            <span>Od statycznego światła dekoracyjnego po dynamiczne głowice ruchome, tworzące wizualne show.</span>
           </div>
         </div>
       </div>
@@ -80,7 +76,7 @@ include 'Partials/hero-offer.php';
         <div class="header">Branding świetlny</div>
         <div class="info-container">
           <div class="info">
-            <span>Dekoracja światłem sali (ścian, filarów) w kolorystyce spójnej z identyfikacją wizualną firmy.</span>
+            <span>Dekoracja światłem sali (wnęk, ścian oraz filarów) w kolorystyce spójnej z identyfikacją wizualną firmy.</span>
           </div>
         </div>
       </div>
@@ -97,7 +93,7 @@ include 'Partials/hero-offer.php';
   </div>
   <div class="something-else">
     <p>Planujesz wydarzenie?</p>
-    <p class="contact">Napisz do mnie - przygotuję propozycję dopasowaną do Twoich potrzeb.</p>
+    <p class="contact">Napisz do mnie – przygotuję propozycję dopasowaną do Twoich potrzeb.</p>
     <a class="cta second" href="<?= CONTACT ?>"><span>Zapytaj o termin i wycenę</span></a>
   </div>
 </section>

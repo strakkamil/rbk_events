@@ -18,7 +18,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
   <div class="heading">
     <h2>Celebruj swój dzień tak, jak lubisz!</h2>
     <span>Niezależnie od tego, czy kończysz 18 lat, świętujesz 40-tkę, czy organizujesz przyjęcie z okazji 25. rocznicy
-      ślubu - Twoja impreza zasługuje na wyjątkową oprawę.</span>
+      ślubu – Twoja impreza zasługuje na wyjątkową oprawę.</span>
     <span>Złote przeboje minionych dekad, jak i sprawdzone hity taneczne. Do tego internetowe virale i radiowe nowości.
       Mówiąc krótko - najlepsza selekcja muzyczna!</span>
     <span><strong>To nie wszystko.</strong><br>
@@ -76,10 +76,10 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
   <div class="something-else">
     <ul class="list">
       <li class="child-list">
-        <div class="first-line"><?= $tick_gradient ?><span>Bogatszą oprawę artystyczną - w trakcie bloków tanecznych wykonuję na żywo największe polskie przeboje (proporcje repertuaru LIVE względem muzyki odtwarzanej z konsolety są uzależnione od rodzaju imprezy).
+        <div class="first-line"><?= $tick_gradient ?><span>Bogatszą oprawę artystyczną – w trakcie bloków tanecznych wykonuję na żywo największe polskie przeboje <!-- TODO to co jest w nawiasie mozesz zrobić w jakimś takim kontenerku zamiast tego nawiasu? zeby troszeczkę się wyrózniało. albo nie wiem kursywa czcionka moze albo weight fonta cieńszy-->(proporcje repertuaru LIVE względem muzyki odtwarzanej z konsolety są uzależnione od rodzaju imprezy).
           </span></div>
       </li>
-      <li><?= $tick_gradient ?><span>Wyrzutnie iskier - 2 fontanny, które uświetnią moment wjazdu tortu</span></li>
+      <li><?= $tick_gradient ?><span>Wyrzutnie iskier – dwie widowiskowe fontanny, które uświetnią moment wjazdu tortu.</span></li>
     </ul>
     <p class="contact">Napisz do mnie, a wspólnie ustalimy szczegóły.</p>
     <a class="cta second" href="<?= CONTACT ?>"><span>Kontakt</span></a>
