@@ -29,9 +29,16 @@ h2 {
 }
 
 span,
-a {
+a,
+li,
+strong {
   font-size: 16px;
   line-height: 30px;
+}
+
+ol,
+ul {
+  margin-left: 20px;
 }
 
 @media (min-width: 1280px) {
