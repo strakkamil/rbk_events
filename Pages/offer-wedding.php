@@ -59,13 +59,13 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
 
     </div>
     <div class="row">
-      <div class="cell">Biesiada na akordeonie <br><!--TODO ZMNIEJSZYĆ CZCIONKĘ-->(Wspólne śpiewanie przy stołach)</div>
+      <div class="cell">Biesiada na akordeonie <br><!--TODO ZMNIEJSZYĆ CZCIONKĘ - zmniejszyłem se sam jakoś i nawet spoko mi się podoba, nawet dałem se ikonkę xd--><span class="sub">➲ Wspólne śpiewanie przy stołach</span></div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
       <div class="cell bg"><?= $tick ?></div>
     </div>
     <div class="row last">
-      <div class="cell">Akordeonowe Show <br><!--TODO ZMNIEJSZYĆ CZCIONKĘ-->(Live Act + Set klubowy)</div>
+      <div class="cell">Akordeonowe Show <br><!--TODO ZMNIEJSZYĆ CZCIONKĘ--><span class="sub">➲ Live Act + Set klubowy</span></div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $empty ?></div><!-- tu był tick (ten komentarz zignoruj, on jest dla mnie xD)-->
       <div class="cell bg"><?= $tick ?></div>
