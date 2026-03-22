@@ -288,6 +288,11 @@
   line-height: 18px;
 }
 
+.something-else ul li span.small {
+  font-size: 15px;
+  font-weight: 300;
+}
+
 .something-else p.contact {
   font-size: 16px;
   line-height: 18px;
@@ -499,6 +504,10 @@
     margin-bottom: 40px;
   }
 
+  .offer-birthday .heading.second span{
+    margin-bottom: 10px;
+  }
+
   .row {
     gap: 25px;
   }
@@ -526,6 +535,10 @@
 
   .row .cell span {
     font-size: 16px;
+  }
+
+  .row .cell span.small {
+    font-size: 14px;
   }
 
   .important p,
@@ -595,7 +608,7 @@
 
   .cards-container.second .card {
     width: 100%;
-    max-width: 375px;
+    max-width: 430px;
   }
 
   .cards-container.second .heading {

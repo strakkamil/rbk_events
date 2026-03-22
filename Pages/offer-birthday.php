@@ -71,15 +71,20 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </div>
   </div>
   <div class="heading second">
-    <span>Wybierając opcję Premium, zyskujesz nie tylko dłuższy czas trwania imprezy, ale także bardziej rozbudowany zestaw oświetlenia scenicznego. <br><br> Dodatkowo otrzymasz: TODO tu pomiędzy "Dodatkowo otrzymasz: " a tą listą poniżej jest za duża japa - trza by trochę zmniejszyć xd </span>
+    <span>Wybierając opcję Premium, zyskujesz nie tylko dłuższy czas trwania imprezy, ale także bardziej rozbudowany
+      zestaw oświetlenia scenicznego. <br><br> Dodatkowo otrzymasz:</span>
   </div>
   <div class="something-else">
     <ul class="list">
       <li class="child-list">
-        <div class="first-line"><?= $tick_gradient ?><span>Bogatszą oprawę artystyczną – w trakcie bloków tanecznych wykonuję na żywo największe polskie przeboje<br><!-- TODO to co jest w nawiasie mozesz zrobić w jakimś takim kontenerku zamiast tego nawiasu? zeby troszeczkę się wyrózniało. albo nie wiem kursywa czcionka moze albo weight fonta cieńszy--><span class="sub" style="font-size:0.8em;">➲ proporcje repertuaru LIVE względem muzyki odtwarzanej z konsolety są uzależnione od rodzaju imprezy</span>
+        <div class="first-line"><?= $tick_gradient ?><span>Bogatszą oprawę artystyczną – w trakcie bloków tanecznych
+            wykonuję na żywo największe polskie przeboje<br>
+            <span class="small">➲ proporcje repertuaru LIVE względem muzyki odtwarzanej z konsolety
+              są uzależnione od rodzaju imprezy</span>
           </span></div>
       </li>
-      <li><?= $tick_gradient ?><span>Wyrzutnie iskier – dwie widowiskowe fontanny, które uświetnią moment wjazdu tortu</span></li>
+      <li><?= $tick_gradient ?><span>Wyrzutnie iskier – dwie widowiskowe fontanny, które uświetnią moment wjazdu
+          tortu</span></li>
     </ul>
     <p class="contact">Napisz do mnie, a wspólnie ustalimy szczegóły.</p>
     <a class="cta second" href="<?= CONTACT ?>"><span>Kontakt</span></a>

@@ -59,13 +59,17 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
 
     </div>
     <div class="row">
-      <div class="cell">Biesiada na akordeonie <br><!--TODO ZMNIEJSZYĆ CZCIONKĘ - zmniejszyłem se sam jakoś i nawet spoko mi się podoba, nawet dałem se ikonkę xd--><span class="sub">➲ Wspólne śpiewanie przy stołach</span></div>
+      <div class="cell">Biesiada na akordeonie <br>
+        <span class="small">➲ Wspólne śpiewanie przy stołach</span>
+      </div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
       <div class="cell bg"><?= $tick ?></div>
     </div>
     <div class="row last">
-      <div class="cell">Akordeonowe Show <br><!--TODO ZMNIEJSZYĆ CZCIONKĘ--><span class="sub">➲ Live Act + Set klubowy</span></div>
+      <div class="cell">Akordeonowe Show <br>
+        <span class="small">➲ Live Act + Set klubowy</span>
+      </div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $empty ?></div><!-- tu był tick (ten komentarz zignoruj, on jest dla mnie xD)-->
       <div class="cell bg"><?= $tick ?></div>
@@ -74,7 +78,8 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
       <div class="cell">Wyrzutnie iskier</div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?><span>Pierwszy taniec - 2&nbsp;sztuki</span></div>
-      <div class="cell bg"><?= $tick ?><span>Pierwszy taniec - 4&nbsp;sztuki</span><span>Tort - 2&nbsp;sztuki</span></div>
+      <div class="cell bg"><?= $tick ?><span>Pierwszy taniec - 4&nbsp;sztuki</span><span>Tort - 2&nbsp;sztuki</span>
+      </div>
     </div>
     <div class="row last" style="display: none;">
       <div class="cell">Ciężki dym</div>
@@ -90,22 +95,21 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
   </div>
   <div class="cards-container">
     <p class="heading">Poznaj różnice między pakietami</p>
-    <span class="heading">Zobacz, co dokładnie kryje się pod pojęciami, konfiguracjami oświetleniowymi oraz wariantami artystycznymi, które wchodzą w skład poszczególnych pakietów:</span>
+    <span class="heading">Zobacz, co dokładnie kryje się pod pojęciami, konfiguracjami oświetleniowymi oraz wariantami
+      artystycznymi, które wchodzą w skład poszczególnych pakietów:</span>
     <div class="cards">
       <div class="card">
         <div class="header">Warianty oprawy artystycznej</div>
         <div class="info-container">
           <div class="info margin">
-            <?= $tick ?>
             <p>DJ (pakiet Standard)</p>
             <span>W tym wariancie bawimy się przy muzyce odtwarzanej z konsolety DJ-skiej.</span>
           </div>
           <div class="info">
-            <?= $tick ?>
             <p>DJ & Live (pakiet Premium i VIP)</p>
-            <span>Podstawą zabawy jest muzyka odtwarzana z konsolety, ale całość wzbogacam o wykonania na żywo. 
-              Śpiewam oraz gram na klawiszach lub akordeonie największe polskie przeboje, wywołując w ten sposób 
-              bardzo pozytywne odczucia ze strony gości. Taka formuła stanowi atrakcyjne urozmaicenie repertuaru 
+            <span>Podstawą zabawy jest muzyka odtwarzana z konsolety, ale całość wzbogacam o wykonania na żywo.
+              Śpiewam oraz gram na klawiszach lub akordeonie największe polskie przeboje, wywołując w ten sposób
+              bardzo pozytywne odczucia ze strony gości. Taka formuła stanowi atrakcyjne urozmaicenie repertuaru
               i znakomicie sprawdza się na przyjęciach weselnych.</span>
           </div>
         </div>
@@ -114,19 +118,16 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         <div class="header">Oświetlenie sceniczne</div>
         <div class="info-container">
           <div class="info margin">
-            <?= $tick ?>
             <p>Basic (pakiet&nbsp;Standard)</p>
             <span>Optymalna, estetyczna baza na mniejsze przyjęcia. Konfiguracja obejmuje 2 głowy ruchome oraz światło
               dekoracyjne.</span>
           </div>
           <div class="info margin">
-            <?= $tick ?>
             <p>Advanced (pakiet&nbsp;Premium)</p>
             <span>Rozszerzony zestaw z 4 głowami ruchomymi, wzbogacony o 2 listwy Sunstrip, 2 stroboskopy oraz
               wytwornicę delikatnej mgły.</span>
           </div>
           <div class="info">
-            <?= $tick ?>
             <p>Pro (pakiet&nbsp;VIP)</p>
             <span>Najbardziej rozbudowany system oświetleniowy. 6 głów ruchomych i 4 listwy Sunstrip. Całość dopełnia
               wytwornica mgły, 2 stroboskopy oraz klimatyczne oświetlenie dekoracyjne.</span>
@@ -140,15 +141,13 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
             <span>To coś więcej niż klasyczna biesiada przy stołach. To atrakcja podzielona na dwa etapy:</span>
           </div>
           <div class="info margin">
-            <!--<?= $tick ?>--><!--TODO TU (i niżej też) TRZA DAĆ COŚ INNEGO NIZ PTASZEK, MOZE JAKĄŚ KROPKĘ CZY TAM INNY SYMBOL (albo po prostu nic?) - CHODZI O TO, ZE PTASZEK SUGERUJE WYBÓR (NA PODSTAWIE 1 i 2 KAFELKA GDZIE MAMY ALBO/ALBO. A TU NIE MA ALBO/ALBO TYLKO JEST TO I TO.-->
-            <p>1. Klimatyczny wstęp</p>
+            <p>Klimatyczny wstęp</p>
             <span>Zadbam o wyjątkową atmosferę już podczas składania życzeń. Zagram na akordeonie nastrojowe
               przeboje do profesjonalnych podkładów muzycznych, tworząc eleganckie tło dla Waszych pierwszych chwil z
               gośćmi.</span>
           </div>
           <div class="info">
-            <!--<?= $tick ?>-->
-            <p>2. Sceniczny Live Act</p>
+            <p>Sceniczny Live Act</p>
             <span>Po północy wkraczam z energetycznym show. Największe dyskotekowe hity w połączeniu z żywym
               instrumentem zyskują nowy, niepowtarzalny charakter.</span>
           </div>
@@ -163,7 +162,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         <div class="header">Energia i klasa</div>
         <div class="info-container">
           <div class="info">
-            <span><!--TODO OBA TE KAFELKI TROCHĘ SZERSZE, ZEBY TREŚĆ ZAJMOWAŁA 4 WIERSZE.-->Prowadzę imprezę z dobrym smakiem i wyczuciem. Bez żenujących zabaw i krępujących sytuacji. Tylko
+            <span>Prowadzę imprezę z dobrym smakiem i wyczuciem. Bez żenujących zabaw i krępujących sytuacji. Tylko
               świetna muzyka i doskonała atmosfera.</span>
           </div>
         </div>
@@ -204,7 +203,8 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         <div class="header">Ciężki dym</div>
         <div class="info-container">
           <div class="info">
-            <span>Niezwykle fotogeniczny efekt, który sprawi, że Wasz pierwszy taniec będzie wyglądał jak z bajki.</span>
+            <span>Niezwykle fotogeniczny efekt, który sprawi, że Wasz pierwszy taniec będzie wyglądał jak z
+              bajki.</span>
           </div>
         </div>
       </div>
