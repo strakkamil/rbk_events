@@ -70,16 +70,44 @@ const checkValidation = () => {
 
 export function initContact() {
   const form = document.querySelector("form");
+  const btn = document.querySelector("form button");
   const sendedElement = document.querySelector(".form .sended");
+  const sendedElementSuccess = document.querySelector(".form .sended span.success");
+  const sendedElementError = document.querySelector(".form .sended span.error");
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     if (!checkValidation()) return;
-    sendedElement.classList.add("show");
-    sendedElement.scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-      inline: "nearest",
-    });
+    btn.setAttribute('disabled', true)
+
+    const formData = new FormData(form);
+
+    fetch("../../send.php", {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        sendedElement.classList.add("show");
+        if(data.success) {
+          sendedElementSuccess.classList.add("show");
+        } else {
+          sendedElementError.classList.add("show");
+        }
+        sendedElement.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+          inline: "nearest",
+        });
+      })
+      .catch((error) => {
+        sendedElement.classList.add("show");
+        sendedElementError.classList.add("show");
+        sendedElement.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+          inline: "nearest",
+        });
+      });
   });
 }

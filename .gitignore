@@ -19,3 +19,6 @@ dist/
 
 # Node
 node_modules/
+
+# vendor
+vendor/

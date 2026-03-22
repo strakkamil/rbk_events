@@ -1,31 +1,43 @@
 <?php
+session_start(); // start sesji
+
+// jeśli nie ma tokena – generujemy nowy
+if (empty($_SESSION['csrf_token'])) {
+  $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+$csrf_token = $_SESSION['csrf_token'];
+
 include 'Partials/hero-contact.php';
 ?>
 <section class="form wrapper">
   <div class="sended">
-    <span>
+    <span class="success">
       Dziękuję za przesłanie wiadomości. Odezwę się w możliwe
       najszybszym czasie.</span>
+    <span class="error">
+      Wystąpił błąd, proszę wysłać wiadomość ponownie lub skontakować się przez numer telefonu.</span>
   </div>
   <h2 class="heading">Napisz do mnie</h2>
   <p>
-    Masz pytanie, chcesz zarezerwować termin lub dowiedzieć się więcej? <br> Wypełnij poniższy formularz – odpowiem tak szybko, jak to możliwe.
+    Masz pytanie, chcesz zarezerwować termin lub dowiedzieć się więcej? <br> Wypełnij poniższy formularz – odpowiem tak
+    szybko, jak to możliwe.
   </p>
   <form action="#" type="POST">
+    <input type="hidden" name="csrf_token" value="<?= $csrf_token ?>">
     <div class="field-element subject">
       <input name="subject" type="text" required />
-      <label for="subject">Temat*</label>
+      <label for="subject">Temat wiadomości*</label>
       <span class="validation">Temat wiadomości musi zawierać minimum 5 znaków.</span>
-    </div>
-    <div class="field-element name">
-      <input name="name" type="text" required />
-      <label for="name">Imię i nazwisko*</label>
-      <span class="validation">Imię i nazwisko musi zawierać minimum 5 znaków.</span>
     </div>
     <div class="field-element email">
       <input name="email" type="type" required />
       <label for="email">E-mail*</label>
       <span class="validation">Adres e-mail jest niepoprawny.</span>
+    </div>
+    <div class="field-element name">
+      <input name="name" type="text" required />
+      <label for="name">Data i miejsce imprezy*</label>
+      <span class="validation">Data i miejsce musi zawierać minimum 5 znaków.</span>
     </div>
     <div class="field-element textarea">
       <textarea name="message" type="text" required rows="5"></textarea>
@@ -35,16 +47,14 @@ include 'Partials/hero-contact.php';
     <div class="agree">
       <input type="checkbox" value="" id="agree" name="agree" required />
       <label for="agree">
-        Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z
-        ustawą o ochronie danych osobowych w związku z realizacją
-        zgłoszenia. Podanie danych jest dobrowolne, ale niezbędne do
-        przetworzenia zapytania. Zostałem/am poinformowany/a, że
-        przysługuje mi prawo dostępu do swoich danych, możliwości ich
-        poprawiania, żądania zaprzestania ich przetwarzania.
-        Administratorem danych osobowych jest RBK Events - Michał Robak.
+        Zapoznałem się z Polityką Prywatności i akceptuję jej postanowienia. Wyrażam zgodę na
+        przetwarzanie moich danych osobowych przez RBK Events - Michał Robak w celu
+        przygotowania i przesłania oferty.*
       </label>
       <span class="validation">Musisz wyrazić zgodę na przesłanie formularza.</span>
     </div>
+    <!-- Honeypot: ukryte pole dla botów -->
+    <input type="text" name="phone" style="display:none" autocomplete="off">
     <button class="cta second" type="submit"><span>Wyślij</span></button>
   </form>
 </section>
