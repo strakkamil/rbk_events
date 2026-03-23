@@ -12,14 +12,13 @@ include 'Partials/hero-contact.php';
 <section class="form wrapper">
   <div class="sended">
     <span class="success">
-      Dziękuję za przesłanie wiadomości. Odezwę się w możliwe
-      najszybszym czasie.</span>
+      Wiadomość została pomyślnie wysłana! Jeśli nie odpowiem w ciągu 3 dni roboczych, skontaktuj się telefonicznie: 518 637 234.</span>
     <span class="error">
-      Wystąpił błąd, proszę wysłać wiadomość ponownie lub skontakować się przez numer telefonu.</span>
+      Wystąpił problem techniczny i formularz nie został wysłany. Spróbuj ponownie za chwilę lub skontaktuj się telefonicznie: 518 637 234.</span>
   </div>
   <h2 class="heading">Napisz do mnie</h2>
   <p>
-    Masz pytanie, chcesz zarezerwować termin lub dowiedzieć się więcej? <br> Wypełnij poniższy formularz – odpowiem tak
+    Masz pytanie, chcesz zarezerwować termin lub dowiedzieć się więcej?<br>Wypełnij poniższy formularz – odpowiem tak
     szybko, jak to możliwe.
   </p>
   <form action="#" type="POST">
@@ -47,7 +46,7 @@ include 'Partials/hero-contact.php';
     <div class="agree">
       <input type="checkbox" value="" id="agree" name="agree" required />
       <label for="agree">
-        Zapoznałem się z Polityką Prywatności i akceptuję jej postanowienia. Wyrażam zgodę na
+        Zapoznałem/am się z Polityką Prywatności i akceptuję jej postanowienia. Wyrażam zgodę na
         przetwarzanie moich danych osobowych przez RBK Events - Michał Robak w celu
         przygotowania i przesłania oferty.*
       </label>

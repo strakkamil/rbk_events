@@ -60,7 +60,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </div>
     <div class="row">
       <div class="cell">Biesiada na akordeonie <br>
-        <span class="small">➲ Wspólne śpiewanie przy stołach</span>
+        <span class="small">&#x266A Wspólne śpiewanie przy stołach</span>
       </div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $tick ?></div>
@@ -68,7 +68,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </div>
     <div class="row last">
       <div class="cell">Akordeonowe Show <br>
-        <span class="small">➲ Live Act + Set klubowy</span>
+        <span class="small">&#x266A Live Act + Set klubowy</span>
       </div>
       <div class="cell bg"><?= $empty ?></div>
       <div class="cell bg"><?= $empty ?></div><!-- tu był tick (ten komentarz zignoruj, on jest dla mnie xD)-->
@@ -102,11 +102,11 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         <div class="header">Warianty oprawy artystycznej</div>
         <div class="info-container">
           <div class="info margin">
-            <p>DJ (pakiet Standard)</p>
-            <span>W tym wariancie bawimy się przy muzyce odtwarzanej z konsolety DJ-skiej.</span>
+            <p>&#x2022 DJ (pakiet Standard)</p>
+            <span>W tym wariancie bawimy się wyłącznie przy muzyce odtwarzanej z konsolety DJ-skiej.</span>
           </div>
           <div class="info">
-            <p>DJ & Live (pakiet Premium i VIP)</p>
+            <p>&#x2022 DJ & Live (pakiet Premium i VIP)</p>
             <span>Podstawą zabawy jest muzyka odtwarzana z konsolety, ale całość wzbogacam o wykonania na żywo.
               Śpiewam oraz gram na klawiszach lub akordeonie największe polskie przeboje, wywołując w ten sposób
               bardzo pozytywne odczucia ze strony gości. Taka formuła stanowi atrakcyjne urozmaicenie repertuaru
@@ -118,17 +118,17 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         <div class="header">Oświetlenie sceniczne</div>
         <div class="info-container">
           <div class="info margin">
-            <p>Basic (pakiet&nbsp;Standard)</p>
+            <p>&#x2022 Basic (pakiet&nbsp;Standard)</p>
             <span>Optymalna, estetyczna baza na mniejsze przyjęcia. Konfiguracja obejmuje 2 głowy ruchome oraz światło
               dekoracyjne.</span>
           </div>
           <div class="info margin">
-            <p>Advanced (pakiet&nbsp;Premium)</p>
+            <p>&#x2022 Advanced (pakiet&nbsp;Premium)</p>
             <span>Rozszerzony zestaw z 4 głowami ruchomymi, wzbogacony o 2 listwy Sunstrip, 2 stroboskopy oraz
               wytwornicę delikatnej mgły.</span>
           </div>
           <div class="info">
-            <p>Pro (pakiet&nbsp;VIP)</p>
+            <p>&#x2022 Pro (pakiet&nbsp;VIP)</p>
             <span>Najbardziej rozbudowany system oświetleniowy. 6 głów ruchomych i 4 listwy Sunstrip. Całość dopełnia
               wytwornica mgły, 2 stroboskopy oraz klimatyczne oświetlenie dekoracyjne.</span>
           </div>
@@ -183,7 +183,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     <span class="heading">Wzbogać swoje wesele o niezapomniane atrakcje.</span>
     <div class="cards">
       <div class="card">
-        <div class="header">Wyprowadzenie Pary Młodej z domu</div>
+        <div class="header">Marsz weselny</div>
         <div class="info-container">
           <div class="info">
             <span>Tradycyjna oprawa instrumentalna na akordeonie podczas wyprowadzenia z domu rodzinnego.</span>
@@ -209,7 +209,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
         </div>
       </div>
       <div class="card">
-        <div class="header">Nagłośnienie ślubu cywilnego</div>
+        <div class="header">Nagłośnienie ślubu</div>
         <div class="info-container">
           <div class="info">
             <span>Nagłośnienie ceremonii w plenerze lub na sali, aby każdy z gości doskonale słyszał słowa

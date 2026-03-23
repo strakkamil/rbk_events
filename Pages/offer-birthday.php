@@ -20,9 +20,9 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     <span>Niezależnie od tego, czy kończysz 18 lat, świętujesz 40-tkę, czy organizujesz przyjęcie z okazji 25. rocznicy
       ślubu – Twoja impreza zasługuje na wyjątkową oprawę.</span>
     <span>Złote przeboje minionych dekad, jak i sprawdzone hity taneczne. Do tego internetowe virale i radiowe nowości.
-      Mówiąc krótko - najlepsza selekcja muzyczna!</span>
+      Mówiąc krótko – najlepsza selekcja muzyczna!</span>
     <span><strong>To nie wszystko.</strong><br>
-      Już w podstawowym wariancie otrzymujesz to, co wyróżnia mnie na rynku - porywającą biesiadę z akordeonem.
+      Już w podstawowym wariancie otrzymujesz to, co wyróżnia mnie na rynku – porywającą biesiadę z akordeonem.
       Powitalny toast i wspólna integracja przy stołach to przecież punkty obowiązkowe!</span>
     <span>Chcesz efektu WOW? Sprawdź wariant <strong>Premium</strong>.</span>
   </div>
@@ -79,7 +79,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
       <li class="child-list">
         <div class="first-line"><?= $tick_gradient ?><span>Bogatszą oprawę artystyczną – w trakcie bloków tanecznych
             wykonuję na żywo największe polskie przeboje<br>
-            <span class="small">➲ proporcje repertuaru LIVE względem muzyki odtwarzanej z konsolety
+            <span class="small">&#x24D8 proporcje repertuaru LIVE względem muzyki odtwarzanej z konsolety
               są uzależnione od rodzaju imprezy</span>
           </span></div>
       </li>
