@@ -60,6 +60,10 @@ section.events ul li span.list-heading img {
   width: auto;
 }
 
+section.events ul li span.list-heading.not-invert img {
+  filter: none;
+}
+
 section.events ul li span.list-heading span {
   font-weight: var(--bold);
 }

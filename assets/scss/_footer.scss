@@ -1,7 +1,7 @@
 footer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   margin: 30px var(--border-margin) 0;
   padding: 0 0 30px;
 }
@@ -16,6 +16,7 @@ footer a {
   font-weight: var(--normal);
   cursor: pointer;
   transition: var(--transition);
+  width: fit-content;
 }
 
 footer a:hover {
@@ -57,7 +58,7 @@ footer .privacy a{
 
   footer {
     margin-top: 80px;
-    gap: 40px;
+    gap: 25px;
   }
 
   footer a {

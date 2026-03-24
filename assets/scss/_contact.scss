@@ -64,6 +64,12 @@ section.form .agree {
   column-gap: 20px;
 }
 
+section.form .agree label a {
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
 section.form .agree label {
   font-size: 16px;
   line-height: 30px;
@@ -108,13 +114,17 @@ section.form .sended {
   pointer-events: none;
 }
 
+section.form .sended a {
+  text-decoration: none;
+}
+
 section.form .sended.show {
   pointer-events: all;
   opacity: 1;
 }
 
 section.form .sended span {
-  font-size: 36px;
+  font-size: 32px;
   font-family: var(--bold);
   text-align: center;
   display: none;
@@ -154,9 +164,5 @@ section.form form .agree span.validation.show {
   section.form input,
   section.form textarea {
     font-size: 18px;
-  }
-
-  section.form .sended span {
-    font-size: 60px;
   }
 }

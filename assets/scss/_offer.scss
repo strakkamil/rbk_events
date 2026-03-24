@@ -14,6 +14,10 @@
   font-weight: var(--light);
 }
 
+.offer-birthday .second.heading.small span{
+  margin-bottom: 0;
+} 
+
 .row {
   display: grid;
   grid-template-columns: 27% 1fr 1fr 1fr;
@@ -159,9 +163,15 @@
 }
 
 .card .info p,
+.card .info a,
 .card .info span {
   font-size: 16px;
   line-height: 30px;
+}
+
+.card .info a {
+  text-decoration: none;
+  font-weight: var(--bold);
 }
 
 .card .info p {
@@ -469,6 +479,14 @@
   text-align: center;
 }
 
+  .row .cell span.small {
+    display: none;
+  }
+
+  .important p.secondary {
+    margin-top: 5px;
+  }
+
 @media (min-width: 400px) {
   .row.head .cell {
     font-size: 14px;
@@ -537,18 +555,10 @@
     font-size: 16px;
   }
 
-  .row .cell span.small {
-    font-size: 14px;
-  }
-
   .important p,
   .important p.secondary {
     font-size: 18px;
     line-height: 18px;
-  }
-
-  .important p.secondary {
-    margin-top: 5px;
   }
 
   .cards-container p.heading {
@@ -596,6 +606,7 @@
   }
 
   .card .info p,
+  .card .info a,
   .card .info span {
     font-size: 18px;
   }
@@ -737,5 +748,10 @@
 
   .offer-light .something-else .cta span {
     font-size: 18px;
+  }
+
+  .row .cell span.small {
+    display: block;
+    font-size: 14px;
   }
 }

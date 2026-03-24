@@ -226,6 +226,16 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
           </div>
         </div>
       </div>
+      <div class="card">
+        <div class="header">Dekoracja światłem</div>
+        <div class="info-container">
+          <div class="info">
+            <span>Architektoniczna i dynamiczna oprawa wizualna, która całkowicie odmieni wnętrze sali. <a
+                href="<?= OFFER_LIGHT ?>">Kliknij i
+                dowiedz się więcej</a> .</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="something-else">

@@ -12,9 +12,11 @@ include 'Partials/hero-contact.php';
 <section class="form wrapper">
   <div class="sended">
     <span class="success">
-      Wiadomość została pomyślnie wysłana! Jeśli nie odpowiem w ciągu 3 dni roboczych, skontaktuj się telefonicznie: 518 637 234.</span>
+      Wiadomość została pomyślnie wysłana! Jeśli nie odpowiem w ciągu 3 dni roboczych, skontaktuj się telefonicznie: <a
+        href="tel:<?= PHONE ?>"><?= SHOW_PHONE ?></a>.</span>
     <span class="error">
-      Wystąpił problem techniczny i formularz nie został wysłany. Spróbuj ponownie za chwilę lub skontaktuj się telefonicznie: 518 637 234.</span>
+      Wystąpił problem techniczny i formularz nie został wysłany. Spróbuj ponownie za chwilę lub skontaktuj się
+      telefonicznie: <a href="tel:<?= PHONE ?>"><?= SHOW_PHONE ?></a>.</span>
   </div>
   <h2 class="heading">Napisz do mnie</h2>
   <p>
@@ -24,29 +26,30 @@ include 'Partials/hero-contact.php';
   <form action="#" type="POST">
     <input type="hidden" name="csrf_token" value="<?= $csrf_token ?>">
     <div class="field-element subject">
-      <input name="subject" type="text" required />
+      <input name="subject" type="text" />
       <label for="subject">Temat wiadomości*</label>
       <span class="validation">Temat wiadomości musi zawierać minimum 5 znaków.</span>
     </div>
     <div class="field-element email">
-      <input name="email" type="type" required />
+      <input name="email" type="type" />
       <label for="email">E-mail*</label>
       <span class="validation">Adres e-mail jest niepoprawny.</span>
     </div>
     <div class="field-element name">
-      <input name="name" type="text" required />
+      <input name="name" type="text" />
       <label for="name">Data i miejsce imprezy*</label>
       <span class="validation">Data i miejsce musi zawierać minimum 5 znaków.</span>
     </div>
     <div class="field-element textarea">
-      <textarea name="message" type="text" required rows="5"></textarea>
+      <textarea name="message" type="text" rows="5"></textarea>
       <label for="message">Treść wiadomości*</label>
       <span class="validation">Treść wiadomości musi zawierać minimum 20 znaków</span>
     </div>
     <div class="agree">
-      <input type="checkbox" value="" id="agree" name="agree" required />
+      <input type="checkbox" value="" id="agree" name="agree" />
       <label for="agree">
-        Zapoznałem/am się z Polityką Prywatności i akceptuję jej postanowienia. Wyrażam zgodę na
+        Zapoznałem/am się z <a href="<?= PRIVACY ?>">Polityką Prywatności</a> i akceptuję jej postanowienia. Wyrażam
+        zgodę na
         przetwarzanie moich danych osobowych przez RBK Events - Michał Robak w celu
         przygotowania i przesłania oferty.*
       </label>

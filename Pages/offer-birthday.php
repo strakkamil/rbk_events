@@ -70,7 +70,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
       <div class="cell bg"><?= $tick ?><span>2 sztuki do tortu</span></div>
     </div>
   </div>
-  <div class="heading second">
+  <div class="heading second small">
     <span>Wybierając opcję Premium, zyskujesz nie tylko dłuższy czas trwania imprezy, ale także bardziej rozbudowany
       zestaw oświetlenia scenicznego. <br><br> Dodatkowo otrzymasz:</span>
   </div>
