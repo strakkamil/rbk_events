@@ -5,6 +5,7 @@ const checkValidation = () => {
   const subjectInput = document.querySelector(".field-element.subject input");
   const nameInput = document.querySelector(".field-element.name input");
   const emailInput = document.querySelector(".field-element.email input");
+  const sourceInput = document.querySelector(".field-element.source select");
   const messageInput = document.querySelector(
     ".field-element.textarea textarea",
   );
@@ -17,6 +18,9 @@ const checkValidation = () => {
   );
   const emailValidation = document.querySelector(
     ".field-element.email .validation",
+  );
+  const sourceValidation = document.querySelector(
+    ".field-element.source .validation",
   );
   const messageValidation = document.querySelector(
     ".field-element.textarea .validation",
@@ -55,6 +59,13 @@ const checkValidation = () => {
     agreeValidation.classList.remove("show");
   } else {
     agreeValidation.classList.add("show");
+    valid = false;
+  }
+
+  if (sourceInput.value) {
+    sourceValidation.classList.remove("show");
+  } else {
+    sourceValidation.classList.add("show");
     valid = false;
   }
 

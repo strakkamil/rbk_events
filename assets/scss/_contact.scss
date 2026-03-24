@@ -38,7 +38,8 @@ section.form .field-element.textarea label {
 }
 
 input:required:valid + label,
-textarea:required:valid + label {
+textarea:required:valid + label,
+select:required:valid + label {
   transform: scale(0.8) translate(0%, -60px);
 }
 
@@ -47,6 +48,7 @@ input#agree + label {
 }
 
 section.form input,
+section.form select,
 section.form textarea {
   background-color: #332c34;
   border: none;
@@ -162,6 +164,7 @@ section.form form .agree span.validation.show {
   }
 
   section.form input,
+  section.form select,
   section.form textarea {
     font-size: 18px;
   }

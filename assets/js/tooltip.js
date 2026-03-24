@@ -1,7 +1,1 @@
-export function initTooltips(tooltips) {
-  for (let toolitp of tooltips) {
-    toolitp.addEventListener("click", () => {
-      toolitp.classList.toggle("active");
-    });
-  }
-}
+export function initTooltips(t){for(let i of t)i.addEventListener("click",(()=>{i.classList.toggle("active")}))}

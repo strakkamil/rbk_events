@@ -1,9 +1,9 @@
-import { initHeader } from "/assets/js/header.js";
+import { initHeader } from "/assets/js/header.min.js";
 
 const loadSliders = () => {
   const sliders = [...document.querySelectorAll(".slider-wrapper")];
   if (sliders.length) {
-    import("/assets/js/slider.js").then((module) => {
+    import("/assets/js/slider.min.js").then((module) => {
       sliders.forEach((wrapper) => module.initSLider(wrapper.id));
     });
   }
@@ -12,7 +12,7 @@ const loadSliders = () => {
 const loadTooltips = () => {
   const tooltips = [...document.querySelectorAll(".head .cell.bg")];
   if (tooltips.length) {
-    import("/assets/js/tooltip.js").then((module) => {
+    import("/assets/js/tooltip.min.js").then((module) => {
       module.initTooltips(tooltips);
     });
   }
@@ -21,7 +21,7 @@ const loadTooltips = () => {
 const loadPagination = () => {
   const pagination = document.querySelector(".media-pagination");
   if(pagination){
-        import("/assets/js/pagination.js").then((module) => {
+        import("/assets/js/pagination.min.js").then((module) => {
           module.initPagination();
         });
   }
@@ -30,7 +30,7 @@ const loadPagination = () => {
 const loadModal = () => {
   const modal = document.querySelector(".media-modal-wrapper");
   if (modal) {
-    import("/assets/js/modal.js").then((module) => {
+    import("/assets/js/modal.min.js").then((module) => {
       module.initModal(modal);
     });
   }
@@ -39,7 +39,7 @@ const loadModal = () => {
 const loadVideo = () => {
   const video = document.querySelector(".media-gallery.video");
   if (video) {
-    import("/assets/js/video.js").then((module) => {
+    import("/assets/js/video.min.js").then((module) => {
       module.initVideo();
     });
   }
@@ -48,7 +48,7 @@ const loadVideo = () => {
 const loadContact = () => {
   const form = document.querySelector("section.form");
   if (form) {
-    import("/assets/js/contact.js").then((module) => {
+    import("/assets/js/contact.min.js").then((module) => {
       module.initContact();
     });
   }
