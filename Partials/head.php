@@ -8,7 +8,7 @@
 <meta property="og:description"
   content="Oprawa muzyczna DJ & Live. Łączę nowoczesny styl z wokalem i akordeonem na żywo. Oferuję ciężki dym, iskry i dekoracje światłem. Gramy w całej Polsce. Sprawdź! "
   .<?= SHOW_PHONE ?> />
-<meta property="og:image" content="<?= BASE_URL ?>/logo-rbk-events.svg" />
+<meta property="og:image" content="<?= BASE_URL ?>/assets/images/rbk-events-michal-robak-dj-akordeon-muzyka-live.jpg" />
 <meta property="og:url" content="<?= BASE_URL ?>" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
