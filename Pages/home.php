@@ -22,7 +22,7 @@ include 'Partials/hero.php';
     <ul>
       <li>
         <span class="list-heading not-invert"><span>Wesela</span><img loading="lazy" width="35" height="35"
-            src="/assets/images/event-wedding-main.webp" alt="Ikona wesela" title="Wesele" /></span>
+            src="/assets/images/event-wedding-main.svg" alt="Ikona wesela" title="Wesele" /></span>
         <span class="text">Magiczna oprawa muzyczna, która sprawi, że Wasze wesele będzie
           pełne radości, tańca i niezapomnianych wspomnień.</span>
       </li>

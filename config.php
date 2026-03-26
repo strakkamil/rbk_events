@@ -2,7 +2,7 @@
 define('BASE_URL', 'https://test.rbk-events.pl');
 define('EMAIL', 'kontakt@rbk-events.pl');
 define('PHONE', '+48518637234');
-define('SHOW_PHONE', '518 637 234');
+define('SHOW_PHONE', '518&nbsp;637&nbsp;234');
 define('ABOUT', "/o-mnie");
 define('OFFER_WEDDING', "/oferta/wesele");
 define('OFFER_BIRTHDAY', "/oferta/urodziny-i-jubileusze");
