@@ -17,6 +17,7 @@
   content="Oprawa muzyczna DJ & Live. Łączę nowoczesny styl z wokalem i akordeonem na żywo. Oferuję ciężki dym, iskry i dekoracje światłem. Gramy w całej Polsce. Sprawdź! "
   .<?= SHOW_PHONE ?> />
 <meta name="twitter:image" content="<?= BASE_URL ?>/logo-rbk-events.png" />
+<meta name="google-site-verification" content="DezijR149iIlzje0vhfvOEDWS-B91sS6QIWL56jFBtA" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="shortcut icon" href="/favicon.ico">
