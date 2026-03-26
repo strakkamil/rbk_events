@@ -32,7 +32,6 @@
         <li>Temat wiadomości,</li>
         <li>Adres e-mail,</li>
         <li>Data i miejsce imprezy,</li>
-        <li>Informacja o źródle pozyskania kontaktu (statystyka),</li>
         <li>Treść wiadomości.</li>
       </ul>
     </span>
@@ -49,8 +48,10 @@
     </span>
     <h2>§5. Narzędzia analityczne i marketingowe (Pliki Cookies)</h2>
     <span>
-      Serwis korzysta z narzędzi zewnętrznych, co wiąże się z wykorzystaniem plików cookies.
-      Odwiedzając stronę, możesz zarządzać ustawieniami cookies w swojej przeglądarce.
+      <p class="line-height">
+        Serwis korzysta z narzędzi zewnętrznych, co wiąże się z wykorzystaniem plików cookies.
+        Odwiedzając stronę, możesz zarządzać ustawieniami cookies w swojej przeglądarce.
+      </p>
       <ol>
         <li><strong>Hostinger Analytics:</strong> Wykorzystywane są narzędzia analityczne hostingu do zbierania
           zanonimizowanych danych o ruchu na stronie.</li>

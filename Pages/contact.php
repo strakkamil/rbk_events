@@ -12,10 +12,11 @@ include 'Partials/hero-contact.php';
 <section class="form wrapper">
   <div class="sended">
     <span class="success">
-      Wiadomość została pomyślnie wysłana! Jeśli nie odpowiem w ciągu 3 dni roboczych, skontaktuj się telefonicznie: <a
-        href="tel:<?= PHONE ?>"><?= SHOW_PHONE ?></a>.</span>
+      Wiadomość została pomyślnie wysłana!<br> Jeśli nie odpowiem w ciągu 3 dni roboczych,<br class="desktop">
+      skontaktuj się telefonicznie:
+      <a href="tel:<?= PHONE ?>"><?= SHOW_PHONE ?></a>.</span>
     <span class="error">
-      Wystąpił problem techniczny i formularz nie został wysłany. Spróbuj ponownie za chwilę lub skontaktuj się
+      Wystąpił problem techniczny i formularz nie został wysłany.<br> Spróbuj ponownie za chwilę lub skontaktuj się
       telefonicznie: <a href="tel:<?= PHONE ?>"><?= SHOW_PHONE ?></a>.</span>
   </div>
   <h2 class="heading">Napisz do mnie</h2>
@@ -27,20 +28,20 @@ include 'Partials/hero-contact.php';
     <input type="hidden" name="csrf_token" value="<?= $csrf_token ?>">
     <div class="field-element subject">
       <input name="subject" type="text" required />
-      <label for="subject">Temat wiadomości*</label>
+      <label for="subject">Temat wiadomości</label>
       <span class="validation">Temat wiadomości musi zawierać minimum 5 znaków.</span>
     </div>
     <div class="field-element email">
       <input name="email" type="text" required />
-      <label for="email">E-mail*</label>
+      <label for="email">E-mail</label>
       <span class="validation">Adres e-mail jest niepoprawny.</span>
     </div>
     <div class="field-element name">
       <input name="name" type="text" required />
-      <label for="name">Data i miejsce imprezy*</label>
+      <label for="name">Data i miejsce imprezy</label>
       <span class="validation">Data i miejsce musi zawierać minimum 5 znaków.</span>
     </div>
-    <div class="field-element source">
+    <!-- <div class="field-element source">
       <select name="source" id="source" required>
         <option value="" disabled selected></option>
         <option value="tiktok">TikTok</option>
@@ -51,12 +52,12 @@ include 'Partials/hero-contact.php';
         <option value="z_polecenia">Z polecenia</option>
         <option value="bylem_na_imprezie">Byłem na imprezie</option>
       </select>
-      <label for="source">Jak do mnie trafiłeś?*</label>
+      <label for="source">Jak do mnie trafiłeś?</label>
       <span class="validation">Wybierz opcję z listy</span>
-    </div>
+    </div> -->
     <div class="field-element textarea">
       <textarea name="message" type="text" rows="5" required></textarea>
-      <label for="message">Treść wiadomości*</label>
+      <label for="message">Treść wiadomości</label>
       <span class="validation">Treść wiadomości musi zawierać minimum 20 znaków</span>
     </div>
     <div class="agree">
@@ -65,7 +66,7 @@ include 'Partials/hero-contact.php';
         Zapoznałem/am się z <a href="<?= PRIVACY ?>">Polityką Prywatności</a> i akceptuję jej postanowienia. Wyrażam
         zgodę na
         przetwarzanie moich danych osobowych przez RBK Events - Michał Robak w celu
-        przygotowania i przesłania oferty.*
+        przygotowania i przesłania oferty.
       </label>
       <span class="validation">Musisz wyrazić zgodę na przesłanie formularza.</span>
     </div>

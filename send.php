@@ -44,7 +44,7 @@ try {
   $subject = htmlspecialchars($_POST['subject'] ?? '', ENT_QUOTES, 'UTF-8');
   $name    = htmlspecialchars($_POST['name'] ?? '', ENT_QUOTES, 'UTF-8');
   $email   = filter_var($_POST['email'] ?? '', FILTER_VALIDATE_EMAIL) ?: '';
-  $source  = htmlspecialchars($_POST['source'] ?? '', ENT_QUOTES, 'UTF-8');
+  // $source  = htmlspecialchars($_POST['source'] ?? '', ENT_QUOTES, 'UTF-8');
   $message = htmlspecialchars($_POST['message'] ?? '', ENT_QUOTES, 'UTF-8');
 
   // SMTP config
@@ -66,7 +66,8 @@ try {
   // Treść
   $mail->isHTML(false);
   $mail->Subject = $subject;
-  $mail->Body    = "Email: $email\nData i miejsce: $name\nMiejsce: $source\n\n$message";
+  // $mail->Body    = "Email: $email\nData i miejsce: $name\nMiejsce: $source\n\n$message";
+  $mail->Body    = "Email: $email\nData i miejsce: $name\n\n$message";
 
   $mail->send();
 

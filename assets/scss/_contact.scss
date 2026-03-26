@@ -132,6 +132,10 @@ section.form .sended span {
   display: none;
 }
 
+section.form .sended a { 
+  font-size: 32px;
+}
+
 section.form .sended span.show {
   display: block;
 }
@@ -153,6 +157,10 @@ section.form form .agree span.validation.show {
   opacity: 1;
 }
 
+br.desktop {
+  display: none;
+}
+
 @media (min-width: 1280px) {
   section.form {
     margin-top: 110px;
@@ -167,5 +175,9 @@ section.form form .agree span.validation.show {
   section.form select,
   section.form textarea {
     font-size: 18px;
+  }
+
+  br.desktop {
+    display: block;
   }
 }

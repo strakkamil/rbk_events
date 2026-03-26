@@ -19,9 +19,9 @@ const checkValidation = () => {
   const emailValidation = document.querySelector(
     ".field-element.email .validation",
   );
-  const sourceValidation = document.querySelector(
-    ".field-element.source .validation",
-  );
+  // const sourceValidation = document.querySelector(
+  //   ".field-element.source .validation",
+  // );
   const messageValidation = document.querySelector(
     ".field-element.textarea .validation",
   );
@@ -62,15 +62,17 @@ const checkValidation = () => {
     valid = false;
   }
 
-  if (sourceInput.value) {
-    sourceValidation.classList.remove("show");
-  } else {
-    sourceValidation.classList.add("show");
-    valid = false;
-  }
+  // if (sourceInput.value) {
+  //   sourceValidation.classList.remove("show");
+  // } else {
+  //   sourceValidation.classList.add("show");
+  //   valid = false;
+  // }
+
+  const scrolledElement = document.querySelector('.validation.show')
 
   if (!valid)
-    subjectInput.scrollIntoView({
+    scrolledElement.scrollIntoView({
       behavior: "smooth",
       block: "center",
       inline: "nearest",
