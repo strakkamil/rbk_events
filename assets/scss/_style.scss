@@ -145,6 +145,142 @@ body {
   gap: 15px;
 }
 
+.cookies-wrapper.show {
+  display: grid;
+  scale: 1;
+}
+
+.cookies-wrapper {
+  z-index: 102;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #171113ee;
+  backdrop-filter: blur(3px);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  scale: 0;
+  transition: var(--transition);
+}
+
+.cookies-agree {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.cookies-agree .cookie-type {
+  margin-top: 20px;
+}
+
+.cookies-agree .row-cookie {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cookies-agree .row-cookie span.text {
+  margin-left: 15px;
+}
+
+.cookies-agree p,
+.cookies-agree span {
+  font-size: 12px;
+}
+
+.cookies-agree .switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 28px;
+}
+
+.cookies-agree .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.cookies-agree .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.3s;
+  border-radius: 999px;
+}
+
+.cookies-agree .slider::before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 3px;
+  top: 3px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+.cookies-agree .switch input:checked + .slider {
+  background-color: #9F2780;
+}
+
+.cookies-agree .switch input:checked:disabled + .slider {
+  background-color: #9F278080;
+}
+
+.cookies-agree .switch input:checked + .slider::before {
+  transform: translateX(24px);
+}
+
+.cookies-btns,
+.cookies-link {
+  margin-top: 40px;
+}
+
+.cookies-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cookies-btns button {
+  border: none;
+  font-size: 12px;
+  height: 30px;
+}
+
+a.cookies-link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-weight: var(--normal);
+  cursor: pointer;
+  transition: var(--transition);
+  width: fit-content;
+  font-size: 12px;
+  justify-self: center;
+}
+
+a.cookies-link:hover {
+  opacity: 0.6;
+}
+
+.cookies-btns .cta {
+  width: 150px;
+  min-width: 150px;
+}
+
 @media (min-width: 600px) {
   :root {
     --big-size: 36px;
@@ -194,5 +330,25 @@ body {
     margin-top: 115px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .cookies-agree {
+    max-width: 1000px;
+  }
+
+  .cookies-agree p,
+  .cookies-agree span {
+    font-size: 16px;
+  }
+
+  .cookies-btns .cta {
+    height: 40px;
+    width: 200px;
+    min-width: 200px;
+  }
+
+  .cookies-btns button, 
+  a.cookies-link {
+    font-size: 16px;
   }
 }

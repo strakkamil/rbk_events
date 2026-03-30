@@ -12,6 +12,7 @@ export function initVideo () {
   }
 
   const loadIframe = (image) => {
+    if(getCookie('marketing_consent') === 'false') return
     const id = image.dataset.id;
     const container = image.closest(".element-wrapper");
     const iframe = createIframe(id);
@@ -21,5 +22,19 @@ export function initVideo () {
 
   for (let image of images) {
     image.addEventListener("click", () => loadIframe(image));
+  }
+
+  function getCookie(name) {
+    const cookies = document.cookie.split("; ");
+
+    for (let cookie of cookies) {
+      const [key, value] = cookie.split("=");
+
+      if (key === name) {
+        return value;
+      }
+    }
+
+    return null;
   }
 }

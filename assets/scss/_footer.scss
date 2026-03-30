@@ -48,6 +48,30 @@ footer .privacy a{
   font-weight: var(--normal);
 }
 
+footer button.cookie-banner{
+  position: fixed;
+  bottom: 20px;
+  background-color: #9F2780;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 102;
+  transition: var(--transition);
+  scale: 1;
+}
+
+footer button.cookie-banner:hover {
+  scale: 1.1;
+}
+
+footer button.cookie-banner img{
+  width: 50px;
+  height: 50px;
+  filter: invert(1);
+
+}
+
 @media (min-width: 1280px) {
   footer {
     max-width: var(--width);

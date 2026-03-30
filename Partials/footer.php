@@ -1,4 +1,5 @@
 <footer>
+  <button class="cookie-banner"><img src="/assets/images/cookie-icon.svg" alt="Ikona plików cookies"></button>
   <h2 class="heading">Kontakt</h2>
   <a class="" href="mailto:<?= EMAIL ?>"><img loading="lazy" width="30" height="30" src="/assets/images/mail.svg"
       alt="Ikona mail" />

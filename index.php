@@ -24,6 +24,7 @@ if (isset(Routes::$Soon[$current]) && Routes::$Soon[$current]) {
 <body>
   <?php
   include "Partials/header.php";
+  include "Partials/cookies.php";
   Router::Run();
   include "Partials/footer.php";
   ?>

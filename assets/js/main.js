@@ -1,3 +1,4 @@
+import { initCookies } from "/assets/js/cookies.min.js";
 import { initHeader } from "/assets/js/header.min.js";
 
 const loadSliders = () => {
@@ -55,6 +56,7 @@ const loadContact = () => {
 };
 
 const loadHelper = () => {
+  initCookies();
   initHeader();
   loadSliders();
   loadTooltips();
