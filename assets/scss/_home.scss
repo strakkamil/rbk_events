@@ -55,13 +55,8 @@ section.events ul li span.list-heading {
 }
 
 section.events ul li span.list-heading img {
-  filter: invert(1);
   height: 35px;
   width: auto;
-}
-
-section.events ul li span.list-heading.not-invert img {
-  filter: none;
 }
 
 section.events ul li span.list-heading span {

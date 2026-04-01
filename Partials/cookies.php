@@ -5,8 +5,9 @@ $statistic_consent = $_COOKIE["statistic_consent"] ?? null;
 
 <section class="cookies-wrapper <?= !isset($marketing_consent) || !isset($statistic_consent) ? 'show' : '' ?>">
   <div class="cookies-agree">
-    <p>Na stronie internetowej można znaleźć informacje dotyczące celów przetwarzania i dostawców, którzy przetwarzają
-      dane osobowe na naszej stronie internetowej.</p>
+    <p>Serwis www.rbk-events.pl używa plików cookies do prawidłowego działania, analizy ruchu i celów marketingowych.
+      Zarządzaj preferencjami poniżej. Wybierz „Zapisz i wyjdź”, aby zaakceptować ustawienia, lub „Odrzuć wszystko”, by
+      pozostawić tylko ciasteczka technicznie niezbędne.</p>
     <form action="#">
       <div class="cookie-type">
         <div class="row-cookie">
@@ -17,32 +18,9 @@ $statistic_consent = $_COOKIE["statistic_consent"] ?? null;
           <span class="text">Niezbędne pliki cookie</span>
         </div>
         <p class="necessary">
-          Te pliki cookie są niezbędne dla funkcjonowania strony internetowej i nie mogą być wyłączone w naszych
-          systemach.
-          Są one zazwyczaj ustawiane tylko w odpowiedzi na działania podejmowane przez użytkownika, które sprowadzają
-          się
-          do
-          zapytania o usługi, takie jak ustawienie preferencji prywatności, logowanie lub wypełnianie formularzy. Można
-          ustawić przeglądarkę tak, aby blokowała lub ostrzegała o tych plikach cookie, ale niektóre części witryny nie
-          będą
-          wtedy działały. Te pliki cookie nie przechowują żadnych danych osobowych.
-        </p>
-      </div>
-      <div class="cookie-type">
-        <div class="row-cookie">
-          <label class="switch" for="marketing">
-            <input type="checkbox" name="marketing" id="marketing"
-              <?= $marketing_consent !== 'false' ? 'checked' : '' ?>>
-            <span class="slider"></span>
-          </label>
-          <span class="text">Pliki cookie związane z reklamami i ich odbiorcami</span>
-        </div>
-        <p class="marketing">
-          Te pliki cookie mogą być ustawiane przez naszych partnerów reklamowych za pośrednictwem naszej strony
-          internetowej. Mogą one być wykorzystywane przez te firmy do budowania profilu zainteresowań użytkownika i
-          wyświetlania odpowiednich reklam na innych stronach. Nie przechowują one bezpośrednio danych osobowych, lecz
-          opierają się na jednoznacznej identyfikacji przeglądarki i sprzętu internetowego. Jeśli użytkownik nie zezwoli
-          na stosowanie tych plików cookie, doświadcza mniej ukierunkowanych reklam.
+          Te pliki cookie są absolutnie kluczowe dla prawidłowego działania serwisu www.rbk-events.pl. Odpowiadają za
+          podstawowe funkcje techniczne, takie jak poprawne wyświetlanie witryny oraz zapamiętanie Twojej decyzji
+          dotyczącej samych plików cookies. Z uwagi na ich niezbędny charakter, nie ma możliwości ich wyłączenia.
         </p>
       </div>
       <div class="cookie-type">
@@ -52,19 +30,33 @@ $statistic_consent = $_COOKIE["statistic_consent"] ?? null;
               <?= $statistic_consent !== 'false' ? 'checked' : '' ?>>
             <span class="slider"></span>
           </label>
-          <span class="text">Pliki cookie wydajności</span>
+          <span class="text">Analityczne i wydajnościowe (opcjonalne)</span>
         </div>
         <p class="statistic">
-          Te pliki cookie umożliwiają nam zliczanie wizyt i źródeł ruchu, dzięki czemu możemy mierzyć i poprawiać
-          wydajność naszej witryny. Pomagają one ustalić, które strony są najbardziej i najmniej popularne i zobaczyć,
-          jak odwiedzający poruszają się po stronie. Wszystkie informacje zbierane przez te pliki cookie są agregowane i
-          tym samym anonimowe. Jeśli użytkownik nie zezwoli na stosowanie tych plików cookie, nie będziemy wiedzieć,
-          kiedy odwiedził naszą stronę internetową.
+          Te pliki cookie pozwalają gromadzić anonimowe informacje statystyczne na temat tego, w jaki sposób
+          odwiedzający korzystają z witryny. Pomagają one zrozumieć, które sekcje oferty są najchętniej czytane, co
+          pozwala na bieżąco ulepszać stronę i dostosowywać ją do oczekiwań wszystkich potencjalnych klientów.
+        </p>
+      </div>
+
+      <div class="cookie-type">
+        <div class="row-cookie">
+          <label class="switch" for="marketing">
+            <input type="checkbox" name="marketing" id="marketing"
+              <?= $marketing_consent !== 'false' ? 'checked' : '' ?>>
+            <span class="slider"></span>
+          </label>
+          <span class="text">Reklamowe i marketingowe (opcjonalne)</span>
+        </div>
+        <p class="marketing">
+          Te pliki cookie służą do optymalizacji działań promocyjnych, które prowadzi RBK Events - Michał Robak.
+          Pozwalają one na śledzenie aktywności w celu wyświetlania Ci bardziej trafnych reklam w innych miejscach w
+          internecie (np. w mediach społecznościowych) oraz mierzenia skuteczności prowadzonych kampanii reklamowych.
         </p>
       </div>
     </form>
     <div class="cookies-btns">
-      <button class="cta reject">Odrzuć wszystko</button>
+      <button class="cta second reject"><span>Odrzuć wszystko</span></button>
       <button class="cta save">Zapisz i wyjdź</button>
     </div>
     <a class="cookies-link" href="<?= PRIVACY ?>">Dowiedz się więcej</a>

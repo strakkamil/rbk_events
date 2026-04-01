@@ -1,6 +1,6 @@
 export function initCookies() {
   const cookiesWrapper = document.querySelector('.cookies-wrapper')
-  const btnOpen = document.querySelector('footer button.cookie-banner')
+  const btnOpen = document.querySelector('footer button.cookies-open')
   const btnSave = cookiesWrapper.querySelector('.cookies-agree button.save')
   const btnReject = cookiesWrapper.querySelector('.cookies-agree button.reject')
   const cookieMarketing = cookiesWrapper.querySelector('input#marketing')

@@ -1,6 +1,6 @@
 <?php
 $hero_img = 'relacja-video-z-imprezy-rolki-na-instagram';
-$hero_img_alt = 'Relacja video z imprezy rolki na instagram';
+$hero_img_alt = 'Relacja video z imprezy rolki na instagram; Realizacja: N&S FOTO STUDIO | https://www.nsfotostudio.com';
 $hero_class = 'triangle';
 $text = 'Media';
 $show_cta = false;

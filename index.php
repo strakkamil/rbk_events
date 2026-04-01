@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <?php
+session_start(); // start sesji
 require_once "./config.php";
 require_once "./router.php";
 

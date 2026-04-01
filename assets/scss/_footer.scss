@@ -42,34 +42,21 @@ footer .socials a img {
 }
 
 footer .copyrights,
-footer .privacy a{
+footer .privacy a,
+footer .privacy button{
   font-size: 14px;
   line-height: 30px;
   font-weight: var(--normal);
 }
 
-footer button.cookie-banner{
-  position: fixed;
-  bottom: 20px;
-  background-color: #9F2780;
+footer .privacy button{
+  background:  none;
   border: none;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  z-index: 102;
   transition: var(--transition);
-  scale: 1;
 }
 
-footer button.cookie-banner:hover {
-  scale: 1.1;
-}
-
-footer button.cookie-banner img{
-  width: 50px;
-  height: 50px;
-  filter: invert(1);
-
+footer .privacy button:hover{
+  opacity: 0.7;
 }
 
 @media (min-width: 1280px) {
@@ -99,7 +86,8 @@ footer button.cookie-banner img{
   }
 
   footer .copyrights,
-  footer .privacy a{
+  footer .privacy a,
+  footer .privacy button{
     font-size: 18px;
   }
 }

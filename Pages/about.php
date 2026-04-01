@@ -1,6 +1,6 @@
 <?php
 $hero_img = 'biesiada-weselna-z-akordeonem-na-zywo';
-$hero_img_alt = 'Biesiada weselna z akordeonem na żywo';
+$hero_img_alt = 'Biesiada weselna z akordeonem na żywo; Realizacja: N&S FOTO STUDIO | https://www.nsfotostudio.com';
 $hero_class = 'triangle';
 $text = 'O mnie';
 $show_cta = false;
@@ -33,7 +33,8 @@ include 'Partials/hero.php';
     <div class="text-container">
       <p class="text">
         Moja droga na scenę była pełna wyzwań i niesamowitych doświadczeń. Udział w półfinale programu Disco Star w
-        Polo TV czy koncerty na dużych scenach obok największych gwiazd polskiej muzyki tanecznej, takich jak Akcent, Boys,
+        Polo TV czy koncerty na dużych scenach obok największych gwiazd polskiej muzyki tanecznej, takich jak Akcent,
+        Boys,
         Mig czy Baciary, nauczyły mnie, jak ważna jest energia płynąca ze sceny. Dziś całe to doświadczenie przenoszę na
         Twoją imprezę.
       </p>
@@ -55,8 +56,8 @@ include 'Partials/hero.php';
     <div class="text-container">
       <p class="text">
         Dziś, jako RBK Events, łączę to wszystko w nowatorskiej formule <strong>DJ & Live</strong>.
-        Jako DJ prezentuję największe hity, budując energię i idealnie dopasowując muzykę do nastroju gości. 
-        Tę starannie przygotowaną selekcję wzbogacam o występy na żywo, które nadają całości unikalnego, 
+        Jako DJ prezentuję największe hity, budując energię i idealnie dopasowując muzykę do nastroju gości.
+        Tę starannie przygotowaną selekcję wzbogacam o występy na żywo, które nadają całości unikalnego,
         koncertowego charakteru.
       </p>
       <p class="text margin">

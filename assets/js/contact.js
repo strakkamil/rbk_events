@@ -82,8 +82,8 @@ const checkValidation = () => {
 };
 
 export function initContact() {
-  const form = document.querySelector("form");
-  const btn = document.querySelector("form button");
+  const form = document.querySelector(".form form");
+  const btn = document.querySelector(".form form button");
   const sendedElement = document.querySelector(".form .sended");
   const sendedElementSuccess = document.querySelector(".form .sended span.success");
   const sendedElementError = document.querySelector(".form .sended span.error");

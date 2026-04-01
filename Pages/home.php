@@ -28,25 +28,25 @@ include 'Partials/hero.php';
       </li>
       <li>
         <span class="list-heading"><span>Bale</span><img loading="lazy" width="35" height="35"
-            src="/assets/images/event2.png" alt="Ikona balu" title="Bale" /></span>
+            src="/assets/images/event2.svg" alt="Ikona balu" title="Bale" /></span>
         <span class="text">Idealnie dobrany repertuar podkreśli rangę wydarzenia i zapewni
           szampańską zabawę do białego rana.</span>
       </li>
       <li>
         <span class="list-heading"><span>Jubileusze</span><img loading="lazy" width="35" height="35"
-            src="/assets/images/event1.png" alt="Ikona jubielusz" title="Jubileusz" /></span>
+            src="/assets/images/event1.svg" alt="Ikona jubielusz" title="Jubileusz" /></span>
         <span class="text">Elegancka muzyka, podkreślająca wyjątkowość chwili i nadająca
           uroczystości niepowtarzalny klimat.</span>
       </li>
       <li>
         <span class="list-heading"><span>Urodziny</span><img loading="lazy" width="35" height="35"
-            src="/assets/images/event5.png" alt="Ikona urodzin" title="Urodziny" /></span>
+            src="/assets/images/event5.svg" alt="Ikona urodzin" title="Urodziny" /></span>
         <span class="text">Energia, zabawa i muzyka, która rozkręci każdą imprezę urodzinową
           i zostanie w pamięci na długo.</span>
       </li>
       <li>
         <span class="list-heading"><span>Imprezy firmowe</span><img loading="lazy" width="35" height="35"
-            src="/assets/images/event6.png" alt="Ikona imprez firmowych" title="Imprezy firmowe" /></span>
+            src="/assets/images/event6.svg" alt="Ikona imprez firmowych" title="Imprezy firmowe" /></span>
         <span class="text">Oprawa muzyczna budująca świetny nastrój i integrację zespołu
           podczas wydarzeń biznesowych.</span>
       </li>

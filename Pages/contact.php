@@ -1,6 +1,4 @@
 <?php
-session_start(); // start sesji
-
 // jeśli nie ma tokena – generujemy nowy
 if (empty($_SESSION['csrf_token'])) {
   $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
