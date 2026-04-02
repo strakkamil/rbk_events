@@ -28,6 +28,12 @@
 <meta name="msapplication-TileColor" content="#171113">
 <meta name="msapplication-TileImage" content="/apple-touch-icon.png">
 <meta name="theme-color" content="#171113">
+
+<!--
+Projekt graficzny: Agnieszka Kaźmierczak - agakrzychu.kazmierczak@gmail.com
+Realizacja: Kamil Strąk - strakkamil@protonmail.com
+!-->
+
 <?php if ($current === '/'): ?>
   <link rel="stylesheet" href="/assets/css/home-page.css" />
 <?php elseif ($current === ABOUT): ?>
