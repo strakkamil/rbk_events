@@ -94,7 +94,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
       weselne, bankietowe czy hotelowe. Nie obsługujemy wydarzeń plenerowych.</p>
   </div>
   <div class="cards-container">
-    <p class="heading">Poznaj różnice między pakietami</p>
+    <h2 class="heading">Poznaj różnice między pakietami</h2>
     <span class="heading">Zobacz, co dokładnie kryje się pod pojęciami, konfiguracjami oświetleniowymi oraz wariantami
       artystycznymi, które wchodzą w skład poszczególnych pakietów:</span>
     <div class="cards">
@@ -156,7 +156,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </div>
   </div>
   <div class="cards-container second">
-    <p class="heading">Zawsze w dobrym guście</p>
+    <h2 class="heading">Zawsze w dobrym guście</h2>
     <div class="cards">
       <div class="card">
         <div class="header">Energia i klasa</div>
@@ -179,7 +179,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     </div>
   </div>
   <div class="cards-container second third">
-    <p class="heading">Usługi dodatkowe</p>
+    <h2 class="heading">Usługi dodatkowe</h2>
     <span class="heading">Wzbogać swoje wesele o niezapomniane atrakcje.</span>
     <div class="cards">
       <div class="card">

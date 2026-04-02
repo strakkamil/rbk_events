@@ -31,7 +31,8 @@ include 'Partials/hero-offer.php';
         <div class="header">Studniówka</div>
         <div class="info-container">
           <div class="info">
-            <span>Prestiżowa oprawa części oficjalnej i perfekcyjne brzmienie Poloneza. W części rozrywkowej potężne uderzenie muzyczne, które nie pozwoli maturzystom zejść z parkietu do białego rana.</span>
+            <span>Prestiżowa oprawa części oficjalnej i perfekcyjne brzmienie Poloneza. W części rozrywkowej potężne
+              uderzenie muzyczne, które nie pozwoli maturzystom zejść z parkietu do białego rana.</span>
           </div>
         </div>
       </div>
@@ -39,14 +40,17 @@ include 'Partials/hero-offer.php';
         <div class="header">Sylwester i karnawał</div>
         <div class="info-container">
           <div class="info">
-            <span>Idealnie dobrany repertuar w połączeniu z widowiskowym oświetleniem tworzą ekskluzywny charakter wydarzenia, który od pierwszej minuty nakręca gości do szampańskiej zabawy.<!--Taneczna podróż przez dekady – od hitów disco i przebojów lat 80., aż po współczesne radiowe brzmienia. Energia, różnorodność i muzyka, która przez całą noc trzyma parkiet w ruchu.--></span>
+            <span>Idealnie dobrany repertuar w połączeniu z widowiskowym oświetleniem tworzą ekskluzywny charakter
+              wydarzenia, który od pierwszej minuty nakręca gości do szampańskiej zabawy.
+              <!--Taneczna podróż przez dekady – od hitów disco i przebojów lat 80., aż po współczesne radiowe brzmienia. Energia, różnorodność i muzyka, która przez całą noc trzyma parkiet w ruchu.-->
+            </span>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="cards-container second">
-    <p class="heading">Indywidualna konfiguracja sprzętowa</p>
+    <h2 class="heading">Indywidualna konfiguracja sprzętowa</h2>
     <span class="heading">Konfigurację nagłośnienia oraz rodzaj oświetlenia dobieram indywidualnie, biorąc pod uwagę
       wielkość sali,
       liczbę gości oraz charakter imprezy.</span>
@@ -70,13 +74,14 @@ include 'Partials/hero-offer.php';
     </div>
   </div>
   <div class="cards-container second red">
-    <p class="heading">Usługi dodatkowe dla firm</p>
+    <h2 class="heading">Usługi dodatkowe dla firm</h2>
     <div class="cards">
       <div class="card">
         <div class="header">Branding świetlny</div>
         <div class="info-container">
           <div class="info">
-            <span>Dekoracja światłem sali (wnęk, ścian oraz filarów) w kolorystyce spójnej z identyfikacją wizualną firmy.</span>
+            <span>Dekoracja światłem sali (wnęk, ścian oraz filarów) w kolorystyce spójnej z identyfikacją wizualną
+              firmy.</span>
           </div>
         </div>
       </div>

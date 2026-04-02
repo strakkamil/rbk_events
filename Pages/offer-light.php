@@ -16,14 +16,15 @@ include 'Partials/hero-offer.php';
       przewodniego Waszego przyjęcia.</span>
   </div>
   <div class="cards-container second third blue">
-    <p class="heading">Co zyskujecie decydując się na dekorację światłem?</p>
+    <h2 class="heading">Co zyskujecie decydując się na dekorację światłem?</h2>
     <div class="cards">
       <div class="card">
         <div class="header">Spójność <br> kolorystyczna</div>
         <div class="info-container">
           <div class="info">
             <span>Planujecie przyjęcie w stylu glamour, rustykalnym, a może w butelkowej zieleni? Dopasujemy barwę
-              oświetlenia sali do Waszych dekoracji, kwiatów i papeterii, tworząc w ten sposób spójną, przemyślaną całość.</span>
+              oświetlenia sali do Waszych dekoracji, kwiatów i papeterii, tworząc w ten sposób spójną, przemyślaną
+              całość.</span>
           </div>
         </div>
       </div>
@@ -31,7 +32,8 @@ include 'Partials/hero-offer.php';
         <div class="header">Efekt na zdjęciach i filmie</div>
         <div class="info-container">
           <div class="info">
-            <span>Odpowiednia dekoracja to klucz do wysokiej jakości materiałów foto & video. Oświetlenie architektoniczne likwiduje ciemne tła na zdjęciach,
+            <span>Odpowiednia dekoracja to klucz do wysokiej jakości materiałów foto & video. Oświetlenie
+              architektoniczne likwiduje ciemne tła na zdjęciach,
               nadaje wnętrzu głębię i sprawia, że reportaż z wydarzenia wygląda znacznie bardziej ekskluzywnie.</span>
           </div>
         </div>
@@ -40,14 +42,16 @@ include 'Partials/hero-offer.php';
         <div class="header">Klimat podczas posiłków</div>
         <div class="info-container">
           <div class="info">
-            <span>Gdy goście zasiadają do stołów, światło zmienia swój charakter. Ciepły, nastrojowy klimat sprzyja wspólnym posiłkom i toastom, tworząc przytulną atmosferę idealną do swobodnych rozmów oraz odpoczynku przed kolejną dawką tanecznej energii.</span>
+            <span>Gdy goście zasiadają do stołów, światło zmienia swój charakter. Ciepły, nastrojowy klimat sprzyja
+              wspólnym posiłkom i toastom, tworząc przytulną atmosferę idealną do swobodnych rozmów oraz odpoczynku
+              przed kolejną dawką tanecznej energii.</span>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="something-else">
-    <p>Zaplecze oświetleniowe</p>
+    <h2>Zaplecze oświetleniowe</h2>
     <span>Do dekoracji sali wykorzystujemy wyłącznie markowy sprzęt w technologii LED, który nie nagrzewa się i oferuje
       pełną paletę barw RGBW.</span>
     <div class="span-background">

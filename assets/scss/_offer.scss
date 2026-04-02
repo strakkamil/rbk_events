@@ -99,7 +99,8 @@
   line-height: 19px;
 }
 
-.cards-container p.heading {
+.cards-container p.heading,
+.cards-container h2.heading {
   margin-top: 15px;
   font-size: 24px;
   line-height: 30px;
@@ -435,6 +436,7 @@
   padding-bottom: 30px;
 }
 
+.offer-light .something-else h2,
 .offer-light .something-else p {
   font-size: 24px;
   line-height: 30px;
@@ -569,7 +571,8 @@
     line-height: 18px;
   }
 
-  .cards-container p.heading {
+  .cards-container p.heading,
+  .cards-container h2.heading {
     margin-top: 50px;
     font-size: 30px;
   }
@@ -732,6 +735,7 @@
     padding-bottom: 50px;
   }
 
+  .offer-light .something-else h2,
   .offer-light .something-else p {
     font-size: 36px;
     margin-top: 30px;
