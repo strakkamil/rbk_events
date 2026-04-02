@@ -27,7 +27,7 @@ $question_mark = '<img loading="lazy" width="9" height="9" src="/assets/images/q
     <span>Chcesz efektu WOW? Sprawdź wariant <strong>Premium</strong>.</span>
   </div>
   <div class="heading second">
-    <h2>Wariant premium</h2>
+    <h2 class="special-margin">Wariant premium</h2>
     <span>Zobacz, co zyskujesz, wybierając opcję rozszerzoną:</span>
   </div>
   <div class="packages">

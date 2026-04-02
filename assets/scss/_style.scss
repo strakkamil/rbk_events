@@ -284,6 +284,7 @@ a.cookies-link:hover {
 
 .cookies-btns .cta.second {
   margin: 0;
+  height: 30px;
 }
 
 @media (min-width: 600px) {
@@ -346,14 +347,16 @@ a.cookies-link:hover {
     font-size: 16px;
   }
 
-  .cookies-btns .cta {
+  .cookies-btns .cta,
+  .cookies-btns .cta.second {
     height: 40px;
     width: 200px;
     min-width: 200px;
   }
 
   .cookies-btns button, 
-  a.cookies-link {
+  a.cookies-link,
+  .cookies-btns .cta.second span {
     font-size: 16px;
   }
 }

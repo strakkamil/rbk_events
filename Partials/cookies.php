@@ -59,6 +59,5 @@ $statistic_consent = $_COOKIE["statistic_consent"] ?? null;
       <button class="cta second reject"><span>Odrzuć wszystko</span></button>
       <button class="cta save">Zapisz i wyjdź</button>
     </div>
-    <a class="cookies-link" href="<?= PRIVACY ?>">Dowiedz się więcej</a>
   </div>
 </section>

@@ -1,7 +1,7 @@
 <?php
 $hero_img = 'michal-robak-rbk-events-profesjonalna-oprawa-muzyczna';
 $hero_img_alt = 'Michał Robak RBK Events profesjonalna oprawa muzyczna';
-$hero_class = '';
+$hero_class = 'home';
 $text = '';
 $show_cta = true;
 include 'Partials/hero.php';

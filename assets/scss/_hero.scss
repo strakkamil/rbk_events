@@ -63,7 +63,7 @@ section.hero header {
 
 section.hero header h1.heading span,
 section.hero header h1.heading{
-  font-size: 28px
+  font-size: 26px;
 }
 
 section.hero header h1 {
@@ -90,6 +90,11 @@ section.hero .heading.underline::before {
   border-radius: 3px;
   background-image: linear-gradient(to right, #8b2b80, #dd2427);
   z-index: -1;
+}
+
+section.hero.home img {
+  object-position: 0 -5px;
+  scale: 1.03;
 }
 
 @media (min-width: 600px) {
@@ -173,5 +178,10 @@ section.hero .heading.underline::before {
       transparent 34%,
       var(--bg-main) 66%
     );
+  }
+
+  section.hero.home img {
+    object-position: top;
+    scale: unset;
   }
 }

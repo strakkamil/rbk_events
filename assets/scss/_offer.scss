@@ -491,6 +491,10 @@
     margin-bottom: 0;
    }
 
+   .special-margin {
+    margin-top: 20px;
+   }
+
 @media (min-width: 400px) {
   .row.head .cell {
     font-size: 14px;
@@ -758,4 +762,8 @@
     display: block;
     font-size: 14px;
   }
+
+  .special-margin {
+    margin-top: 40px;
+   }
 }
