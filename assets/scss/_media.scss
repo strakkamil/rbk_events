@@ -1,5 +1,6 @@
 .media.wrapper .heading h2 {
   font-weight: var(--bold);
+  font-size: 24px;
 }
 
 .media-gallery-wrapper {
@@ -333,4 +334,9 @@
     max-height: 900px;
     width: 100%;
   }
+
+  .media.wrapper .heading h2 {
+  font-weight: var(--bold);
+  font-size: 36px;
+}
 }

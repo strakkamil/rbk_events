@@ -21,5 +21,7 @@
   </div>
   <div class="privacy"><a href="<?= PRIVACY ?>">Polityka prywatności</a></div>
   <div class="privacy"><button class="cookies-open">Ustawienia plików cookies</button></div>
-  <div class="copyrights">© <?= date('Y') ?> RBK Events - Michał Robak</div>
+  <div class="copyrights"><span>© <?= date('Y') ?> RBK Events - Michał Robak</span><span>Realizacja:<a
+        href="mailto:strakkamil@protonmail.com">Kamil
+        Strąk</span></a></div>
 </footer>

@@ -42,11 +42,26 @@ footer .socials a img {
 }
 
 footer .copyrights,
+footer .copyrights span,
+footer .copyrights span a,
 footer .privacy a,
 footer .privacy button{
   font-size: 14px;
   line-height: 30px;
   font-weight: var(--normal);
+}
+
+footer .copyrights {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .copyrights span{
+  display: flex;
+}
+
+footer .copyrights span a{
+  padding-left: 5px;
 }
 
 footer .privacy button{
@@ -89,5 +104,10 @@ footer .privacy button:hover{
   footer .privacy a,
   footer .privacy button{
     font-size: 18px;
+  }
+
+  footer .copyrights {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
