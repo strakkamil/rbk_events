@@ -11,6 +11,7 @@
 <meta property="og:image" content="<?= BASE_URL ?>/assets/images/rbk-events-michal-robak-dj-akordeon-muzyka-live.jpg" />
 <meta property="og:url" content="<?= BASE_URL ?>" />
 <meta property="og:type" content="website" />
+<meta property="fb:app_id" content="973396308464221">
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="RBK Events - DJ i Wodzirej z Muzyką na żywo" />
 <meta name="twitter:description"
