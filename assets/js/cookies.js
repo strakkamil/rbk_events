@@ -5,6 +5,8 @@ export function initCookies() {
   const btnReject = cookiesWrapper.querySelector('.cookies-agree button.reject')
   const cookieMarketing = cookiesWrapper.querySelector('input#marketing')
   const cookieStatistic = cookiesWrapper.querySelector('input#statistic')
+  const videoCookieBanner = document.querySelector('.video-cookies-info')
+  const playBtns = [...document.querySelectorAll('.media-gallery.video .page .element-wrapper button')]
 
   function hideBanner () {
     cookiesWrapper.classList.remove('show')
@@ -26,6 +28,7 @@ export function initCookies() {
   function saveData (marketingValue, statisticValue) {
     document.cookie = `marketing_consent=${marketingValue}; max-age=15552000; path=/`;
     document.cookie = `statistic_consent=${statisticValue}; max-age=15552000; path=/`;
+    updateCookiesVideoInfo(marketingValue)
   }
 
   function save () { 
@@ -33,6 +36,21 @@ export function initCookies() {
     const statisticValue = cookieStatistic.checked
     saveData(marketingValue, statisticValue)
     hideBanner()
+  }
+
+  function updateCookiesVideoInfo (marketingValue) {
+    if(!videoCookieBanner) return
+    if(marketingValue) {
+      videoCookieBanner.classList.remove('show')
+      for(let btn of playBtns) {
+        btn.classList.add('show')
+      }
+    } else {
+      videoCookieBanner.classList.add('show')
+      for(let btn of playBtns) {
+        btn.classList.remove('show')
+      }
+    }
   }
 
   btnOpen.addEventListener("click", showBanner)

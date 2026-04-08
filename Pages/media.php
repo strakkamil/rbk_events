@@ -1,9 +1,16 @@
 <?php
 $current = strtok($_SERVER["REQUEST_URI"], '?');
 include 'Partials/hero-media.php';
+$marketing_consent = $_COOKIE["marketing_consent"] ?? null;
 ?>
 
 <section class="wrapper media">
+  <?php if ($current === MEDIA_VIDEO): ?>
+    <p class="video-cookies-info <?= $marketing_consent === 'false' ? 'show' : '' ?>">Te materiały pochodzą z TikToka.
+      <br>
+      Aby je wyświetlić, potrzebujemy zgody na używanie plików cookies "Reklamowe i marketingowe".
+    </p>
+  <?php endif; ?>
   <div class="heading">
     <h2>Chwile z parkietu</h2>
   </div>

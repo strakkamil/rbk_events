@@ -247,6 +247,11 @@
   pointer-events: none;
   border-radius: 50%;
   border: none;
+  display: none;
+}
+
+.media-gallery.video .page .element-wrapper button.show {
+  display: block;
 }
 
 .media-gallery.video .page .element-wrapper button img{
@@ -263,6 +268,14 @@
   width: 325px;
   height: 742px;
   border-radius: 20px;
+}
+
+.video-cookies-info {
+  display: none;
+}
+
+.video-cookies-info.show {
+  display: block;
 }
 
 @media (min-width: 550px) {
