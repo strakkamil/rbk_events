@@ -278,6 +278,17 @@
   display: block;
 }
 
+.video-cookies-info .show-cookie-banner {
+  font-weight: var(--bold);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.video-cookies-info .show-cookie-banner:hover {
+  opacity: .7;
+}
+
+
 @media (min-width: 550px) {
   .media-gallery .page {
     grid-template-columns: 1fr 1fr;

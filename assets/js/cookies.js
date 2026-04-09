@@ -1,6 +1,7 @@
 export function initCookies() {
   const cookiesWrapper = document.querySelector('.cookies-wrapper')
   const btnOpen = document.querySelector('footer button.cookies-open')
+  const mediaVideoOpen = document.querySelector('.video-cookies-info .show-cookie-banner')
   const btnSave = cookiesWrapper.querySelector('.cookies-agree button.save')
   const btnReject = cookiesWrapper.querySelector('.cookies-agree button.reject')
   const cookieMarketing = cookiesWrapper.querySelector('input#marketing')
@@ -54,6 +55,9 @@ export function initCookies() {
   }
 
   btnOpen.addEventListener("click", showBanner)
+  if(mediaVideoOpen){
+    mediaVideoOpen.addEventListener("click", showBanner)
+  }
   btnSave.addEventListener("click", save)
   btnReject.addEventListener("click", rejectAll)
 }
