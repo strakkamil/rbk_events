@@ -7,7 +7,7 @@ $marketing_consent = $_COOKIE["marketing_consent"] ?? null;
 <section class="wrapper media">
   <?php if ($current === MEDIA_VIDEO): ?>
     <p class="video-cookies-info <?= $marketing_consent === 'false' ? 'show' : '' ?>">Poniższe materiały wideo pochodzą z
-      TikToka. <br> Ze względów prywatności, do ich wyświetlenia niezbędna jest zgoda na pliki cookies z kategorii
+      TikToka. Ze względów prywatności, do ich wyświetlenia niezbędna jest zgoda na pliki cookies z kategorii
       „Reklamowe i marketingowe”. <br> <span class="show-cookie-banner">Zmień ustawienia plików cookies</span>
     </p>
   <?php endif; ?>
