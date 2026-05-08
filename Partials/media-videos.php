@@ -11,9 +11,9 @@ $media_elements = [
     'alt' => 'Brathanki Wysoko górka'
   ],
   [
-    'thumbnail' => 'chcialbym-ci-powiedziec-akordeon-wokal-live.webp',
-    'id' => '7558585608151551254',
-    'alt' => 'Chciałbym ci powiedzieć akordeon wokal live'
+    'thumbnail' => 'stoly-niepotrzebne.webp',
+    'id' => '7590711471105920278',
+    'alt' => 'Stoły niepotrzebne'
   ],
   [
     'thumbnail' => 'potter-vixa-na-weselu-dj.webp',
@@ -36,9 +36,9 @@ $media_elements = [
     'alt' => 'Najpiękniejsza keyboard wokal live'
   ],
   [
-    'thumbnail' => 'bajorson-bailando-wesele-dj.webp',
-    'id' => '7557729022583639318',
-    'alt' => 'Bajorson bailando wesele DJ'
+    'thumbnail' => 'mama-w-formie.webp',
+    'id' => '7630749108763938081',
+    'alt' => 'Mama coraz starsza, ale nadal w formie'
   ],
   [
     'thumbnail' => 'hula-ula-osiemnastka-dj.webp',
