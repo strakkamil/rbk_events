@@ -117,6 +117,7 @@ class Routes
     if (isset(self::$Meta[$route])) return self::$Meta[$route];
     // domyślne wartości
     return array(
+      "not_found" => TRUE,
       "title" => "Błąd 404 - Nie znaleziono strony | RBK Events",
       "description" => "Ups! Ta strona chyba zgubiła rytm. Wróć na stronę główną i sprawdź ofertę oprawy muzycznej na Twoje wydarzenie.",
       "keywords" => "błąd 404, nie znaleziono strony"

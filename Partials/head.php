@@ -3,7 +3,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="<?php echo htmlspecialchars($meta['description'], ENT_QUOTES, 'UTF-8'); ?>" />
 <meta name="keywords" content="<?php echo htmlspecialchars($meta['keywords'], ENT_QUOTES, 'UTF-8'); ?>" />
-<meta name="robots" content="index, follow">
+<?php if (isset($meta['not_found']) && $meta['not_found'] === TRUE): ?>
+  <meta name="robots" content="noindex, nofollow">
+<?php else: ?>
+  <meta name="robots" content="index, follow">
+<?php endif; ?>
 <meta property="og:title" content="RBK Events - DJ i Wodzirej z Muzyką na żywo" />
 <meta property="og:description"
   content="Oprawa muzyczna DJ & Live. Łączę nowoczesny styl z wokalem i akordeonem na żywo. Oferuję ciężki dym, iskry i dekoracje światłem. Gramy w całej Polsce. Sprawdź! "
@@ -11,6 +15,11 @@
 <meta property="og:image" content="<?= BASE_URL ?>/assets/images/rbk-events-michal-robak-dj-akordeon-muzyka-live.jpg" />
 <meta property="og:url" content="<?= BASE_URL ?>" />
 <meta property="og:type" content="website" />
+<?php if (isset($meta['not_found']) && $meta['not_found'] === TRUE): ?>
+  <link rel="canonical" href="<?= BASE_URL ?>">
+<?php else: ?>
+  <link rel="canonical" href="<?= BASE_URL . $current ?>">
+<?php endif; ?>
 <meta property="fb:app_id" content="973396308464221">
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="RBK Events - DJ i Wodzirej z Muzyką na żywo" />

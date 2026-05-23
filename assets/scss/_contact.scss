@@ -70,6 +70,7 @@ section.form .agree label a {
   font-size: 16px;
   line-height: 30px;
   text-decoration: none;
+  font-weight: var(--bold);
 }
 
 section.form .agree label {
@@ -132,7 +133,7 @@ section.form .sended span {
   display: none;
 }
 
-section.form .sended a { 
+section.form .sended a {
   font-size: 32px;
 }
 
