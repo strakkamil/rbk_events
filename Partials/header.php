@@ -7,6 +7,7 @@
     <li><a href="<?= ABOUT ?>">O mnie</a></li>
     <li><a href="<?= OFFER_WEDDING ?>">Oferta</a></li>
     <li><a href="<?= MEDIA_PHOTO ?>">Media</a></li>
+    <li><a href="<?= BLOG ?>">Blog</a></li>
     <li><a href="<?= CONTACT ?>">Kontakt</a></li>
   </ul>
   <button class="hamburger" aria-label="hamburger">
