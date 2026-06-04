@@ -25,6 +25,7 @@ class Router extends Page
 {
   public static function Run(): void
   {
+    global $marketing_consent, $statistic_consent;
     $requested_file = self::File($_SERVER["REQUEST_URI"]);
     foreach (Routes::$Route as $request => $file) {
       if ($requested_file === $request) {

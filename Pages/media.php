@@ -1,7 +1,6 @@
 <?php
 $current = strtok($_SERVER["REQUEST_URI"], '?');
 include 'Partials/hero-media.php';
-$marketing_consent = $_COOKIE["marketing_consent"] ?? null;
 ?>
 
 <section class="wrapper media">

@@ -1,8 +1,3 @@
-<?php
-$marketing_consent = $_COOKIE["marketing_consent"] ?? null;
-$statistic_consent = $_COOKIE["statistic_consent"] ?? null;
-?>
-
 <section class="cookies-wrapper <?= !isset($marketing_consent) || !isset($statistic_consent) ? 'show' : '' ?>">
   <div class="cookies-agree">
     <p>Serwis www.rbk-events.pl używa plików cookies do prawidłowego działania, analizy ruchu i celów marketingowych.

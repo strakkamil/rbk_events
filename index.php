@@ -8,6 +8,8 @@ require_once "./router.php";
 // Sprawdź czy to strona soon - jeśli tak, wyświetl ją bez headera/footera
 $current = strtok($_SERVER["REQUEST_URI"], '?');
 $meta = Routes::GetMeta($current);
+$marketing_consent = $_COOKIE['marketing_consent'] ?? null;
+$statistic_consent = $_COOKIE['statistic_consent'] ?? null;
 if (isset(Routes::$Soon[$current]) && Routes::$Soon[$current]) {
   if (file_exists("./Pages/soon.php")) {
     require "./Pages/soon.php";

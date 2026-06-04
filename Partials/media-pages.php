@@ -1,5 +1,4 @@
 <?php
-$marketing_consent = $_COOKIE["marketing_consent"] ?? null;
 if ($current === MEDIA_PHOTO) {
   include 'Partials/media-images.php';
   $img_index = 0;

@@ -43,7 +43,12 @@ try {
   // Dane z formularza + escapowanie
   $subject = htmlspecialchars($_POST['subject'] ?? '', ENT_QUOTES, 'UTF-8');
   $name    = htmlspecialchars($_POST['name'] ?? '', ENT_QUOTES, 'UTF-8');
-  $email   = filter_var($_POST['email'] ?? '', FILTER_VALIDATE_EMAIL) ?: '';
+  $email   = filter_var($_POST['email'] ?? '', FILTER_VALIDATE_EMAIL);
+  if (!$email) {
+    http_response_code(400);
+    echo json_encode(['success' => false, 'message' => 'Nieprawidłowy adres email']);
+    exit;
+  }
   // $source  = htmlspecialchars($_POST['source'] ?? '', ENT_QUOTES, 'UTF-8');
   $message = htmlspecialchars($_POST['message'] ?? '', ENT_QUOTES, 'UTF-8');
 
