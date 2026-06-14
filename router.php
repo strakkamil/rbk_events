@@ -51,7 +51,6 @@ class Routes
     OFFER_WEDDING => "Pages/offer-wedding.php",
     OFFER_BIRTHDAY => "Pages/offer-birthday.php",
     OFFER_EVENTS => "Pages/offer-events.php",
-    OFFER_LIGHT => "Pages/offer-light.php",
     MEDIA_PHOTO => "Pages/media.php",
     MEDIA_VIDEO => "Pages/media.php",
     CONTACT => "Pages/contact.php",
@@ -84,11 +83,6 @@ class Routes
       "title" => "DJ na event firmowy, bankiet i studniówkę | RBK Events",
       "description" => "Prestiżowa oprawa muzyczna dla biznesu i szkół. Elegancja, wyczucie stylu i profesjonalne nagłośnienie. Sprawdź ofertę na bale i konferencje.",
       "keywords" => "dj na event firmowy, dj na studniówkę, oprawa bankietów, imprezy firmowe dj, nagłośnienie eventów, dj muzyka live"
-    ),
-    OFFER_LIGHT => array(
-      "title" => "Dekoracja światłem sali bankietowej | RBK Events",
-      "description" => "Pomaluj swoją salę światłem! Nowoczesne oświetlenie LED, oświetlenie architektoniczne i magiczny klimat Twojego przyjęcia. Zapytaj o wycenę!",
-      "keywords" => "dekoracje światłem wesele, oświetlenie led sali, oświetlenie architektoniczne"
     ),
     MEDIA_PHOTO => array(
       "title" => "Chwile z parkietu - galeria zdjęć | RBK Events",
@@ -132,7 +126,6 @@ class Routes
     OFFER_WEDDING => false,
     OFFER_BIRTHDAY => false,
     OFFER_EVENTS => false,
-    OFFER_LIGHT => false,
     MEDIA_PHOTO => false,
     MEDIA_VIDEO => false,
     CONTACT => false,

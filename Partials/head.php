@@ -50,8 +50,6 @@ Realizacja: Kamil Strąk - strakkamil@protonmail.com
   <link rel="stylesheet" href="/assets/css/about-page.css" />
 <?php elseif (in_array($current, [OFFER_WEDDING, OFFER_BIRTHDAY, OFFER_EVENTS])): ?>
   <link rel="stylesheet" href="/assets/css/offer-nav-page.css" />
-<?php elseif ($current === OFFER_LIGHT): ?>
-  <link rel="stylesheet" href="/assets/css/offer-page.css" />
 <?php elseif (in_array($current, [MEDIA_PHOTO, MEDIA_VIDEO])): ?>
   <link rel="stylesheet" href="/assets/css/media-page.css" />
 <?php elseif ($current === PRIVACY): ?>

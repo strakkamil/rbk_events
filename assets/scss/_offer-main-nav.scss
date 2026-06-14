@@ -1,8 +1,9 @@
 nav.offer-main-nav {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   margin: 0 auto 30px;
+  pointer-events: none;
 }
 
 nav.offer-main-nav a {
